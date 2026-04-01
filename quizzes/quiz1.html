@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 1 - Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Test 1 - Egzamin Doradcy Inwestycyjnego</h1>
+            <p>30 Pytań</p>
+        </div>
+
+        <div class="main-content" style="grid-template-columns: 1fr;">
+            <!-- Quiz Screen -->
+            <div id="quizScreen" class="section">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="question-counter">
+                    Pytanie <span id="currentQuestion">1</span> z <span id="totalQuestions">30</span>
+                </div>
+                <div class="question-text" id="questionText"></div>
+                <div class="options" id="optionsContainer"></div>
+                <div class="buttons">
+                    <button class="btn-secondary" id="prevBtn" onclick="previousQuestion()">← Wstecz</button>
+                    <button class="btn-primary" id="nextBtn" onclick="nextQuestion()">Dalej →</button>
+                    <button class="btn-primary" id="finishBtn" onclick="finishQuiz()" style="display: none;">Zakończ →</button>
+                    <button class="btn-secondary" onclick="exitQuiz()" style="background: #dc3545;">Wyjdź z Quizu</button>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="resultsScreen" class="results-screen section">
+                <div class="result-card">
+                    <div class="result-status" id="resultStatus"></div>
+                    <div class="score-display" id="scoreDisplay">0 / 60</div>
+                </div>
+                <div class="results-grid">
+                    <div class="result-item">
+                        <h3>Wynik Całkowity</h3>
+                        <div class="value" id="totalScore">0</div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Poprawne</h3>
+                        <div class="value" id="correctCount">0</div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Poprawne %</h3>
+                        <div class="value" id="correctPercent">0%</div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Niepoprawne %</h3>
+                        <div class="value" id="incorrectPercent">0%</div>
+                    </div>
+                </div>
+                <div class="result-breakdown">
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">✓ Poprawne Odpowiedzi</span>
+                        <span class="breakdown-value correct" id="breakdownCorrect">0 × (+2) = 0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">✗ Niepoprawne Odpowiedzi</span>
+                        <span class="breakdown-value incorrect" id="breakdownIncorrect">0 × (-1) = 0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">- Puste Odpowiedzi</span>
+                        <span class="breakdown-value" id="breakdownBlank">0 × (0) = 0</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn-primary" onclick="retakeQuiz()">Powtórz Quiz</button>
+                    <button class="btn-secondary" onclick="goHome()">Powrót do Domu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const QUESTIONS = [{"number":1,"text":"Koszt kapitału własnego spółki KOMA w sytuacji, kiedy jest ona w całości finansowana kapitałem własnym, wynosi 12%. Spółka jednak zmienia swoją strukturę kapitału w taki sposób, że po tej zmianie stosunek długu do aktywów spółki (wartości rynkowej) wynosi 0,4. Koszt długu wynosi 4%, zaś stopa opodatkowania dochodów spółek wynosi 20%. Której z wymienionych poniżej wartości jest najbliższa wartość kosztu kapitału własnego tej spółki po opisanej zmianie jej struktury kapitału, jeżeli zostanie ona oszacowana zgodnie z formułami modelu Millera-Modiglianiego?","options":{"A":"14,56%;","B":"16,27%;","C":"17,22%;","D":"21,60%."}},{"number":2,"text":"Inwestor nabył obligację dziesięcioletnią o oprocentowaniu 6% rocznie. Wartość nominalna obligacji wynosi 1 000 zł. Inwestor nabył obligację po cenie 961 zł. Obligacja posiada opcję wcześniejszego wykupu, który może być zrealizowany najwcześniej po wypłacie piątego kuponu po cenie 1 000 zł. Oblicz i podaj najbliższą wartość stopy zwrotu do wcześniejszego wykupu (YTC) i wskaż, w którym przypadku inwestor zrealizuje wyższą stopę zwrotu czy w przypadku utrzymania obligacji do wykupu, czy realizacji wcześniejszego wykupu?","options":{"A":"6,54% i realizacja wcześniejszego wykupu;","B":"6,78% i utrzymanie obligacji do wykupu;","C":"6,95% i utrzymanie obligacji do wykupu;","D":"6,95% i realizacja wcześniejszego wykupu."}},{"number":3,"text":"Na podstawie MSR 2 \"Zapasy\", zatwierdzonego przez UE, wskaż stwierdzenie fałszywe:","options":{"A":"zapasy wycenia się w cenie nabycia lub koszcie wytworzenia lub też według wartości netto możliwej do uzyskania, w zależności od tego, która z kwot jest wyższa;","B":"wartość netto możliwa do uzyskania jest to szacunkowa cena sprzedaży w toku zwykłej działalności gospodarczej pomniejszona o szacowane koszty przygotowania sprzedaży i szacunkowe koszty niezbędne do doprowadzenia sprzedaży do skutku;","C":"przykładami kosztów wyłączonych z ceny nabycia lub kosztu wytworzenia zapasów i ujmowanych jako koszty okresu, w którym je poniesiono, są ogólne koszty administracyjne, które nie przyczyniają się do doprowadzenia zapasów do ich aktualnego stanu i miejsca;","D":"przykładami kosztów wyłączonych z ceny nabycia lub kosztu wytworzenia zapasów i ujmowanych jako koszty okresu, w którym je poniesiono, są nietypowe wielkości (zużycie ponadnormatywne) zmarnowanych materiałów, robocizny oraz innych kosztów produkcyjnych."}},{"number":4,"text":"Zgodnie z ustawą o rachunkowości, udziały (akcje) własne:","options":{"A":"wykazuje się w bilansie, w aktywach;","B":"wykazuje się w bilansie, jako składnik kapitału (funduszu) własnego;","C":"wycenia się nie rzadziej niż na dzień bilansowy według wartości nominalnej;","D":"wycenia się nie rzadziej niż na dzień bilansowy według wartości godziwej."}},{"number":5,"text":"Wskaż niepoprawne stwierdzenie dotyczące utargu całkowitego (total revenue, TR):","options":{"A":"wzrost wielkości sprzedaży (quantity, q) powiększa TR, o ile popyt jest względnie nieelastyczny wobec zmiany ceny;","B":"wzrost q powiększa TR, o ile popyt jest względnie elastyczny wobec zmiany ceny;","C":"pierwsza pochodna funkcji TR(q) opisuje funkcję utargu krańcowego (marginal revenue, MR);","D":"przy liniowej funkcji popytu o negatywnym współczynniku kierunkowym funkcja TR będzie trójmianem kwadratowym."}},{"number":6,"text":"Pewien zbiór danych o rozkładzie normalnym został zobrazowany za pomocą poziomego wykresu pudełkowego z wąsami. Na osi liczbowej identyfikującej wartości badanej cechy zaznaczono też płotki wewnętrzne oraz zewnętrzne. Powyżej określona prezentacja danych nie umożliwia:","options":{"A":"ustalenia przedziału wartości cechy, w którym zawiera się 50% obserwacji;","B":"ustalenia ewentualnego występowania skośności lewostronnej;","C":"ustalenia obserwacji podejrzanych o nietypowość oraz obserwacji nietypowych;","D":"określenia klasycznego współczynnika asymetrii."}},{"number":7,"text":"Na wykresie typu equivolume charakteryzującym dzienny obrót akcjami badanej spółki sąsiadują ze sobą dwa prostokąty (A i B). Podstawa prostokąta A jest większa niż podstawa prostokąta B. Wysokość prostokąta A jest mniejsza niż wysokość prostokąta B:","options":{"A":"w dniu przypisanym prostokątowi A zmienność kursu była mniejsza a wolumen obrotu większy niż w dniu przypisanym prostokątowi B;","B":"w dniu przypisanym prostokątowi A zmienność kursu była większa a wolumen obrotu mniejszy niż w dniu przypisanym prostokątowi B;","C":"w dniu przypisanym prostokątowi B zawierano dużą liczbę transakcji;","D":"w dniu przypisanym prostokątowi B przeważały transakcje zawierane po cenie zbliżonej do ceny równowagi rynkowej."}},{"number":8,"text":"Spółka Alfa dzięki emisji \"zielonych\" obligacji zamierza sfinansować projekty transformacji energetycznej zwiększając udział zielonej energii w przychodach spółki. Termin zapadalności obligacji to 3 lata, a oprocentowanie obligacji wynosi 6% w skali roku i kupon jest wypłacany dwa razy do roku. Emitentowi udało się uplasować tę emisję na rynku z rentownością do wykupu (YTM) o 50 pb. niższą niż rentowność do wykupu (YTM) ostatniej zwykłej obligacji, która miała taki sam termin wykupu i oprocentowanie jak nowa zielona obligacja. W gazecie finansowej opisano duże zainteresowanie inwestorów obligacjami spełniającymi kryteria ESG oraz podkreślono, że istnieją badania wskazujące, że takie inwestycje przynoszą wyższe stopy zwrotu. Opisano w niej też przypadek inwestycji w zielone obligacje spółki Alfa. Wskaż, które z poniższych stwierdzeń dotyczących stóp zwrotu z inwestycji w zielone obligacje Spółki Alfa nabytych w ostatniej emisji w porównaniu do zwykłych obligacji tej spółki jest prawdziwe:","options":{"A":"inwestorzy z inwestycji w zielone obligacje spółki Alfa osiągną wyższą rentowność niż w obligacje zwykle tej spółki, jeżeli będą trzymać tę obligację do wykupu;","B":"inwestorzy z inwestycji w zielone obligacje spółki Alfa osiągną wyższą rentowność niż w obligacje zwykle tej spółki niezależnie czy będą ją trzymać do wykupu czy sprzedadzą ją wcześniej;","C":"inwestorzy z inwestycji w zielone obligacje spółki Alfa osiągną niższą rentowność niż w obligacje zwykle tej spółki, jeżeli będą trzymać tę obligację do wykupu;","D":"inwestycje w zielone obligacje spółki Alfa zawsze przyniosą wyższą rentowność ze względu na duże zainteresowanie inwestorów takimi inwestycjami."}},{"number":9,"text":"Hipoteczne listy zastawne w Polsce:","options":{"A":"może emitować każdy bank posiadający wierzytelności zabezpieczone hipotekami;","B":"mogą być emitowane przez każdy bank hipoteczny, na podstawie wierzytelności zabezpieczonych hipotekami, wyłącznie jako dłużne papiery wartościowe na okaziciela;","C":"mogą być emitowane wyłącznie jako papiery dłużne na okaziciela;","D":"mogą być emitowane przez każdy bank hipoteczny, na podstawie wierzytelności zabezpieczonych hipotekami, zarówno jako dłużne papiery wartościowe na okaziciela lub imienne papiery dłużne."}},{"number":10,"text":"Inwestor kupił po cenie nominalnej obligację o stałym oprocentowaniu i terminem do wykupu za 6 lat. Oprocentowanie obligacji wynosi 6% i odsetki są płatne raz w roku. Bezpośrednio po zakupie krzywa stóp procentowych podniosła się równolegle o 100 pb. Po czterech latach inwestor decyduje się na sprzedaż tej obligacji. Wyznacz stopę zwrotu z inwestycji w tę obligację w sytuacji po zmianie stóp procentowych i wskaż, która z poniższych odpowiedzi jest jej najbliższa.","options":{"A":"6%;","B":"5,7%;","C":"6,3%;","D":"5,4%."}},{"number":11,"text":"Wskaż stwierdzenie, które jest prawdziwe w warunkach działania zasady malejącej użyteczności krańcowej:","options":{"A":"użyteczność całkowita maleje wraz ze wzrostem konsumpcji;","B":"użyteczność całkowita maleje wraz ze spadkiem użyteczności krańcowej;","C":"wzrost użyteczności całkowitej z konsumpcji dodatkowej jednostki danego dobra jest coraz mniejszy wraz ze wzrostem konsumpcji tego dobra;","D":"wzrost użyteczności całkowitej z konsumpcji dodatkowej jednostki danego dobra jest coraz większy wraz ze wzrostem konsumpcji tego dobra."}},{"number":12,"text":"Dana jest trzyletnia obligacja o oprocentowaniu 8% płatnym rocznie. Wartość nominalna obligacji wynosi 1 000 zł. Stopa zwrotu w terminie do wykupu (YTM) wynosi 10%. Na podstawie powyższych danych oblicz i podaj ile w przybliżeniu wynosi wypukłość tej obligacji.","options":{"A":"4,06;","B":"4,47;","C":"5,01;","D":"4,88."}},{"number":13,"text":"Strategia określana mianem strip polega na:","options":{"A":"otwarciu długiej pozycji w jednej opcji kupna i dwóch opcjach sprzedaży o tej samej cenie wykonania i tej samej dacie wygaśnięcia;","B":"otwarciu długiej pozycji w dwóch opcjach kupna i jednej opcji sprzedaży o tej samej cenie wykonania i tej samej dacie wygaśnięcia;","C":"zakupie opcji sprzedaży i opcji kupna o tej samej dacie wygaśnięcia i różnych cenach wykonania;","D":"sprzedaży opcji kupna o określonej cenie wykonania i zakupie opcji sprzedaży o tej samej cenie wykonania."}},{"number":14,"text":"Dokończ zdanie, aby było ono prawdziwe zgodnie z przepisami Kodeksu cywilnego: Każdy człowiek ma zdolność prawną","options":{"A":"od chwili urodzenia;","B":"od ukończenia lat osiemnastu;","C":"którą uzyskuje poprzez zawarcie małżeństwa;","D":"którą uzyskuje poprzez zawarcie małżeństwa, o ile małżeństwo to nie zostanie unieważnione."}},{"number":15,"text":"Liczba zleceń składanych miesięcznie przez klientów domu maklerskiego jest zmienną losową o rozkładzie normalnym, odchyleniu standardowym 600 zleceń i nieznanej średniej. W 90% miesięcy liczba zleceń przekracza 12 500. Na podstawie powyższych informacji określ, której z poniżej wymienionych wartości jest najbliższa średnia miesięczna liczba zleceń składanych przez klientów tego domu maklerskiego.","options":{"A":"13 268;","B":"13 156;","C":"12 954;","D":"11 744."}},{"number":16,"text":"Czy po wygaśnięciu umocowania pełnomocnik jest obowiązany zwrócić mocodawcy dokument pełnomocnictwa?","options":{"A":"tak;","B":"wyłącznie wtedy, kiedy zwrotu dokumentu pełnomocnictwa zażąda mocodawca;","C":"nie;","D":"pełnomocnik ma obowiązek zniszczyć dokument pełnomocnictwa."}},{"number":17,"text":"Wiedząc, że delta europejskiej opcji kupna akcji spółki niewypłacającej dywidendy wynosi 0,7791 wyznacz cenę wykonania tej opcji. Do wyliczeń przyjmij, że aktualna cena akcji wynosi 30 zł, zmienność stóp zwrotu z akcji charakterystyczna dla modelu Blacka-Scholesa wynosi 30%, wolna od ryzyka stopa procentowa wynosi 7% w skali roku, a czas pozostały do wygaśnięcia opcji wynosi sześć miesięcy. Podaj wartość najbliższą.","options":{"A":"33;","B":"29;","C":"31;","D":"27."}},{"number":18,"text":"Na podstawie przepisów ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi wskaż, co należy do zadań depozytariusza:","options":{"A":"wykonywanie obowiązków określonych w ustawie, w szczególności polegających na przechowywaniu aktywów oraz prowadzeniu rejestru aktywów funduszu inwestycyjnego lub alternatywnej spółki inwestycyjnej, a także na zapewnieniu właściwego monitorowania przepływu środków pieniężnych tych podmiotów;","B":"wykonywanie obowiązków polegających wyłącznie na przechowywaniu aktywów oraz prowadzeniu rejestru aktywów alternatywnej spółki inwestycyjnej;","C":"wykonywanie obowiązków polegających wyłącznie na przechowywaniu aktywów funduszu inwestycyjnego;","D":"wykonywanie obowiązków polegających wyłącznie na zapewnieniu właściwego monitorowania przepływu środków pieniężnych funduszu inwestycyjnego."}},{"number":19,"text":"Zgodnie z MSSF 3 \"Połączenia jednostek\", zatwierdzonym przez UE, prawdą jest, że:","options":{"A":"zastosowanie metody przejęcia do rozliczenia połączenia jednostek wymaga zidentyfikowania jednostki przejmującej;","B":"stosując metodę przejęcia do rozliczenia połączenia jednostek, jednostka przejmująca ustala dzień przejęcia, którym jest dzień rozpoczęcia wywierania znaczącego wpływu na jednostkę przejmowaną;","C":"okres wyceny, następujący po dniu przejęcia, w którym jednostka przejmująca może skorygować kwoty tymczasowe ujęte w związku z połączeniem jednostek, nie powinien przekraczać dwóch lat od dnia przejęcia;","D":"do rozliczenia połączenia jednostek, jednostka przejmująca może stosować metodę praw własności."}},{"number":20,"text":"Równanie regresji liniowej dwóch zmiennych (X i Y) oszacowano metodą najmniejszych kwadratów (MNK). Wówczas niepoprawne jest stwierdzenie, iż:","options":{"A":"możliwe jest ustalenie współczynnika determinacji;","B":"możliwe jest ustalenie odchylenia standardowego reszt modelu;","C":"możliwe jest ustalenie empirycznej wartości pozycyjnego współczynnika zmienności;","D":"suma kwadratów odległości wszystkich punktów o współrzędnych odpowiadających parom obserwowanych wartości empirycznych X i Y od odpowiednich punktów na linii regresji jest jak najmniejsza."}},{"number":21,"text":"Przedsiębiorstwo działa w warunkach konkurencji doskonałej i w krótkim okresie cena maksymalizująca zysk jest wyższa od minimalnego poziomu jego długookresowego kosztu przeciętnego. Oznacza to, że:","options":{"A":"przedsiębiorstwo znajdujące się w równowadze długookresowej będzie rentowne;","B":"należy oczekiwać spadku ceny rynkowej w długim okresie;","C":"przedsiębiorstwo nie pokrywa kosztów stałych;","D":"przedsiębiorstwo winno zredukować koszty długookresowe."}},{"number":22,"text":"Portfel inwestycyjny składa się z 10-letnich obligacji zerokuponowych o wartości nominalnej 1 000 zł oraz 5-letnich obligacji wypłacających na koniec każdego roku kupon 8%. Duration całego portfela wynosi 8,03. Wyznacz procentowy udział obligacji 5-letnich w portfelu przy założeniu, że YTM tych obligacji jest równe 8%. Podaj najbliższą wartość.","options":{"A":"45%;","B":"26%;","C":"35%;","D":"56%."}},{"number":23,"text":"Rynkowa wartość aktywów spółki MEBLE, w sytuacji, kiedy spółka jest w całości finansowana kapitałem własnym, wynosi 500 mln zł. Spółka zamierza jednak zmienić swą strukturę kapitału w taki sposób, aby po opisanej zmianie podmiot ten był finansowany długiem o rynkowej wartości 200 mln zł. Stopa opodatkowania dochodów spółek wynosi 20%, stopa opodatkowania dochodów osobistych z instrumentów dłużnych wynosi 15%, zaś stopa opodatkowania dochodów osobistych z instrumentów udziałowych (z kapitału własnego) wynosi 10%. Na podstawie powyższych informacji określ, której z wymienionych poniżej wartości jest najbliższa rynkowa wartość spółki MEBLE po opisanej zmianie struktury kapitału, jeżeli wartość ta zostanie oszacowana przy zastosowaniu modelu Millera.","options":{"A":"516 mln zł;","B":"521 mln zł;","C":"531 mln zł;","D":"542 mln zł."}},{"number":24,"text":"Analiza spektralna wieloletniego szeregu czasowego obrazującego stopy zwrotu z badanej akcji raczej nie okaże się przydatna do ustalenia:","options":{"A":"częstotliwości odbywania się wyborów parlamentarnych w kraju emitenta;","B":"ustalenia okresu dominującego cyklu dla badanego szeregu czasowego;","C":"daty wystąpienia podziału akcji (splitu);","D":"ewentualnego pojawienia się w badanym szeregu fal Kondratiewa."}},{"number":25,"text":"Wyznacz, jaką kwotę musi wpłacić klient dzisiaj do banku, żeby z tych pieniędzy mógł sfinansować przyszłe potrzeby edukacji dziecka. Przewidywane roczne koszty czesnego na trzyletnich studiach są stałe na poziomie 30 tysięcy złotych i płatne są na początku roku. Dziecko ma zacząć studia za trzy lata. Bank gwarantuje stałą stopę oprocentowania lokat w wysokości 5% w skali roku w okresie 6 lat. Wskaż, która z poniższych odpowiedzi jest najbliższa wyznaczonej wartości.","options":{"A":"70 573 złotych;","B":"72 305 złotych;","C":"74 102 złotych;","D":"76 224 złotych."}},{"number":26,"text":"Wartość księgowa akcji spółki X wynosi 50 zł a rentowność prowadzonej działalności (ROE) 15%. Przy założeniu, że wymagana stopa zwrotu przez akcjonariuszy wynosi 10%, a spółka przewiduje, że zyski rezydualne będą rosły w tempie 4%, wyznacz wartość akcji spółki wykorzystując model zysku rezydualnego.","options":{"A":"62,45;","B":"91,67;","C":"73,36;","D":"85,60."}},{"number":27,"text":"Czy powołany przez bank komitet do spraw nominacji ma obowiązek przyjąć politykę różnorodności w składzie zarządu banku?","options":{"A":"tak;","B":"nie, ponieważ to zadanie zawsze należy do rady nadzorczej banku;","C":"nie, ponieważ to zadanie zawsze należy do zarządu banku;","D":"nie, ponieważ przyjęta polityka różnorodności ma się odnosić wyłącznie do osób zasiadających na stanowiskach kierowniczych w banku."}},{"number":28,"text":"Nowy zarządzający firmy asset management przejął niedawno portfel o bardzo niskiej dywersyfikacji. Jest on mocno skoncentrowany na kilku spółkach z jednego sektora, których łączny udział przekracza 95%. Celem zarządzającego jest maksymalizacja stopy zwrotu w odniesieniu do całkowitego ryzyka. Ma możliwość połączenia przejętego w zarządzanie portfela z innymi portfelami. Wskaż, który z poniższych portfeli powinien wybrać do połączenia, aby najlepiej realizować wyznaczony cel inwestycyjny:","options":{"A":"portfel, który ma dodatni współczynnik alfa Jensena;","B":"portfel, który ma współczynnik Sharpe'a równy zero;","C":"portfel, który ma dodatni współczynnik Sharpe'a;","D":"portfel, który ma dodatni współczynnik Treynora."}},{"number":29,"text":"Zgodnie z MSR 36 \"Utrata wartości aktywów\", zatwierdzonym przez UE, przez \"wartość użytkową\" rozumie się:","options":{"A":"wyższą z dwóch wartości: wartości godziwej pomniejszonej o koszty zbycia i wartości odzyskiwalnej składnika aktywów lub ośrodka wypracowującego środki pieniężne;","B":"bieżącą, szacunkową wartość przyszłych przepływów pieniężnych, których uzyskania oczekuje się z tytułu dalszego użytkowania składnika aktywów lub ośrodka wypracowującego środki pieniężne;","C":"cenę nabycia lub koszt wytworzenia danego składnika aktywów;","D":"nadwyżkę wartości bilansowej danego składnik aktywów lub ośrodka wypracowującego środki pieniężne nad jego wartością odzyskiwalną."}},{"number":30,"text":"Rynkowa cena rocznego kontraktu futures na złoto wynosi 3 300 USD za uncję. Cena obecna złota jest równa 3 000 USD za uncję. Roczny koszt magazynowania złota to 20 USD za uncję. Wolna od ryzyka stopa procentowa (kapitalizowana w sposób ciągły) jest równa 7% w skali roku. Na podstawie powyższych informacji oblicz ile wyniesie zysk arbitrażowy inwestora jeżeli przedmiotem transakcji arbitrażowej będzie 10 uncji złota. Podaj najbliższą wartość.","options":{"A":"624,75 USD;","B":"brak możliwości dokonania arbitrażu;","C":"1 253,14 USD;","D":"287,91 USD."}}];
+        const ANSWER_KEY = {"1":"B","2":"B","3":"B","4":"B","5":"B","6":"B","7":"B","8":"B","9":"B","10":"B","11":"B","12":"B","13":"B","14":"B","15":"B","16":"B","17":"B","18":"B","19":"B","20":"B","21":"B","22":"B","23":"B","24":"B","25":"B","26":"B","27":"B","28":"B","29":"B","30":"B","31":"B","32":"B","33":"B","34":"B","35":"B","36":"B","37":"B","38":"B","39":"B","40":"B","41":"B","42":"B","43":"B","44":"B","45":"B","46":"B","47":"B","48":"B","49":"B","50":"B","51":"B","52":"B","53":"B","54":"B","55":"B","56":"B","57":"B","58":"B","59":"B","60":"B","61":"B","62":"B","63":"B","64":"B","65":"B","66":"B","67":"B","68":"B","69":"B","70":"B","71":"B","72":"B","73":"B","74":"B","75":"B","76":"B","77":"B","78":"B","79":"B","80":"B","81":"B","82":"B","83":"B","84":"B","85":"B","86":"B","87":"B","88":"B","89":"B","90":"B","91":"B","92":"B","93":"B","94":"B","95":"B","96":"B","97":"B","98":"B","99":"B","100":"B","101":"B","102":"B","103":"B","104":"B","105":"B","106":"B","107":"B","108":"B","109":"B","110":"B"};
+
+        let currentQuestions = QUESTIONS;
+        let currentQuestionIndex = 0;
+        let answers = {};
+
+        const PASS_SCORE = 40;
+        const CORRECT_POINTS = 2;
+        const INCORRECT_POINTS = -1;
+
+        function displayQuestion() {
+            const q = currentQuestions[currentQuestionIndex];
+            const isAnswered = answers[currentQuestionIndex] !== undefined;
+
+            document.getElementById('currentQuestion').textContent = currentQuestionIndex + 1;
+            const progress = ((currentQuestionIndex + 1) / currentQuestions.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            document.getElementById('questionText').textContent = q.text;
+
+            const container = document.getElementById('optionsContainer');
+            container.innerHTML = '';
+
+            const answerKey = JSON.parse(localStorage.getItem('answerKey')) || ANSWER_KEY;
+
+            Object.entries(q.options).forEach(([key, value]) => {
+                const div = document.createElement('div');
+                div.className = 'option';
+
+                const isSelected = answers[currentQuestionIndex] === key;
+                const correctAnswer = answerKey[q.number];
+
+                if (isAnswered && isSelected) {
+                    div.classList.add('answered');
+                    if (key === correctAnswer) {
+                        div.classList.add('correct');
+                    } else {
+                        div.classList.add('incorrect');
+                    }
+                }
+
+                const feedback = isAnswered && isSelected && correctAnswer
+                    ? `<span class="feedback">${key === correctAnswer ? '✓ Poprawnie' : '✗ Źle'}</span>`
+                    : '';
+
+                div.innerHTML = `
+                    <input type="radio" id="opt_${key}" name="answer" value="${key}"
+                           ${isSelected ? 'checked' : ''} ${isAnswered ? 'disabled' : ''}
+                           onchange="selectAnswer('${key}')">
+                    <label for="opt_${key}">${key}: ${value}</label>
+                    ${feedback}
+                `;
+                container.appendChild(div);
+            });
+
+            document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+            const isLast = currentQuestionIndex === currentQuestions.length - 1;
+            document.getElementById('nextBtn').style.display = isLast ? 'none' : 'block';
+            document.getElementById('finishBtn').style.display = isLast ? 'block' : 'none';
+        }
+
+        function selectAnswer(key) {
+            answers[currentQuestionIndex] = key;
+            displayQuestion();
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        function finishQuiz() {
+            const answerKey = JSON.parse(localStorage.getItem('answerKey')) || ANSWER_KEY;
+            let correct = 0, incorrect = 0, blank = 0;
+
+            currentQuestions.forEach((q, idx) => {
+                const userAnswer = answers[idx];
+                const correctAnswer = answerKey[q.number];
+
+                if (!userAnswer) {
+                    blank++;
+                } else if (userAnswer === correctAnswer) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
+            });
+
+            const score = (correct * CORRECT_POINTS) + (incorrect * INCORRECT_POINTS);
+            const maxScore = currentQuestions.length * CORRECT_POINTS;
+            const passed = score >= PASS_SCORE;
+
+            document.getElementById('resultStatus').textContent = passed ? '✓ ZALICZONE' : '✗ NIEZALICZONE';
+            document.getElementById('resultStatus').className = 'result-status ' + (passed ? 'pass' : 'fail');
+            document.getElementById('scoreDisplay').textContent = `${score} / ${maxScore}`;
+            document.getElementById('totalScore').textContent = score;
+            document.getElementById('correctCount').textContent = correct;
+            document.getElementById('correctPercent').textContent = Math.round((correct / currentQuestions.length) * 100) + '%';
+            document.getElementById('incorrectPercent').textContent = Math.round((incorrect / currentQuestions.length) * 100) + '%';
+
+            document.getElementById('breakdownCorrect').textContent = `${correct} × (+2) = +${correct * CORRECT_POINTS}`;
+            document.getElementById('breakdownIncorrect').textContent = `${incorrect} × (-1) = ${incorrect * INCORRECT_POINTS}`;
+            document.getElementById('breakdownBlank').textContent = `${blank} × (0) = 0`;
+
+            document.getElementById('quizScreen').style.display = 'none';
+            document.getElementById('resultsScreen').style.display = 'block';
+        }
+
+        function retakeQuiz() {
+            currentQuestionIndex = 0;
+            answers = {};
+            document.getElementById('resultsScreen').style.display = 'none';
+            document.getElementById('quizScreen').style.display = 'block';
+            displayQuestion();
+        }
+
+        function exitQuiz() {
+            if (confirm('Czy na pewno chcesz wyjść z quizu? Twój postęp zostanie utracony.')) {
+                window.location.href = '../index.html';
+            }
+        }
+
+        function goHome() {
+            window.location.href = '../index.html';
+        }
+
+        // Initialize
+        window.addEventListener('DOMContentLoaded', displayQuestion);
+    </script>
+</body>
+</html>

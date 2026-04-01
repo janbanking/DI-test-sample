@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 2 - Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Test 2 - Egzamin Doradcy Inwestycyjnego</h1>
+            <p>30 Pytań</p>
+        </div>
+
+        <div class="main-content" style="grid-template-columns: 1fr;">
+            <!-- Quiz Screen -->
+            <div id="quizScreen" class="section">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="question-counter">
+                    Pytanie <span id="currentQuestion">1</span> z <span id="totalQuestions">30</span>
+                </div>
+                <div class="question-text" id="questionText"></div>
+                <div class="options" id="optionsContainer"></div>
+                <div class="buttons">
+                    <button class="btn-secondary" id="prevBtn" onclick="previousQuestion()">← Wstecz</button>
+                    <button class="btn-primary" id="nextBtn" onclick="nextQuestion()">Dalej →</button>
+                    <button class="btn-primary" id="finishBtn" onclick="finishQuiz()" style="display: none;">Zakończ →</button>
+                    <button class="btn-secondary" onclick="exitQuiz()" style="background: #dc3545;">Wyjdź z Quizu</button>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="resultsScreen" class="results-screen section">
+                <div class="result-card">
+                    <div class="result-status" id="resultStatus"></div>
+                    <div class="score-display" id="scoreDisplay">0 / 60</div>
+                </div>
+                <div class="results-grid">
+                    <div class="result-item">
+                        <h3>Wynik Całkowity</h3>
+                        <div class="value" id="totalScore">0</div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Poprawne</h3>
+                        <div class="value" id="correctCount">0</div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Poprawne %</h3>
+                        <div class="value" id="correctPercent">0%</div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Niepoprawne %</h3>
+                        <div class="value" id="incorrectPercent">0%</div>
+                    </div>
+                </div>
+                <div class="result-breakdown">
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">✓ Poprawne Odpowiedzi</span>
+                        <span class="breakdown-value correct" id="breakdownCorrect">0 × (+2) = 0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">✗ Niepoprawne Odpowiedzi</span>
+                        <span class="breakdown-value incorrect" id="breakdownIncorrect">0 × (-1) = 0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">- Puste Odpowiedzi</span>
+                        <span class="breakdown-value" id="breakdownBlank">0 × (0) = 0</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn-primary" onclick="retakeQuiz()">Powtórz Quiz</button>
+                    <button class="btn-secondary" onclick="goHome()">Powrót do Domu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const QUESTIONS = [{"number":31,"text":"Zgodnie z ustawą o rachunkowości, przez \"aktywa netto\" rozumie się:","options":{"A":"aktywa jednostki pomniejszone o aktywa obrotowe;","B":"aktywa obrotowe jednostki pomniejszone o zapasy;","C":"aktywa obrotowe jednostki pomniejszone o zobowiązania krótkoterminowe;","D":"aktywa jednostki pomniejszone o zobowiązania, odpowiadające wartościowo kapitałowi (funduszowi) własnemu."}},{"number":32,"text":"Doradca w banku inwestycyjnym otrzymał warunki oferty sprzedaży akcji firmy oponiarskiej SIGMA, której zakończenie działalności zostało zaplanowane po upływie kolejnych dwunastu miesięcy. Zaproponowana w ofercie cena za jedną akcję wynosiła 11 złotych i została wyznaczona przez oferującego za pomocą modelu zysku rezydualnego. W warunkach oferty na podstawie ostatniego sprawozdania finansowego podane były też wartość księgowa na akcję w wysokości 10 złotych, zysk netto na akcję 2 złote oraz zakładana na najbliższe dwanaście miesięcy stopa wzrostu zysku netto w wysokości 60%. Warunki oferty nie przewidują wypłaty dywidendy za najbliższy rok obrachunkowy. Wyznacz jaki wymagany koszt kapitału został przyjęty do wyceny akcji spółki SIGMA przez oferującego. Wskaż spośród wymienionych poniżej odpowiedzi najbliższą wartość.","options":{"A":"20%;","B":"20,6%;","C":"32%;","D":"31,2%."}},{"number":33,"text":"Zgodnie z ustawą o nadzorze nad rynkiem kapitałowym Komisja Nadzoru Finansowego, w przypadku wydania decyzji nakładającej karę za naruszenie przepisów rozporządzenia w sprawie nadużyć na rynku nr 596/2014 (zwanym też: MAR), może, w drodze uchwały, zdecydować o przekazaniu do publicznej wiadomości informacji o wydaniu tej decyzji. Czy Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej informacje dotyczące imienia i nazwiska osoby, której dotyczy taka decyzja?","options":{"A":"nie, ponieważ w przypadku wydania takiej decyzji Komisja Nadzoru Finansowego nie posiada uprawnień do udostępniania informacji dotyczących osoby fizycznej;","B":"tak, a informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja, Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej przez okres 5 lat licząc od dnia ich udostępnienia;","C":"tak, a informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja, Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej przez okres roku licząc od dnia ich udostępnienia;","D":"tak, a informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja, Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej przez okres roku licząc od dnia podjęcia przez Komisję tej decyzji."}},{"number":34,"text":"Z populacji absolwentów pewnego kierunku studiów pobrano próbę 12 osób i zbadano ich wiek oraz roczny dochód. Uzyskane wyniki przedstawia poniższa tabela:\n\nWiek (lata): 26, 29, 26, 45, 40, 30, 66, 33, 28, 49, 54, 55\nDochód (tys. jednostek): 110, 150, 90, 220, 160, 150, 190, 190, 80, 179, 182, 200\n\nNa podstawie wskazanych informacji ustal, która wartość jest najbliższa statystyce testu istotności współczynnika korelacji liniowej Pearsona:","options":{"A":"3,33;","B":"2,22;","C":"7,77;","D":"5,55."}},{"number":35,"text":"Czy, zgodnie z przepisami ustawy o obrocie instrumentami finansowymi, posiadanie akcji spółki akcyjnej prowadzącej rynek regulowany przez podmioty pozostające w tej samej grupie kapitałowej uważa się za ich posiadanie przez jeden podmiot?","options":{"A":"tak;","B":"nie;","C":"nie, chyba że podmioty pozostające w tej samej grupie kapitałowej przekazały odpowiednie zawiadomienie Przewodniczącemu Komisji Nadzoru Finansowego;","D":"nie, chyba że podmioty pozostające w tej samej grupie kapitałowej przekazały odpowiednie zawiadomienie Komisji Nadzoru Finansowego."}},{"number":36,"text":"Wskaż zdanie prawdziwe:","options":{"A":"upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego mogą przeprowadzić w domu maklerskim wizytę nadzorczą w zakresie niezbędnym do nadzoru ostrożnościowego nad domami maklerskimi;","B":"upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego nie mogą przeprowadzić w domu maklerskim wizyty nadzorczej;","C":"upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego mogą przeprowadzić w domu maklerskim wizytę nadzorczą wyłącznie w zakresie ustalenia, jakimi regulaminami obsługi klienta dysponuje dom maklerski;","D":"upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego mogą przeprowadzić w domu maklerskim wizytę nadzorczą, która może trwać nie dłużej niż 30 dni."}},{"number":37,"text":"Zarządzający posiada w portfelu 1 000 akcji spółki notowanej na giełdzie. Oczekuje napływu środków do funduszu za 6 miesięcy w wyniku prowadzonej akcji promocyjnej i bardzo dobrych historycznych wyników funduszu. Cena akcji w dniu transakcji wynosiła 50 złotych. Zarządzający postanowił zwiększyć ekspozycję na rynek akcji przez zakup 2 500 opcji europejskiej call na indeks giełdowy z ceną wykonania 60 złotych. Opcja miała sześciomiesięczny termin wykonania, a cena za jedną opcję wyniosła 4 złotych. Na chwilę przed wygaśnięciem opcji cena akcji wynosiła 65 złotych i zarządzający, wiedząc, że rynek jest efektywny, zdecydował się sprzedać opcję. Wyznacz jaką zmianę wartości portfela z inwestycji w akcje i transakcji na opcjach przedstawi zarządzający w sprawozdaniu do klienta. Wskaż, która z poniższych odpowiedzi jest najbliższa temu wynikowi:","options":{"A":"wzrost o 12 500 złotych;","B":"wzrost o 17 500 złotych;","C":"wzrost o 15 000 złotych;","D":"spadek o 2 500 złotych."}},{"number":38,"text":"Wskaż, który organ banku wprowadza oraz zapewnia działanie systemu zarządzania.","options":{"A":"zarząd;","B":"żaden organ nie jest wskazany w odniesieniu do tego zadania w ustawie Prawo bankowe;","C":"rada nadzorcza;","D":"za to zadanie odpowiada wyłącznie prezes zarządu banku."}},{"number":39,"text":"Doradca inwestycyjny przygotował dla klienta trzy propozycje inwestycji w akcje spółek Alfa, Gamma i Omega. Na podstawie przeprowadzonej ankiety doradca zakwalifikował klienta do kategorii z neutralnym podejściem do ryzyka. Oczekiwane stopy zwrotu i odchylenia standardowe przedstawił w poniższej tabelce:\n\nAlfa: E(r)=10%, δ=4%\nGamma: E(r)=20%, δ=15%\nOmega: E(r)=10%, δ=20%\n\nPrzy rekomendacji doradca chce wykorzystać funkcję użyteczności wyrażoną wzorem U=E(r) - ½Aδ², gdzie A to miara awersji do ryzyka inwestora. Wskaż, którą z trzech analizowanych spółek, na podstawie powyższej funkcji użyteczności, doradca powinien rekomendować klientowi.","options":{"A":"Alfa;","B":"Alfa i Omega z równymi wagami;","C":"Gamma;","D":"Omega."}},{"number":40,"text":"Czy, zgodnie z ustawą o obrocie instrumentami finansowymi, spółka prowadząca rynek regulowany może organizować rynki wyodrębnione?","options":{"A":"tak, przy czym wyodrębniony rynek powinien odnosić się jedynie do rodzaju papierów wartościowych;","B":"tak, przy czym wyodrębniony rynek powinien odnosić się do rodzaju papierów wartościowych lub innych instrumentów finansowych, jak również rodzaju ich emitentów;","C":"tak, przy czym wyodrębniony rynek powinien odnosić się jedynie do rodzaju emitentów papierów wartościowych;","D":"tak, przy czym wyodrębniony rynek powinien odnosić się jedynie do rodzaju papierów wartościowych oraz rodzaju ich emitentów."}},{"number":41,"text":"Załóż, że rynek zachowuje się w sposób opisany przez jednoczynnikowy model wyceny arbitrażowej (Arbitrage Pricing Theory-APT). Dobrze zdywersyfikowany portfel A ma współczynnik beta równy 0,3 i oczekiwaną stopę zwrotu 15%, zaś dobrze zdywersyfikowany portfel B ma współczynnik beta 0,6 oraz oczekiwaną stopę zwrotu 18%. Stopa zwrotu z aktywów wolnych od ryzyka wynosi 10%. Na podstawie powyższych danych określ, w jaki sposób należy skonstruować strategię arbitrażową. Należy zająć:","options":{"A":"długą pozycję w A i krótką pozycję w B;","B":"krótką pozycję w A i długą pozycję w B;","C":"długą pozycja w A i długą pozycję w B;","D":"rynek znajduje się w stanie równowagi wyznaczonej zgodnie z modelem wyceny arbitrażowej i nie ma możliwości konstrukcji strategii arbitrażowej przez inwestycje w portfel A oraz portfel B."}},{"number":42,"text":"Analityk rozważa inwestycje w akcje spółek z sektora wydobywczego miedzi. Zgodnie z przygotowanymi prognozami finansowymi, zakłada, że w zależności od scenariusza rynkowego stopy zwrotu dla akcji spółki Miedź będą następujące:\n\nScenariusz Bessa: Prawdopodobieństwo 10%, Spodziewana stopa zwrotu 6%\nScenariusz bazowy: Prawdopodobieństwo 50%, Spodziewana stopa zwrotu 12%\nScenariusz Hossa: Prawdopodobieństwo 40%, Spodziewana stopa zwrotu 16%\n\nPo uwzględnieniu ryzyka regulacji środowiskowych (zweryfikowane prognozy):\nScenariusz Bessa: Prawdopodobieństwo 10%, Spodziewana stopa zwrotu 4%\nScenariusz bazowy: Prawdopodobieństwo 50%, Spodziewana stopa zwrotu 8%\nScenariusz Hossa: Prawdopodobieństwo 40%, Spodziewana stopa zwrotu 14%\n\nWyznacz o ile punktów procentowych różni się oczekiwane odchylenie standardowe stopy zwrotu spółki Miedź po uwzględnieniu możliwego wpływu nowych regulacji środowiskowych. Wskaż, która z poniższych odpowiedzi jest najbliższa uzyskanych wartości:","options":{"A":"0,5 pp.;","B":"0,25 pp.;","C":"0.75 pp.;","D":"1 pp."}},{"number":43,"text":"Wskaż, na podstawie ustawy o rachunkowości, na którą z poniżej wymienionych pozycji ogólnego rachunku zysków i strat zakładu ubezpieczeń mają wpływ straty nadzwyczajne poniesione przez tę jednostkę:","options":{"A":"wynik techniczny ubezpieczeń;","B":"koszty działalności lokacyjnej;","C":"pozostałe koszty operacyjne;","D":"zysk (strata) brutto."}},{"number":44,"text":"Inwestor rozważa zakup obligacji zamiennej na akcje. W takich warunkach winien założyć, że:","options":{"A":"istnieje obowiązek zrealizowania przepływu gotówkowego, o ile obligacja zawierała opcję put, emitent z niej skorzystał, a opcja put miała charakter miękki (soft put);","B":"istnieje możliwość zrealizowania przepływu gotówkowego lub wykupu za akcje, o ile obligacja zawierała opcję put, emitent z niej skorzystał, a opcja put miała charakter twardy (hard put);","C":"przekazanie prawa nabycia akcji zwykłej odbywa się po cenie równej ilorazowi wartości rynkowej obligacji zamiennej i współczynnika konwersji;","D":"minimalna cena obligacji zamiennej nie musi być równa wartości konwersji."}},{"number":45,"text":"Na rynku, na którym model wyceny aktywów kapitałowych (CAPM) właściwie opisuje stan równowagi rynkowej, posiadasz następujące informacje o rynku oraz akcji spółki ZOTA:\n- oczekiwana roczna stopa zwrotu z rynku: 15%;\n- roczna stopa zwrotu z aktywów wolnych od ryzyka: 8%;\n- współczynnik beta akcji spółki ZOTA: 1,25;\n- oczekiwana roczna stopa zwrotu z tej akcji wynosi: 18%.\nNa podstawie powyższych informacji określ, które z poniższych stwierdzeń jest prawdziwe.","options":{"A":"akcja spółki ZOTA jest zbyt droga;","B":"akcja spółki ZOTA jest zbyt tania;","C":"akcja spółki ZOTA jest wyceniona właściwie z punktu widzenia równowagi rynkowej;","D":"akcja spółki ZOTA jest akcją uprzywilejowaną względem dywidendy."}},{"number":46,"text":"Amerykańska spółka gazowa wyemitowała trzyletnie obligacje o wartości nominalnej 1 000 USD. Oprocentowanie wynosi 4%, a płatność kuponu jest kwartalna. Cena w pierwszym dniu okresu odsetkowego wyniosła 950 USD. Wyznacz efektywną roczną rentowność do wykupu (YTM), którą inwestor zrealizuje utrzymując te obligacje do terminu zapadalności.","options":{"A":"1,46%;","B":"5,83%;","C":"5,96%;","D":"2,91%."}},{"number":47,"text":"Doradca funduszu zamierza kupić sześciomiesięczny kontrakt walutowy forward USD/PLN. Kurs bieżący (spot) USD/PLN wynosi 4,0015. Rentowności do wykupu (YTM) skarbowych obligacji zerokuponowych o terminie wykupu sześciu miesięcy wynosiły dla obligacji amerykańskich 3,5%, a dla obligacji polskich 4,5%. Przewidywana jest możliwość niespodziewanej obniżki stóp procentowych o 50 pb. przez NBP na odbywającym się w dniu planowanej transakcji posiedzeniu banku. Wyznacz jaki byłby wynik transakcji, gdyby doradca zrealizował kupno kontraktu i w tym samym dniu zrealizował się scenariusz spadku stóp procentowych. Wskaż, która z poniższych odpowiedzi jest najbliższa wynikowi z transakcji.","options":{"A":"zrealizowałby stratę 0,01 złotych;","B":"zrealizowałby stratę 0,02 złotych;","C":"zrealizowałby zysk 0,01 złotych;","D":"zrealizowałby zysk 0,02 złotych."}},{"number":48,"text":"Wskaźnik ROA spółki MAKPOL wynosi 15% natomiast jej wskaźnik ROE 25%. Wiedząc, że wartość księgowa jednej akcji wynosi 25 zł a spółka wyemitowała 2 mln akcji, wyznacz ile wynoszą aktywa spółki MAKPOL.","options":{"A":"54,2 mln zł;","B":"93,7 mln zł;","C":"83,3 mln zł;","D":"73,9 mln zł."}},{"number":49,"text":"Czterech spośród 12 członków rady nadzorczej spółki JUTA ma zostać losowo wybranych do komitetu mającego wykonać jedno z zadań powierzonych radzie. Której z podanych poniżej wartości jest najbliższe prawdopodobieństwo tego, że w skład komitetu zostanie wybranych 4 najmłodszych członków rady? Załóż, że wśród członków rady nie ma pary osób o identycznym wieku.","options":{"A":"0,00202;","B":"0,00312;","C":"0,00373;","D":"0,00425."}},{"number":50,"text":"W swej najbardziej podstawowej formie teoria Elliota głosi, że rynek akcji podlega powtarzającemu się rytmowi:","options":{"A":"trójfalowego ruchu w górę, po którym następuje trójfalowy spadek;","B":"czterofalowego ruchu w górę, po którym następuje pięciofalowy spadek;","C":"pięciofalowego ruchu w górę, po którym następuje trójfalowy spadek;","D":"sześciofalowego ruchu w górę, po którym następuje czterofalowy spadek."}},{"number":51,"text":"Analityk ryzyka rynkowego funduszu emerytalnego porównuje ryzyko stopy procentowej dwóch obligacji skarbowych. Pierwsza to obligacja dwuletnia o stałym oprocentowaniu w wysokości 6% wypłacająca odsetki dwa razy do roku. W pierwszym dniu emisji można ją było kupić z rentownością do wykupu (YTM) wynoszącą 5%. Druga obligacja to czteroletnia obligacja o zmiennym oprocentowaniu, a zmiana kuponu jest dokonywana co sześć miesięcy. Która z poniższych wartości jest najbliższa ilorazowi duration pierwszej obligacji i duration drugiej obligacji wyznaczonych przez doradcę w pierwszym dniu emisji.","options":{"A":"0,48;","B":"4;","C":"3,84;","D":"3,64."}},{"number":52,"text":"Na podstawie poniższych informacji uzyskanych o czterech portfelach wybranych z badanego rynku określ, który z portfeli na pewno nie leży na granicy efektywnej (efficient frontier), czyli na pewno nie jest portfelem efektywnym.\n\nPortfel K: Oczekiwana stopa zwrotu 12,0%, Odchylenie standardowe 23,0%\nPortfel L: Oczekiwana stopa zwrotu 15,0%, Odchylenie standardowe 18,0%\nPortfel M: Oczekiwana stopa zwrotu 10,0%, Odchylenie standardowe 10,0%\nPortfel N: Oczekiwana stopa zwrotu 20,0%, Odchylenie standardowe 35,0%","options":{"A":"portfel K;","B":"portfel L;","C":"portfel M;","D":"portfel N."}},{"number":53,"text":"W portfelu inwestycyjnym o wartości 25 mln zł znajdują się akcje o wartości 20 mln zł i obligacje skarbowe o wartości 5 mln zł. Beta portfela akcji wynosi 0,9. Wartość jednego kontraktu na indeks WIG20 wynosi 50 000 zł. Zarządzający portfelem oczekuje wzrostów na rynku akcji i chce zwiększyć betę portfela do 1,1. Wyznacz ile kontraktów futures na indeks WIG20 musi nabyć zarządzający portfelem aby zwiększyć betę portfela do pożądanej wartości.","options":{"A":"130;","B":"190;","C":"223;","D":"150."}},{"number":54,"text":"Na rysunku poniżej przedstawiono japońską formację świecową. Podaj nazwę tej formacji i określ kierunek zmiany rynku, który prognozuje.","options":{"A":"harami, wzrost;","B":"krzyż harami, wzrost;","C":"gwiazda doji, wzrost;","D":"młot, wzrost."}},{"number":55,"text":"Wskaż zdanie prawdziwe:","options":{"A":"Komisja Nadzoru Finansowego przekazuje do publicznej wiadomości istotne informacje, które mogą mieć wpływ na ocenę papierów wartościowych będących przedmiotem oferty publicznej lub ubiegania się o dopuszczenie do obrotu na rynku regulowanym, aby zapewnić inwestorom ochronę lub zapewnić prawidłowe działanie rynku;","B":"Komisja Nadzoru Finansowego nie posiada uprawnień do przekazywania do publicznej wiadomości informacji, które mogłyby mieć wpływ na ocenę papierów wartościowych będących przedmiotem oferty publicznej lub ubiegania się o dopuszczenie do obrotu na rynku regulowanym;","C":"Komisja Nadzoru Finansowego przekazuje do publicznej wiadomości każdą informację, która może mieć wpływ na ocenę papierów wartościowych nie będących przedmiotem oferty publicznej, aby zapewnić inwestorom równy dostęp do informacji;","D":"Komisja Nadzoru Finansowego przekazuje do publicznej wiadomości informacje, które mają wpływ na ocenę każdego instrumentu finansowego, o ile oceni, że takie działanie zapewni inwestorom równy dostęp do informacji."}},{"number":56,"text":"W poniższym zestawieniu przedstawiono ceny obligacji zerokuponowych skarbu państwa o wartości nominalnej 1000,00 USD:\n\nZapadalność 1 rok: 945,50 USD\nZapadalność 2 lata: 881,68 USD\nZapadalność 3 lata: 816,31 USD\nZapadalność 4 lata: 744,04 USD\n\nNa podstawie powyższych danych określ, której z poniższych wartości jest najbliższa wartość stopy procentowej forward dla roku trzeciego (pomiędzy końcem roku drugiego a końcem roku trzeciego).","options":{"A":"7,5%;","B":"8,0%;","C":"8,5%;","D":"9,0%."}},{"number":57,"text":"Czy, zgodnie z przepisami ustawy o ofercie publicznej i warunkach wprowadzania instrumentów finansowych do zorganizowanego systemu obrotu oraz o spółkach publicznych, emitent kwitów depozytowych, dopuszczonych do obrotu na rynku regulowanym na terytorium Rzeczypospolitej Polskiej, jest obowiązany do przekazywania informacji dotyczących własnej sytuacji finansowej lub prawnej?","options":{"A":"nie;","B":"tak, o ile mogłaby ona w istotny sposób wpłynąć na możliwość wywiązania się przez niego z obowiązków wynikających z wyemitowania kwitów depozytowych;","C":"tak, ale jedynie kiedy taka informacja wpłynęła na wywiązanie się przez niego z obowiązków wynikających z wyemitowania kwitów depozytowych;","D":"tak, o ile o takie informacje wystąpi nabywca kwitów depozytowych."}},{"number":58,"text":"Czy, w rozumieniu ustawy Prawo bankowe, w banku istotnym mają obowiązek działać komitet do spraw wynagrodzeń oraz komitet do spraw ryzyka?","options":{"A":"tak;","B":"taki wymóg dotyczy każdego banku, a nie tylko banku istotnego;","C":"bank istotny ma obowiązek ustanowić jedynie komitet do spraw wynagrodzeń;","D":"bank istotny ma obowiązek ustanowić jedynie komitet do spraw ryzyka."}},{"number":59,"text":"W spółce POLDOM 50% członków zarządu stanowią kobiety. Wiadomo, że 30% członków zarządu otrzymuje najwyższe wynagrodzenia w spółce. Wiedząc, że kobiety pobierające najwyższe wynagrodzenia stanowią 20% zarządu spółki POLDOM, oblicz jakie jest prawdopodobieństwo, że losowo wybrany członek zarządu tej spółki należący do grupy członków pobierających najwyższe wynagrodzenie będzie kobietą.","options":{"A":"30%;","B":"10%;","C":"40%;","D":"20%."}},{"number":60,"text":"Które z poniższych zjawisk najlepiej wyjaśnia wklęsłość granicy możliwości produkcyjnych:","options":{"A":"prawo podaży;","B":"prawo popytu;","C":"zasada rosnących kosztów alternatywnych;","D":"stałe efekty skali produkcji."}}];
+        const ANSWER_KEY = {"1":"B","2":"B","3":"B","4":"B","5":"B","6":"B","7":"B","8":"B","9":"B","10":"B","11":"B","12":"B","13":"B","14":"B","15":"B","16":"B","17":"B","18":"B","19":"B","20":"B","21":"B","22":"B","23":"B","24":"B","25":"B","26":"B","27":"B","28":"B","29":"B","30":"B","31":"B","32":"B","33":"B","34":"B","35":"B","36":"B","37":"B","38":"B","39":"B","40":"B","41":"B","42":"B","43":"B","44":"B","45":"B","46":"B","47":"B","48":"B","49":"B","50":"B","51":"B","52":"B","53":"B","54":"B","55":"B","56":"B","57":"B","58":"B","59":"B","60":"B","61":"B","62":"B","63":"B","64":"B","65":"B","66":"B","67":"B","68":"B","69":"B","70":"B","71":"B","72":"B","73":"B","74":"B","75":"B","76":"B","77":"B","78":"B","79":"B","80":"B","81":"B","82":"B","83":"B","84":"B","85":"B","86":"B","87":"B","88":"B","89":"B","90":"B","91":"B","92":"B","93":"B","94":"B","95":"B","96":"B","97":"B","98":"B","99":"B","100":"B","101":"B","102":"B","103":"B","104":"B","105":"B","106":"B","107":"B","108":"B","109":"B","110":"B"};
+
+        let currentQuestions = QUESTIONS;
+        let currentQuestionIndex = 0;
+        let answers = {};
+
+        const PASS_SCORE = 40;
+        const CORRECT_POINTS = 2;
+        const INCORRECT_POINTS = -1;
+
+        function displayQuestion() {
+            const q = currentQuestions[currentQuestionIndex];
+            const isAnswered = answers[currentQuestionIndex] !== undefined;
+
+            document.getElementById('currentQuestion').textContent = currentQuestionIndex + 1;
+            const progress = ((currentQuestionIndex + 1) / currentQuestions.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            document.getElementById('questionText').textContent = q.text;
+
+            const container = document.getElementById('optionsContainer');
+            container.innerHTML = '';
+
+            const answerKey = JSON.parse(localStorage.getItem('answerKey')) || ANSWER_KEY;
+
+            Object.entries(q.options).forEach(([key, value]) => {
+                const div = document.createElement('div');
+                div.className = 'option';
+
+                const isSelected = answers[currentQuestionIndex] === key;
+                const correctAnswer = answerKey[q.number];
+
+                if (isAnswered && isSelected) {
+                    div.classList.add('answered');
+                    if (key === correctAnswer) {
+                        div.classList.add('correct');
+                    } else {
+                        div.classList.add('incorrect');
+                    }
+                }
+
+                const feedback = isAnswered && isSelected && correctAnswer
+                    ? `<span class="feedback">${key === correctAnswer ? '✓ Poprawnie' : '✗ Źle'}</span>`
+                    : '';
+
+                div.innerHTML = `
+                    <input type="radio" id="opt_${key}" name="answer" value="${key}"
+                           ${isSelected ? 'checked' : ''} ${isAnswered ? 'disabled' : ''}
+                           onchange="selectAnswer('${key}')">
+                    <label for="opt_${key}">${key}: ${value}</label>
+                    ${feedback}
+                `;
+                container.appendChild(div);
+            });
+
+            document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+            const isLast = currentQuestionIndex === currentQuestions.length - 1;
+            document.getElementById('nextBtn').style.display = isLast ? 'none' : 'block';
+            document.getElementById('finishBtn').style.display = isLast ? 'block' : 'none';
+        }
+
+        function selectAnswer(key) {
+            answers[currentQuestionIndex] = key;
+            displayQuestion();
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        function finishQuiz() {
+            const answerKey = JSON.parse(localStorage.getItem('answerKey')) || ANSWER_KEY;
+            let correct = 0, incorrect = 0, blank = 0;
+
+            currentQuestions.forEach((q, idx) => {
+                const userAnswer = answers[idx];
+                const correctAnswer = answerKey[q.number];
+
+                if (!userAnswer) {
+                    blank++;
+                } else if (userAnswer === correctAnswer) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
+            });
+
+            const score = (correct * CORRECT_POINTS) + (incorrect * INCORRECT_POINTS);
+            const maxScore = currentQuestions.length * CORRECT_POINTS;
+            const passed = score >= PASS_SCORE;
+
+            document.getElementById('resultStatus').textContent = passed ? '✓ ZALICZONE' : '✗ NIEZALICZONE';
+            document.getElementById('resultStatus').className = 'result-status ' + (passed ? 'pass' : 'fail');
+            document.getElementById('scoreDisplay').textContent = `${score} / ${maxScore}`;
+            document.getElementById('totalScore').textContent = score;
+            document.getElementById('correctCount').textContent = correct;
+            document.getElementById('correctPercent').textContent = Math.round((correct / currentQuestions.length) * 100) + '%';
+            document.getElementById('incorrectPercent').textContent = Math.round((incorrect / currentQuestions.length) * 100) + '%';
+
+            document.getElementById('breakdownCorrect').textContent = `${correct} × (+2) = +${correct * CORRECT_POINTS}`;
+            document.getElementById('breakdownIncorrect').textContent = `${incorrect} × (-1) = ${incorrect * INCORRECT_POINTS}`;
+            document.getElementById('breakdownBlank').textContent = `${blank} × (0) = 0`;
+
+            document.getElementById('quizScreen').style.display = 'none';
+            document.getElementById('resultsScreen').style.display = 'block';
+        }
+
+        function retakeQuiz() {
+            currentQuestionIndex = 0;
+            answers = {};
+            document.getElementById('resultsScreen').style.display = 'none';
+            document.getElementById('quizScreen').style.display = 'block';
+            displayQuestion();
+        }
+
+        function exitQuiz() {
+            if (confirm('Czy na pewno chcesz wyjść z quizu? Twój postęp zostanie utracony.')) {
+                window.location.href = '../index.html';
+            }
+        }
+
+        function goHome() {
+            window.location.href = '../index.html';
+        }
+
+        // Initialize
+        window.addEventListener('DOMContentLoaded', displayQuestion);
+    </script>
+</body>
+</html>

@@ -1,0 +1,1136 @@
+{
+  "exam_title": "TEST EGZAMINACYJNY",
+  "exam_subtitle": "EGZAMIN \"DORADCY INWESTYCYJNI - PIERWSZY ETAP\"",
+  "issuer": "KOMISJA NADZORU FINANSOWEGO - Komisja Egzaminacyjna dla Doradców Inwestycyjnych",
+  "total_questions": 110,
+  "tests": [
+    {
+      "test_id": 1,
+      "title": "Test 1",
+      "questions": [
+        {
+          "number": 1,
+          "text": "Koszt kapitału własnego spółki KOMA w sytuacji, kiedy jest ona w całości finansowana kapitałem własnym, wynosi 12%. Spółka jednak zmienia swoją strukturę kapitału w taki sposób, że po tej zmianie stosunek długu do aktywów spółki (wartości rynkowej) wynosi 0,4. Koszt długu wynosi 4%, zaś stopa opodatkowania dochodów spółek wynosi 20%. Której z wymienionych poniżej wartości jest najbliższa wartość kosztu kapitału własnego tej spółki po opisanej zmianie jej struktury kapitału, jeżeli zostanie ona oszacowana zgodnie z formułami modelu Millera-Modiglianiego?",
+          "options": {
+            "A": "14,56%;",
+            "B": "16,27%;",
+            "C": "17,22%;",
+            "D": "21,60%."
+          }
+        },
+        {
+          "number": 2,
+          "text": "Inwestor nabył obligację dziesięcioletnią o oprocentowaniu 6% rocznie. Wartość nominalna obligacji wynosi 1 000 zł. Inwestor nabył obligację po cenie 961 zł. Obligacja posiada opcję wcześniejszego wykupu, który może być zrealizowany najwcześniej po wypłacie piątego kuponu po cenie 1 000 zł. Oblicz i podaj najbliższą wartość stopy zwrotu do wcześniejszego wykupu (YTC) i wskaż, w którym przypadku inwestor zrealizuje wyższą stopę zwrotu czy w przypadku utrzymania obligacji do wykupu, czy realizacji wcześniejszego wykupu?",
+          "options": {
+            "A": "6,54% i realizacja wcześniejszego wykupu;",
+            "B": "6,78% i utrzymanie obligacji do wykupu;",
+            "C": "6,95% i utrzymanie obligacji do wykupu;",
+            "D": "6,95% i realizacja wcześniejszego wykupu."
+          }
+        },
+        {
+          "number": 3,
+          "text": "Na podstawie MSR 2 \"Zapasy\", zatwierdzonego przez UE, wskaż stwierdzenie fałszywe:",
+          "options": {
+            "A": "zapasy wycenia się w cenie nabycia lub koszcie wytworzenia lub też według wartości netto możliwej do uzyskania, w zależności od tego, która z kwot jest wyższa;",
+            "B": "wartość netto możliwa do uzyskania jest to szacunkowa cena sprzedaży w toku zwykłej działalności gospodarczej pomniejszona o szacowane koszty przygotowania sprzedaży i szacunkowe koszty niezbędne do doprowadzenia sprzedaży do skutku;",
+            "C": "przykładami kosztów wyłączonych z ceny nabycia lub kosztu wytworzenia zapasów i ujmowanych jako koszty okresu, w którym je poniesiono, są ogólne koszty administracyjne, które nie przyczyniają się do doprowadzenia zapasów do ich aktualnego stanu i miejsca;",
+            "D": "przykładami kosztów wyłączonych z ceny nabycia lub kosztu wytworzenia zapasów i ujmowanych jako koszty okresu, w którym je poniesiono, są nietypowe wielkości (zużycie ponadnormatywne) zmarnowanych materiałów, robocizny oraz innych kosztów produkcyjnych."
+          }
+        },
+        {
+          "number": 4,
+          "text": "Zgodnie z ustawą o rachunkowości, udziały (akcje) własne:",
+          "options": {
+            "A": "wykazuje się w bilansie, w aktywach;",
+            "B": "wykazuje się w bilansie, jako składnik kapitału (funduszu) własnego;",
+            "C": "wycenia się nie rzadziej niż na dzień bilansowy według wartości nominalnej;",
+            "D": "wycenia się nie rzadziej niż na dzień bilansowy według wartości godziwej."
+          }
+        },
+        {
+          "number": 5,
+          "text": "Wskaż niepoprawne stwierdzenie dotyczące utargu całkowitego (total revenue, TR):",
+          "options": {
+            "A": "wzrost wielkości sprzedaży (quantity, q) powiększa TR, o ile popyt jest względnie nieelastyczny wobec zmiany ceny;",
+            "B": "wzrost q powiększa TR, o ile popyt jest względnie elastyczny wobec zmiany ceny;",
+            "C": "pierwsza pochodna funkcji TR(q) opisuje funkcję utargu krańcowego (marginal revenue, MR);",
+            "D": "przy liniowej funkcji popytu o negatywnym współczynniku kierunkowym funkcja TR będzie trójmianem kwadratowym."
+          }
+        },
+        {
+          "number": 6,
+          "text": "Pewien zbiór danych o rozkładzie normalnym został zobrazowany za pomocą poziomego wykresu pudełkowego z wąsami. Na osi liczbowej identyfikującej wartości badanej cechy zaznaczono też płotki wewnętrzne oraz zewnętrzne. Powyżej określona prezentacja danych nie umożliwia:",
+          "options": {
+            "A": "ustalenia przedziału wartości cechy, w którym zawiera się 50% obserwacji;",
+            "B": "ustalenia ewentualnego występowania skośności lewostronnej;",
+            "C": "ustalenia obserwacji podejrzanych o nietypowość oraz obserwacji nietypowych;",
+            "D": "określenia klasycznego współczynnika asymetrii."
+          }
+        },
+        {
+          "number": 7,
+          "text": "Na wykresie typu equivolume charakteryzującym dzienny obrót akcjami badanej spółki sąsiadują ze sobą dwa prostokąty (A i B). Podstawa prostokąta A jest większa niż podstawa prostokąta B. Wysokość prostokąta A jest mniejsza niż wysokość prostokąta B:",
+          "options": {
+            "A": "w dniu przypisanym prostokątowi A zmienność kursu była mniejsza a wolumen obrotu większy niż w dniu przypisanym prostokątowi B;",
+            "B": "w dniu przypisanym prostokątowi A zmienność kursu była większa a wolumen obrotu mniejszy niż w dniu przypisanym prostokątowi B;",
+            "C": "w dniu przypisanym prostokątowi B zawierano dużą liczbę transakcji;",
+            "D": "w dniu przypisanym prostokątowi B przeważały transakcje zawierane po cenie zbliżonej do ceny równowagi rynkowej."
+          }
+        },
+        {
+          "number": 8,
+          "text": "Spółka Alfa dzięki emisji \"zielonych\" obligacji zamierza sfinansować projekty transformacji energetycznej zwiększając udział zielonej energii w przychodach spółki. Termin zapadalności obligacji to 3 lata, a oprocentowanie obligacji wynosi 6% w skali roku i kupon jest wypłacany dwa razy do roku. Emitentowi udało się uplasować tę emisję na rynku z rentownością do wykupu (YTM) o 50 pb. niższą niż rentowność do wykupu (YTM) ostatniej zwykłej obligacji, która miała taki sam termin wykupu i oprocentowanie jak nowa zielona obligacja. W gazecie finansowej opisano duże zainteresowanie inwestorów obligacjami spełniającymi kryteria ESG oraz podkreślono, że istnieją badania wskazujące, że takie inwestycje przynoszą wyższe stopy zwrotu. Opisano w niej też przypadek inwestycji w zielone obligacje spółki Alfa. Wskaż, które z poniższych stwierdzeń dotyczących stóp zwrotu z inwestycji w zielone obligacje Spółki Alfa nabytych w ostatniej emisji w porównaniu do zwykłych obligacji tej spółki jest prawdziwe:",
+          "options": {
+            "A": "inwestorzy z inwestycji w zielone obligacje spółki Alfa osiągną wyższą rentowność niż w obligacje zwykle tej spółki, jeżeli będą trzymać tę obligację do wykupu;",
+            "B": "inwestorzy z inwestycji w zielone obligacje spółki Alfa osiągną wyższą rentowność niż w obligacje zwykle tej spółki niezależnie czy będą ją trzymać do wykupu czy sprzedadzą ją wcześniej;",
+            "C": "inwestorzy z inwestycji w zielone obligacje spółki Alfa osiągną niższą rentowność niż w obligacje zwykle tej spółki, jeżeli będą trzymać tę obligację do wykupu;",
+            "D": "inwestycje w zielone obligacje spółki Alfa zawsze przyniosą wyższą rentowność ze względu na duże zainteresowanie inwestorów takimi inwestycjami."
+          }
+        },
+        {
+          "number": 9,
+          "text": "Hipoteczne listy zastawne w Polsce:",
+          "options": {
+            "A": "może emitować każdy bank posiadający wierzytelności zabezpieczone hipotekami;",
+            "B": "mogą być emitowane przez każdy bank hipoteczny, na podstawie wierzytelności zabezpieczonych hipotekami, wyłącznie jako dłużne papiery wartościowe na okaziciela;",
+            "C": "mogą być emitowane wyłącznie jako papiery dłużne na okaziciela;",
+            "D": "mogą być emitowane przez każdy bank hipoteczny, na podstawie wierzytelności zabezpieczonych hipotekami, zarówno jako dłużne papiery wartościowe na okaziciela lub imienne papiery dłużne."
+          }
+        },
+        {
+          "number": 10,
+          "text": "Inwestor kupił po cenie nominalnej obligację o stałym oprocentowaniu i terminem do wykupu za 6 lat. Oprocentowanie obligacji wynosi 6% i odsetki są płatne raz w roku. Bezpośrednio po zakupie krzywa stóp procentowych podniosła się równolegle o 100 pb. Po czterech latach inwestor decyduje się na sprzedaż tej obligacji. Wyznacz stopę zwrotu z inwestycji w tę obligację w sytuacji po zmianie stóp procentowych i wskaż, która z poniższych odpowiedzi jest jej najbliższa.",
+          "options": {
+            "A": "6%;",
+            "B": "5,7%;",
+            "C": "6,3%;",
+            "D": "5,4%."
+          }
+        },
+        {
+          "number": 11,
+          "text": "Wskaż stwierdzenie, które jest prawdziwe w warunkach działania zasady malejącej użyteczności krańcowej:",
+          "options": {
+            "A": "użyteczność całkowita maleje wraz ze wzrostem konsumpcji;",
+            "B": "użyteczność całkowita maleje wraz ze spadkiem użyteczności krańcowej;",
+            "C": "wzrost użyteczności całkowitej z konsumpcji dodatkowej jednostki danego dobra jest coraz mniejszy wraz ze wzrostem konsumpcji tego dobra;",
+            "D": "wzrost użyteczności całkowitej z konsumpcji dodatkowej jednostki danego dobra jest coraz większy wraz ze wzrostem konsumpcji tego dobra."
+          }
+        },
+        {
+          "number": 12,
+          "text": "Dana jest trzyletnia obligacja o oprocentowaniu 8% płatnym rocznie. Wartość nominalna obligacji wynosi 1 000 zł. Stopa zwrotu w terminie do wykupu (YTM) wynosi 10%. Na podstawie powyższych danych oblicz i podaj ile w przybliżeniu wynosi wypukłość tej obligacji.",
+          "options": {
+            "A": "4,06;",
+            "B": "4,47;",
+            "C": "5,01;",
+            "D": "4,88."
+          }
+        },
+        {
+          "number": 13,
+          "text": "Strategia określana mianem strip polega na:",
+          "options": {
+            "A": "otwarciu długiej pozycji w jednej opcji kupna i dwóch opcjach sprzedaży o tej samej cenie wykonania i tej samej dacie wygaśnięcia;",
+            "B": "otwarciu długiej pozycji w dwóch opcjach kupna i jednej opcji sprzedaży o tej samej cenie wykonania i tej samej dacie wygaśnięcia;",
+            "C": "zakupie opcji sprzedaży i opcji kupna o tej samej dacie wygaśnięcia i różnych cenach wykonania;",
+            "D": "sprzedaży opcji kupna o określonej cenie wykonania i zakupie opcji sprzedaży o tej samej cenie wykonania."
+          }
+        },
+        {
+          "number": 14,
+          "text": "Dokończ zdanie, aby było ono prawdziwe zgodnie z przepisami Kodeksu cywilnego: Każdy człowiek ma zdolność prawną",
+          "options": {
+            "A": "od chwili urodzenia;",
+            "B": "od ukończenia lat osiemnastu;",
+            "C": "którą uzyskuje poprzez zawarcie małżeństwa;",
+            "D": "którą uzyskuje poprzez zawarcie małżeństwa, o ile małżeństwo to nie zostanie unieważnione."
+          }
+        },
+        {
+          "number": 15,
+          "text": "Liczba zleceń składanych miesięcznie przez klientów domu maklerskiego jest zmienną losową o rozkładzie normalnym, odchyleniu standardowym 600 zleceń i nieznanej średniej. W 90% miesięcy liczba zleceń przekracza 12 500. Na podstawie powyższych informacji określ, której z poniżej wymienionych wartości jest najbliższa średnia miesięczna liczba zleceń składanych przez klientów tego domu maklerskiego.",
+          "options": {
+            "A": "13 268;",
+            "B": "13 156;",
+            "C": "12 954;",
+            "D": "11 744."
+          }
+        },
+        {
+          "number": 16,
+          "text": "Czy po wygaśnięciu umocowania pełnomocnik jest obowiązany zwrócić mocodawcy dokument pełnomocnictwa?",
+          "options": {
+            "A": "tak;",
+            "B": "wyłącznie wtedy, kiedy zwrotu dokumentu pełnomocnictwa zażąda mocodawca;",
+            "C": "nie;",
+            "D": "pełnomocnik ma obowiązek zniszczyć dokument pełnomocnictwa."
+          }
+        },
+        {
+          "number": 17,
+          "text": "Wiedząc, że delta europejskiej opcji kupna akcji spółki niewypłacającej dywidendy wynosi 0,7791 wyznacz cenę wykonania tej opcji. Do wyliczeń przyjmij, że aktualna cena akcji wynosi 30 zł, zmienność stóp zwrotu z akcji charakterystyczna dla modelu Blacka-Scholesa wynosi 30%, wolna od ryzyka stopa procentowa wynosi 7% w skali roku, a czas pozostały do wygaśnięcia opcji wynosi sześć miesięcy. Podaj wartość najbliższą.",
+          "options": {
+            "A": "33;",
+            "B": "29;",
+            "C": "31;",
+            "D": "27."
+          }
+        },
+        {
+          "number": 18,
+          "text": "Na podstawie przepisów ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi wskaż, co należy do zadań depozytariusza:",
+          "options": {
+            "A": "wykonywanie obowiązków określonych w ustawie, w szczególności polegających na przechowywaniu aktywów oraz prowadzeniu rejestru aktywów funduszu inwestycyjnego lub alternatywnej spółki inwestycyjnej, a także na zapewnieniu właściwego monitorowania przepływu środków pieniężnych tych podmiotów;",
+            "B": "wykonywanie obowiązków polegających wyłącznie na przechowywaniu aktywów oraz prowadzeniu rejestru aktywów alternatywnej spółki inwestycyjnej;",
+            "C": "wykonywanie obowiązków polegających wyłącznie na przechowywaniu aktywów funduszu inwestycyjnego;",
+            "D": "wykonywanie obowiązków polegających wyłącznie na zapewnieniu właściwego monitorowania przepływu środków pieniężnych funduszu inwestycyjnego."
+          }
+        },
+        {
+          "number": 19,
+          "text": "Zgodnie z MSSF 3 \"Połączenia jednostek\", zatwierdzonym przez UE, prawdą jest, że:",
+          "options": {
+            "A": "zastosowanie metody przejęcia do rozliczenia połączenia jednostek wymaga zidentyfikowania jednostki przejmującej;",
+            "B": "stosując metodę przejęcia do rozliczenia połączenia jednostek, jednostka przejmująca ustala dzień przejęcia, którym jest dzień rozpoczęcia wywierania znaczącego wpływu na jednostkę przejmowaną;",
+            "C": "okres wyceny, następujący po dniu przejęcia, w którym jednostka przejmująca może skorygować kwoty tymczasowe ujęte w związku z połączeniem jednostek, nie powinien przekraczać dwóch lat od dnia przejęcia;",
+            "D": "do rozliczenia połączenia jednostek, jednostka przejmująca może stosować metodę praw własności."
+          }
+        },
+        {
+          "number": 20,
+          "text": "Równanie regresji liniowej dwóch zmiennych (X i Y) oszacowano metodą najmniejszych kwadratów (MNK). Wówczas niepoprawne jest stwierdzenie, iż:",
+          "options": {
+            "A": "możliwe jest ustalenie współczynnika determinacji;",
+            "B": "możliwe jest ustalenie odchylenia standardowego reszt modelu;",
+            "C": "możliwe jest ustalenie empirycznej wartości pozycyjnego współczynnika zmienności;",
+            "D": "suma kwadratów odległości wszystkich punktów o współrzędnych odpowiadających parom obserwowanych wartości empirycznych X i Y od odpowiednich punktów na linii regresji jest jak najmniejsza."
+          }
+        },
+        {
+          "number": 21,
+          "text": "Przedsiębiorstwo działa w warunkach konkurencji doskonałej i w krótkim okresie cena maksymalizująca zysk jest wyższa od minimalnego poziomu jego długookresowego kosztu przeciętnego. Oznacza to, że:",
+          "options": {
+            "A": "przedsiębiorstwo znajdujące się w równowadze długookresowej będzie rentowne;",
+            "B": "należy oczekiwać spadku ceny rynkowej w długim okresie;",
+            "C": "przedsiębiorstwo nie pokrywa kosztów stałych;",
+            "D": "przedsiębiorstwo winno zredukować koszty długookresowe."
+          }
+        },
+        {
+          "number": 22,
+          "text": "Portfel inwestycyjny składa się z 10-letnich obligacji zerokuponowych o wartości nominalnej 1 000 zł oraz 5-letnich obligacji wypłacających na koniec każdego roku kupon 8%. Duration całego portfela wynosi 8,03. Wyznacz procentowy udział obligacji 5-letnich w portfelu przy założeniu, że YTM tych obligacji jest równe 8%. Podaj najbliższą wartość.",
+          "options": {
+            "A": "45%;",
+            "B": "26%;",
+            "C": "35%;",
+            "D": "56%."
+          }
+        },
+        {
+          "number": 23,
+          "text": "Rynkowa wartość aktywów spółki MEBLE, w sytuacji, kiedy spółka jest w całości finansowana kapitałem własnym, wynosi 500 mln zł. Spółka zamierza jednak zmienić swą strukturę kapitału w taki sposób, aby po opisanej zmianie podmiot ten był finansowany długiem o rynkowej wartości 200 mln zł. Stopa opodatkowania dochodów spółek wynosi 20%, stopa opodatkowania dochodów osobistych z instrumentów dłużnych wynosi 15%, zaś stopa opodatkowania dochodów osobistych z instrumentów udziałowych (z kapitału własnego) wynosi 10%. Na podstawie powyższych informacji określ, której z wymienionych poniżej wartości jest najbliższa rynkowa wartość spółki MEBLE po opisanej zmianie struktury kapitału, jeżeli wartość ta zostanie oszacowana przy zastosowaniu modelu Millera.",
+          "options": {
+            "A": "516 mln zł;",
+            "B": "521 mln zł;",
+            "C": "531 mln zł;",
+            "D": "542 mln zł."
+          }
+        },
+        {
+          "number": 24,
+          "text": "Analiza spektralna wieloletniego szeregu czasowego obrazującego stopy zwrotu z badanej akcji raczej nie okaże się przydatna do ustalenia:",
+          "options": {
+            "A": "częstotliwości odbywania się wyborów parlamentarnych w kraju emitenta;",
+            "B": "ustalenia okresu dominującego cyklu dla badanego szeregu czasowego;",
+            "C": "daty wystąpienia podziału akcji (splitu);",
+            "D": "ewentualnego pojawienia się w badanym szeregu fal Kondratiewa."
+          }
+        },
+        {
+          "number": 25,
+          "text": "Wyznacz, jaką kwotę musi wpłacić klient dzisiaj do banku, żeby z tych pieniędzy mógł sfinansować przyszłe potrzeby edukacji dziecka. Przewidywane roczne koszty czesnego na trzyletnich studiach są stałe na poziomie 30 tysięcy złotych i płatne są na początku roku. Dziecko ma zacząć studia za trzy lata. Bank gwarantuje stałą stopę oprocentowania lokat w wysokości 5% w skali roku w okresie 6 lat. Wskaż, która z poniższych odpowiedzi jest najbliższa wyznaczonej wartości.",
+          "options": {
+            "A": "70 573 złotych;",
+            "B": "72 305 złotych;",
+            "C": "74 102 złotych;",
+            "D": "76 224 złotych."
+          }
+        },
+        {
+          "number": 26,
+          "text": "Wartość księgowa akcji spółki X wynosi 50 zł a rentowność prowadzonej działalności (ROE) 15%. Przy założeniu, że wymagana stopa zwrotu przez akcjonariuszy wynosi 10%, a spółka przewiduje, że zyski rezydualne będą rosły w tempie 4%, wyznacz wartość akcji spółki wykorzystując model zysku rezydualnego.",
+          "options": {
+            "A": "62,45;",
+            "B": "91,67;",
+            "C": "73,36;",
+            "D": "85,60."
+          }
+        },
+        {
+          "number": 27,
+          "text": "Czy powołany przez bank komitet do spraw nominacji ma obowiązek przyjąć politykę różnorodności w składzie zarządu banku?",
+          "options": {
+            "A": "tak;",
+            "B": "nie, ponieważ to zadanie zawsze należy do rady nadzorczej banku;",
+            "C": "nie, ponieważ to zadanie zawsze należy do zarządu banku;",
+            "D": "nie, ponieważ przyjęta polityka różnorodności ma się odnosić wyłącznie do osób zasiadających na stanowiskach kierowniczych w banku."
+          }
+        },
+        {
+          "number": 28,
+          "text": "Nowy zarządzający firmy asset management przejął niedawno portfel o bardzo niskiej dywersyfikacji. Jest on mocno skoncentrowany na kilku spółkach z jednego sektora, których łączny udział przekracza 95%. Celem zarządzającego jest maksymalizacja stopy zwrotu w odniesieniu do całkowitego ryzyka. Ma możliwość połączenia przejętego w zarządzanie portfela z innymi portfelami. Wskaż, który z poniższych portfeli powinien wybrać do połączenia, aby najlepiej realizować wyznaczony cel inwestycyjny:",
+          "options": {
+            "A": "portfel, który ma dodatni współczynnik alfa Jensena;",
+            "B": "portfel, który ma współczynnik Sharpe'a równy zero;",
+            "C": "portfel, który ma dodatni współczynnik Sharpe'a;",
+            "D": "portfel, który ma dodatni współczynnik Treynora."
+          }
+        },
+        {
+          "number": 29,
+          "text": "Zgodnie z MSR 36 \"Utrata wartości aktywów\", zatwierdzonym przez UE, przez \"wartość użytkową\" rozumie się:",
+          "options": {
+            "A": "wyższą z dwóch wartości: wartości godziwej pomniejszonej o koszty zbycia i wartości odzyskiwalnej składnika aktywów lub ośrodka wypracowującego środki pieniężne;",
+            "B": "bieżącą, szacunkową wartość przyszłych przepływów pieniężnych, których uzyskania oczekuje się z tytułu dalszego użytkowania składnika aktywów lub ośrodka wypracowującego środki pieniężne;",
+            "C": "cenę nabycia lub koszt wytworzenia danego składnika aktywów;",
+            "D": "nadwyżkę wartości bilansowej danego składnik aktywów lub ośrodka wypracowującego środki pieniężne nad jego wartością odzyskiwalną."
+          }
+        },
+        {
+          "number": 30,
+          "text": "Rynkowa cena rocznego kontraktu futures na złoto wynosi 3 300 USD za uncję. Cena obecna złota jest równa 3 000 USD za uncję. Roczny koszt magazynowania złota to 20 USD za uncję. Wolna od ryzyka stopa procentowa (kapitalizowana w sposób ciągły) jest równa 7% w skali roku. Na podstawie powyższych informacji oblicz ile wyniesie zysk arbitrażowy inwestora jeżeli przedmiotem transakcji arbitrażowej będzie 10 uncji złota. Podaj najbliższą wartość.",
+          "options": {
+            "A": "624,75 USD;",
+            "B": "brak możliwości dokonania arbitrażu;",
+            "C": "1 253,14 USD;",
+            "D": "287,91 USD."
+          }
+        }
+      ],
+      "total_questions": 30
+    },
+    {
+      "test_id": 2,
+      "title": "Test 2",
+      "questions": [
+        {
+          "number": 31,
+          "text": "Zgodnie z ustawą o rachunkowości, przez \"aktywa netto\" rozumie się:",
+          "options": {
+            "A": "aktywa jednostki pomniejszone o aktywa obrotowe;",
+            "B": "aktywa obrotowe jednostki pomniejszone o zapasy;",
+            "C": "aktywa obrotowe jednostki pomniejszone o zobowiązania krótkoterminowe;",
+            "D": "aktywa jednostki pomniejszone o zobowiązania, odpowiadające wartościowo kapitałowi (funduszowi) własnemu."
+          }
+        },
+        {
+          "number": 32,
+          "text": "Doradca w banku inwestycyjnym otrzymał warunki oferty sprzedaży akcji firmy oponiarskiej SIGMA, której zakończenie działalności zostało zaplanowane po upływie kolejnych dwunastu miesięcy. Zaproponowana w ofercie cena za jedną akcję wynosiła 11 złotych i została wyznaczona przez oferującego za pomocą modelu zysku rezydualnego. W warunkach oferty na podstawie ostatniego sprawozdania finansowego podane były też wartość księgowa na akcję w wysokości 10 złotych, zysk netto na akcję 2 złote oraz zakładana na najbliższe dwanaście miesięcy stopa wzrostu zysku netto w wysokości 60%. Warunki oferty nie przewidują wypłaty dywidendy za najbliższy rok obrachunkowy. Wyznacz jaki wymagany koszt kapitału został przyjęty do wyceny akcji spółki SIGMA przez oferującego. Wskaż spośród wymienionych poniżej odpowiedzi najbliższą wartość.",
+          "options": {
+            "A": "20%;",
+            "B": "20,6%;",
+            "C": "32%;",
+            "D": "31,2%."
+          }
+        },
+        {
+          "number": 33,
+          "text": "Zgodnie z ustawą o nadzorze nad rynkiem kapitałowym Komisja Nadzoru Finansowego, w przypadku wydania decyzji nakładającej karę za naruszenie przepisów rozporządzenia w sprawie nadużyć na rynku nr 596/2014 (zwanym też: MAR), może, w drodze uchwały, zdecydować o przekazaniu do publicznej wiadomości informacji o wydaniu tej decyzji. Czy Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej informacje dotyczące imienia i nazwiska osoby, której dotyczy taka decyzja?",
+          "options": {
+            "A": "nie, ponieważ w przypadku wydania takiej decyzji Komisja Nadzoru Finansowego nie posiada uprawnień do udostępniania informacji dotyczących osoby fizycznej;",
+            "B": "tak, a informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja, Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej przez okres 5 lat licząc od dnia ich udostępnienia;",
+            "C": "tak, a informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja, Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej przez okres roku licząc od dnia ich udostępnienia;",
+            "D": "tak, a informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja, Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej przez okres roku licząc od dnia podjęcia przez Komisję tej decyzji."
+          }
+        },
+        {
+          "number": 34,
+          "text": "Z populacji absolwentów pewnego kierunku studiów pobrano próbę 12 osób i zbadano ich wiek oraz roczny dochód. Uzyskane wyniki przedstawia poniższa tabela:\n\nWiek (lata): 26, 29, 26, 45, 40, 30, 66, 33, 28, 49, 54, 55\nDochód (tys. jednostek): 110, 150, 90, 220, 160, 150, 190, 190, 80, 179, 182, 200\n\nNa podstawie wskazanych informacji ustal, która wartość jest najbliższa statystyce testu istotności współczynnika korelacji liniowej Pearsona:",
+          "options": {
+            "A": "3,33;",
+            "B": "2,22;",
+            "C": "7,77;",
+            "D": "5,55."
+          }
+        },
+        {
+          "number": 35,
+          "text": "Czy, zgodnie z przepisami ustawy o obrocie instrumentami finansowymi, posiadanie akcji spółki akcyjnej prowadzącej rynek regulowany przez podmioty pozostające w tej samej grupie kapitałowej uważa się za ich posiadanie przez jeden podmiot?",
+          "options": {
+            "A": "tak;",
+            "B": "nie;",
+            "C": "nie, chyba że podmioty pozostające w tej samej grupie kapitałowej przekazały odpowiednie zawiadomienie Przewodniczącemu Komisji Nadzoru Finansowego;",
+            "D": "nie, chyba że podmioty pozostające w tej samej grupie kapitałowej przekazały odpowiednie zawiadomienie Komisji Nadzoru Finansowego."
+          }
+        },
+        {
+          "number": 36,
+          "text": "Wskaż zdanie prawdziwe:",
+          "options": {
+            "A": "upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego mogą przeprowadzić w domu maklerskim wizytę nadzorczą w zakresie niezbędnym do nadzoru ostrożnościowego nad domami maklerskimi;",
+            "B": "upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego nie mogą przeprowadzić w domu maklerskim wizyty nadzorczej;",
+            "C": "upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego mogą przeprowadzić w domu maklerskim wizytę nadzorczą wyłącznie w zakresie ustalenia, jakimi regulaminami obsługi klienta dysponuje dom maklerski;",
+            "D": "upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego mogą przeprowadzić w domu maklerskim wizytę nadzorczą, która może trwać nie dłużej niż 30 dni."
+          }
+        },
+        {
+          "number": 37,
+          "text": "Zarządzający posiada w portfelu 1 000 akcji spółki notowanej na giełdzie. Oczekuje napływu środków do funduszu za 6 miesięcy w wyniku prowadzonej akcji promocyjnej i bardzo dobrych historycznych wyników funduszu. Cena akcji w dniu transakcji wynosiła 50 złotych. Zarządzający postanowił zwiększyć ekspozycję na rynek akcji przez zakup 2 500 opcji europejskiej call na indeks giełdowy z ceną wykonania 60 złotych. Opcja miała sześciomiesięczny termin wykonania, a cena za jedną opcję wyniosła 4 złotych. Na chwilę przed wygaśnięciem opcji cena akcji wynosiła 65 złotych i zarządzający, wiedząc, że rynek jest efektywny, zdecydował się sprzedać opcję. Wyznacz jaką zmianę wartości portfela z inwestycji w akcje i transakcji na opcjach przedstawi zarządzający w sprawozdaniu do klienta. Wskaż, która z poniższych odpowiedzi jest najbliższa temu wynikowi:",
+          "options": {
+            "A": "wzrost o 12 500 złotych;",
+            "B": "wzrost o 17 500 złotych;",
+            "C": "wzrost o 15 000 złotych;",
+            "D": "spadek o 2 500 złotych."
+          }
+        },
+        {
+          "number": 38,
+          "text": "Wskaż, który organ banku wprowadza oraz zapewnia działanie systemu zarządzania.",
+          "options": {
+            "A": "zarząd;",
+            "B": "żaden organ nie jest wskazany w odniesieniu do tego zadania w ustawie Prawo bankowe;",
+            "C": "rada nadzorcza;",
+            "D": "za to zadanie odpowiada wyłącznie prezes zarządu banku."
+          }
+        },
+        {
+          "number": 39,
+          "text": "Doradca inwestycyjny przygotował dla klienta trzy propozycje inwestycji w akcje spółek Alfa, Gamma i Omega. Na podstawie przeprowadzonej ankiety doradca zakwalifikował klienta do kategorii z neutralnym podejściem do ryzyka. Oczekiwane stopy zwrotu i odchylenia standardowe przedstawił w poniższej tabelce:\n\nAlfa: E(r)=10%, δ=4%\nGamma: E(r)=20%, δ=15%\nOmega: E(r)=10%, δ=20%\n\nPrzy rekomendacji doradca chce wykorzystać funkcję użyteczności wyrażoną wzorem U=E(r) - ½Aδ², gdzie A to miara awersji do ryzyka inwestora. Wskaż, którą z trzech analizowanych spółek, na podstawie powyższej funkcji użyteczności, doradca powinien rekomendować klientowi.",
+          "options": {
+            "A": "Alfa;",
+            "B": "Alfa i Omega z równymi wagami;",
+            "C": "Gamma;",
+            "D": "Omega."
+          }
+        },
+        {
+          "number": 40,
+          "text": "Czy, zgodnie z ustawą o obrocie instrumentami finansowymi, spółka prowadząca rynek regulowany może organizować rynki wyodrębnione?",
+          "options": {
+            "A": "tak, przy czym wyodrębniony rynek powinien odnosić się jedynie do rodzaju papierów wartościowych;",
+            "B": "tak, przy czym wyodrębniony rynek powinien odnosić się do rodzaju papierów wartościowych lub innych instrumentów finansowych, jak również rodzaju ich emitentów;",
+            "C": "tak, przy czym wyodrębniony rynek powinien odnosić się jedynie do rodzaju emitentów papierów wartościowych;",
+            "D": "tak, przy czym wyodrębniony rynek powinien odnosić się jedynie do rodzaju papierów wartościowych oraz rodzaju ich emitentów."
+          }
+        },
+        {
+          "number": 41,
+          "text": "Załóż, że rynek zachowuje się w sposób opisany przez jednoczynnikowy model wyceny arbitrażowej (Arbitrage Pricing Theory-APT). Dobrze zdywersyfikowany portfel A ma współczynnik beta równy 0,3 i oczekiwaną stopę zwrotu 15%, zaś dobrze zdywersyfikowany portfel B ma współczynnik beta 0,6 oraz oczekiwaną stopę zwrotu 18%. Stopa zwrotu z aktywów wolnych od ryzyka wynosi 10%. Na podstawie powyższych danych określ, w jaki sposób należy skonstruować strategię arbitrażową. Należy zająć:",
+          "options": {
+            "A": "długą pozycję w A i krótką pozycję w B;",
+            "B": "krótką pozycję w A i długą pozycję w B;",
+            "C": "długą pozycja w A i długą pozycję w B;",
+            "D": "rynek znajduje się w stanie równowagi wyznaczonej zgodnie z modelem wyceny arbitrażowej i nie ma możliwości konstrukcji strategii arbitrażowej przez inwestycje w portfel A oraz portfel B."
+          }
+        },
+        {
+          "number": 42,
+          "text": "Analityk rozważa inwestycje w akcje spółek z sektora wydobywczego miedzi. Zgodnie z przygotowanymi prognozami finansowymi, zakłada, że w zależności od scenariusza rynkowego stopy zwrotu dla akcji spółki Miedź będą następujące:\n\nScenariusz Bessa: Prawdopodobieństwo 10%, Spodziewana stopa zwrotu 6%\nScenariusz bazowy: Prawdopodobieństwo 50%, Spodziewana stopa zwrotu 12%\nScenariusz Hossa: Prawdopodobieństwo 40%, Spodziewana stopa zwrotu 16%\n\nPo uwzględnieniu ryzyka regulacji środowiskowych (zweryfikowane prognozy):\nScenariusz Bessa: Prawdopodobieństwo 10%, Spodziewana stopa zwrotu 4%\nScenariusz bazowy: Prawdopodobieństwo 50%, Spodziewana stopa zwrotu 8%\nScenariusz Hossa: Prawdopodobieństwo 40%, Spodziewana stopa zwrotu 14%\n\nWyznacz o ile punktów procentowych różni się oczekiwane odchylenie standardowe stopy zwrotu spółki Miedź po uwzględnieniu możliwego wpływu nowych regulacji środowiskowych. Wskaż, która z poniższych odpowiedzi jest najbliższa uzyskanych wartości:",
+          "options": {
+            "A": "0,5 pp.;",
+            "B": "0,25 pp.;",
+            "C": "0.75 pp.;",
+            "D": "1 pp."
+          }
+        },
+        {
+          "number": 43,
+          "text": "Wskaż, na podstawie ustawy o rachunkowości, na którą z poniżej wymienionych pozycji ogólnego rachunku zysków i strat zakładu ubezpieczeń mają wpływ straty nadzwyczajne poniesione przez tę jednostkę:",
+          "options": {
+            "A": "wynik techniczny ubezpieczeń;",
+            "B": "koszty działalności lokacyjnej;",
+            "C": "pozostałe koszty operacyjne;",
+            "D": "zysk (strata) brutto."
+          }
+        },
+        {
+          "number": 44,
+          "text": "Inwestor rozważa zakup obligacji zamiennej na akcje. W takich warunkach winien założyć, że:",
+          "options": {
+            "A": "istnieje obowiązek zrealizowania przepływu gotówkowego, o ile obligacja zawierała opcję put, emitent z niej skorzystał, a opcja put miała charakter miękki (soft put);",
+            "B": "istnieje możliwość zrealizowania przepływu gotówkowego lub wykupu za akcje, o ile obligacja zawierała opcję put, emitent z niej skorzystał, a opcja put miała charakter twardy (hard put);",
+            "C": "przekazanie prawa nabycia akcji zwykłej odbywa się po cenie równej ilorazowi wartości rynkowej obligacji zamiennej i współczynnika konwersji;",
+            "D": "minimalna cena obligacji zamiennej nie musi być równa wartości konwersji."
+          }
+        },
+        {
+          "number": 45,
+          "text": "Na rynku, na którym model wyceny aktywów kapitałowych (CAPM) właściwie opisuje stan równowagi rynkowej, posiadasz następujące informacje o rynku oraz akcji spółki ZOTA:\n- oczekiwana roczna stopa zwrotu z rynku: 15%;\n- roczna stopa zwrotu z aktywów wolnych od ryzyka: 8%;\n- współczynnik beta akcji spółki ZOTA: 1,25;\n- oczekiwana roczna stopa zwrotu z tej akcji wynosi: 18%.\nNa podstawie powyższych informacji określ, które z poniższych stwierdzeń jest prawdziwe.",
+          "options": {
+            "A": "akcja spółki ZOTA jest zbyt droga;",
+            "B": "akcja spółki ZOTA jest zbyt tania;",
+            "C": "akcja spółki ZOTA jest wyceniona właściwie z punktu widzenia równowagi rynkowej;",
+            "D": "akcja spółki ZOTA jest akcją uprzywilejowaną względem dywidendy."
+          }
+        },
+        {
+          "number": 46,
+          "text": "Amerykańska spółka gazowa wyemitowała trzyletnie obligacje o wartości nominalnej 1 000 USD. Oprocentowanie wynosi 4%, a płatność kuponu jest kwartalna. Cena w pierwszym dniu okresu odsetkowego wyniosła 950 USD. Wyznacz efektywną roczną rentowność do wykupu (YTM), którą inwestor zrealizuje utrzymując te obligacje do terminu zapadalności.",
+          "options": {
+            "A": "1,46%;",
+            "B": "5,83%;",
+            "C": "5,96%;",
+            "D": "2,91%."
+          }
+        },
+        {
+          "number": 47,
+          "text": "Doradca funduszu zamierza kupić sześciomiesięczny kontrakt walutowy forward USD/PLN. Kurs bieżący (spot) USD/PLN wynosi 4,0015. Rentowności do wykupu (YTM) skarbowych obligacji zerokuponowych o terminie wykupu sześciu miesięcy wynosiły dla obligacji amerykańskich 3,5%, a dla obligacji polskich 4,5%. Przewidywana jest możliwość niespodziewanej obniżki stóp procentowych o 50 pb. przez NBP na odbywającym się w dniu planowanej transakcji posiedzeniu banku. Wyznacz jaki byłby wynik transakcji, gdyby doradca zrealizował kupno kontraktu i w tym samym dniu zrealizował się scenariusz spadku stóp procentowych. Wskaż, która z poniższych odpowiedzi jest najbliższa wynikowi z transakcji.",
+          "options": {
+            "A": "zrealizowałby stratę 0,01 złotych;",
+            "B": "zrealizowałby stratę 0,02 złotych;",
+            "C": "zrealizowałby zysk 0,01 złotych;",
+            "D": "zrealizowałby zysk 0,02 złotych."
+          }
+        },
+        {
+          "number": 48,
+          "text": "Wskaźnik ROA spółki MAKPOL wynosi 15% natomiast jej wskaźnik ROE 25%. Wiedząc, że wartość księgowa jednej akcji wynosi 25 zł a spółka wyemitowała 2 mln akcji, wyznacz ile wynoszą aktywa spółki MAKPOL.",
+          "options": {
+            "A": "54,2 mln zł;",
+            "B": "93,7 mln zł;",
+            "C": "83,3 mln zł;",
+            "D": "73,9 mln zł."
+          }
+        },
+        {
+          "number": 49,
+          "text": "Czterech spośród 12 członków rady nadzorczej spółki JUTA ma zostać losowo wybranych do komitetu mającego wykonać jedno z zadań powierzonych radzie. Której z podanych poniżej wartości jest najbliższe prawdopodobieństwo tego, że w skład komitetu zostanie wybranych 4 najmłodszych członków rady? Załóż, że wśród członków rady nie ma pary osób o identycznym wieku.",
+          "options": {
+            "A": "0,00202;",
+            "B": "0,00312;",
+            "C": "0,00373;",
+            "D": "0,00425."
+          }
+        },
+        {
+          "number": 50,
+          "text": "W swej najbardziej podstawowej formie teoria Elliota głosi, że rynek akcji podlega powtarzającemu się rytmowi:",
+          "options": {
+            "A": "trójfalowego ruchu w górę, po którym następuje trójfalowy spadek;",
+            "B": "czterofalowego ruchu w górę, po którym następuje pięciofalowy spadek;",
+            "C": "pięciofalowego ruchu w górę, po którym następuje trójfalowy spadek;",
+            "D": "sześciofalowego ruchu w górę, po którym następuje czterofalowy spadek."
+          }
+        },
+        {
+          "number": 51,
+          "text": "Analityk ryzyka rynkowego funduszu emerytalnego porównuje ryzyko stopy procentowej dwóch obligacji skarbowych. Pierwsza to obligacja dwuletnia o stałym oprocentowaniu w wysokości 6% wypłacająca odsetki dwa razy do roku. W pierwszym dniu emisji można ją było kupić z rentownością do wykupu (YTM) wynoszącą 5%. Druga obligacja to czteroletnia obligacja o zmiennym oprocentowaniu, a zmiana kuponu jest dokonywana co sześć miesięcy. Która z poniższych wartości jest najbliższa ilorazowi duration pierwszej obligacji i duration drugiej obligacji wyznaczonych przez doradcę w pierwszym dniu emisji.",
+          "options": {
+            "A": "0,48;",
+            "B": "4;",
+            "C": "3,84;",
+            "D": "3,64."
+          }
+        },
+        {
+          "number": 52,
+          "text": "Na podstawie poniższych informacji uzyskanych o czterech portfelach wybranych z badanego rynku określ, który z portfeli na pewno nie leży na granicy efektywnej (efficient frontier), czyli na pewno nie jest portfelem efektywnym.\n\nPortfel K: Oczekiwana stopa zwrotu 12,0%, Odchylenie standardowe 23,0%\nPortfel L: Oczekiwana stopa zwrotu 15,0%, Odchylenie standardowe 18,0%\nPortfel M: Oczekiwana stopa zwrotu 10,0%, Odchylenie standardowe 10,0%\nPortfel N: Oczekiwana stopa zwrotu 20,0%, Odchylenie standardowe 35,0%",
+          "options": {
+            "A": "portfel K;",
+            "B": "portfel L;",
+            "C": "portfel M;",
+            "D": "portfel N."
+          }
+        },
+        {
+          "number": 53,
+          "text": "W portfelu inwestycyjnym o wartości 25 mln zł znajdują się akcje o wartości 20 mln zł i obligacje skarbowe o wartości 5 mln zł. Beta portfela akcji wynosi 0,9. Wartość jednego kontraktu na indeks WIG20 wynosi 50 000 zł. Zarządzający portfelem oczekuje wzrostów na rynku akcji i chce zwiększyć betę portfela do 1,1. Wyznacz ile kontraktów futures na indeks WIG20 musi nabyć zarządzający portfelem aby zwiększyć betę portfela do pożądanej wartości.",
+          "options": {
+            "A": "130;",
+            "B": "190;",
+            "C": "223;",
+            "D": "150."
+          }
+        },
+        {
+          "number": 54,
+          "text": "Na rysunku poniżej przedstawiono japońską formację świecową. Podaj nazwę tej formacji i określ kierunek zmiany rynku, który prognozuje.",
+          "options": {
+            "A": "harami, wzrost;",
+            "B": "krzyż harami, wzrost;",
+            "C": "gwiazda doji, wzrost;",
+            "D": "młot, wzrost."
+          }
+        },
+        {
+          "number": 55,
+          "text": "Wskaż zdanie prawdziwe:",
+          "options": {
+            "A": "Komisja Nadzoru Finansowego przekazuje do publicznej wiadomości istotne informacje, które mogą mieć wpływ na ocenę papierów wartościowych będących przedmiotem oferty publicznej lub ubiegania się o dopuszczenie do obrotu na rynku regulowanym, aby zapewnić inwestorom ochronę lub zapewnić prawidłowe działanie rynku;",
+            "B": "Komisja Nadzoru Finansowego nie posiada uprawnień do przekazywania do publicznej wiadomości informacji, które mogłyby mieć wpływ na ocenę papierów wartościowych będących przedmiotem oferty publicznej lub ubiegania się o dopuszczenie do obrotu na rynku regulowanym;",
+            "C": "Komisja Nadzoru Finansowego przekazuje do publicznej wiadomości każdą informację, która może mieć wpływ na ocenę papierów wartościowych nie będących przedmiotem oferty publicznej, aby zapewnić inwestorom równy dostęp do informacji;",
+            "D": "Komisja Nadzoru Finansowego przekazuje do publicznej wiadomości informacje, które mają wpływ na ocenę każdego instrumentu finansowego, o ile oceni, że takie działanie zapewni inwestorom równy dostęp do informacji."
+          }
+        },
+        {
+          "number": 56,
+          "text": "W poniższym zestawieniu przedstawiono ceny obligacji zerokuponowych skarbu państwa o wartości nominalnej 1000,00 USD:\n\nZapadalność 1 rok: 945,50 USD\nZapadalność 2 lata: 881,68 USD\nZapadalność 3 lata: 816,31 USD\nZapadalność 4 lata: 744,04 USD\n\nNa podstawie powyższych danych określ, której z poniższych wartości jest najbliższa wartość stopy procentowej forward dla roku trzeciego (pomiędzy końcem roku drugiego a końcem roku trzeciego).",
+          "options": {
+            "A": "7,5%;",
+            "B": "8,0%;",
+            "C": "8,5%;",
+            "D": "9,0%."
+          }
+        },
+        {
+          "number": 57,
+          "text": "Czy, zgodnie z przepisami ustawy o ofercie publicznej i warunkach wprowadzania instrumentów finansowych do zorganizowanego systemu obrotu oraz o spółkach publicznych, emitent kwitów depozytowych, dopuszczonych do obrotu na rynku regulowanym na terytorium Rzeczypospolitej Polskiej, jest obowiązany do przekazywania informacji dotyczących własnej sytuacji finansowej lub prawnej?",
+          "options": {
+            "A": "nie;",
+            "B": "tak, o ile mogłaby ona w istotny sposób wpłynąć na możliwość wywiązania się przez niego z obowiązków wynikających z wyemitowania kwitów depozytowych;",
+            "C": "tak, ale jedynie kiedy taka informacja wpłynęła na wywiązanie się przez niego z obowiązków wynikających z wyemitowania kwitów depozytowych;",
+            "D": "tak, o ile o takie informacje wystąpi nabywca kwitów depozytowych."
+          }
+        },
+        {
+          "number": 58,
+          "text": "Czy, w rozumieniu ustawy Prawo bankowe, w banku istotnym mają obowiązek działać komitet do spraw wynagrodzeń oraz komitet do spraw ryzyka?",
+          "options": {
+            "A": "tak;",
+            "B": "taki wymóg dotyczy każdego banku, a nie tylko banku istotnego;",
+            "C": "bank istotny ma obowiązek ustanowić jedynie komitet do spraw wynagrodzeń;",
+            "D": "bank istotny ma obowiązek ustanowić jedynie komitet do spraw ryzyka."
+          }
+        },
+        {
+          "number": 59,
+          "text": "W spółce POLDOM 50% członków zarządu stanowią kobiety. Wiadomo, że 30% członków zarządu otrzymuje najwyższe wynagrodzenia w spółce. Wiedząc, że kobiety pobierające najwyższe wynagrodzenia stanowią 20% zarządu spółki POLDOM, oblicz jakie jest prawdopodobieństwo, że losowo wybrany członek zarządu tej spółki należący do grupy członków pobierających najwyższe wynagrodzenie będzie kobietą.",
+          "options": {
+            "A": "30%;",
+            "B": "10%;",
+            "C": "40%;",
+            "D": "20%."
+          }
+        },
+        {
+          "number": 60,
+          "text": "Które z poniższych zjawisk najlepiej wyjaśnia wklęsłość granicy możliwości produkcyjnych:",
+          "options": {
+            "A": "prawo podaży;",
+            "B": "prawo popytu;",
+            "C": "zasada rosnących kosztów alternatywnych;",
+            "D": "stałe efekty skali produkcji."
+          }
+        }
+      ],
+      "total_questions": 30
+    },
+    {
+      "test_id": 3,
+      "title": "Test 3",
+      "questions": [
+        {
+          "number": 61,
+          "text": "Departament zarządzania ryzykiem funduszu inwestycyjnego analizuje na koniec kwartału parametry ryzyka portfela złożonego ze 100 instrumentów o takich samych wariancjach stopy zwrotu oraz takim samym współczynniku korelacji o wartości 0,2 dla dowolnej pary tych instrumentów. Wyznacz jaki procent wariancji każdego z instrumentów będzie stanowić wariancja portfela o jednakowym udziale każdego ze 100 instrumentów. Wskaż najbliższą odpowiedź:",
+          "options": {
+            "A": "20%;",
+            "B": "21,2%;",
+            "C": "20,8%;",
+            "D": "19,8%."
+          }
+        },
+        {
+          "number": 62,
+          "text": "Analityk norweskiego funduszu emerytalnego dostał zadanie wyceny spółki SIGMA działającej w branży hotelarskiej, której 99% przychodów jest realizowana w Turcji. Spółka jest notowana na tureckiej giełdzie. Na podstawie dostępnych danych o podobnych spółkach prowadzących działalność w Turcji nie był w stanie oszacować kosztu kapitału do wyceny takich spółek. Do wyceny podobnych spółek działających na rynku amerykańskim stosował koszt kapitału w wysokości 9%. Z serwisu informacyjnego pozyskał dane o oczekiwanej inflacji rocznej w US w wysokości 3%, Turcji 42% oraz Norwegii 2,3%. Wyznacz jaki koszt kapitału powinien zastosować do wyceny spółki SIGMA mając do dyspozycji powyższe dane. Wskaż najbliższą odpowiedź:",
+          "options": {
+            "A": "50,3%;",
+            "B": "51,3%;",
+            "C": "9,7%%;",
+            "D": "8,3%."
+          }
+        },
+        {
+          "number": 63,
+          "text": "Spółka wypłaciła w ostatnim roku dywidendę 10 złotych na akcję i zakładany wzrost do nieskończoności wynosi 5%. Stopa wolna od ryzyka wynosi 4%, beta jest równa 1, a premia za ryzyko rynkowe wynosi 6%. Które z poniższych twierdzeń dotyczące wrażliwości wyceny akcji spółki jest prawdziwe:",
+          "options": {
+            "A": "podniesienie stopy wzrostu dywidendy o 1 punkt procentowy ma większy wpływ na wycenę akcji spółki niż wpływ wzrostu premii za ryzyko rynkowe o 1 punkt procentowy;",
+            "B": "podniesienie stopy wzrostu dywidendy o 1 punkt procentowy ma mniejszy wpływ na wycenę akcji spółki niż wpływ wzrostu premii za ryzyko rynkowe o 1 punkt procentowy;",
+            "C": "podniesienie stopy wzrostu dywidendy o 1 punkt procentowy ma taki sam wpływ na wycenę akcji spółki jak wpływ wzrostu premii za ryzyko rynkowe o 1 punkt procentowy;",
+            "D": "zarówno podniesienie stopy dywidendy o 1 punkt procentowy, jak i wzrost premii za ryzyko rynkowe o 1pp nie mają wpływu na wycenę akcji spółki."
+          }
+        },
+        {
+          "number": 64,
+          "text": "Dla wyznaczenia stosowanej w ramach analizy technicznej kategorii impetu należy:",
+          "options": {
+            "A": "odjąć cenę zamknięcia sprzed x dni od ostatniej ceny zamknięcia;",
+            "B": "odjąć ostatnią cenę zamknięcia od ceny zamknięcia sprzed x dni;",
+            "C": "pomnożyć ostatnią cenę zamknięcia przez cenę zamknięcia sprzed x dni;",
+            "D": "podzielić cenę zamknięcia sprzed x dni przez ostatnią cenę zamknięcia."
+          }
+        },
+        {
+          "number": 65,
+          "text": "Cena rocznej europejskiej opcji kupna akcji spółki LUNA o cenie wykonania 60 USD wynosi 5,20 USD. Obecna cena akcji LUNA wynosi 60 USD, zaś w okresie ważności opcji spółka wypłaci dywidendę, której wartość bieżąca szacowana jest na 1,10 USD. Na podstawie powyższych informacji wskaż, której z wymienionych poniżej wartości jest najbliższa wartość rocznej europejskiej opcji sprzedaży akcji spółki LUNA o cenie wykonania 60 USD, jeżeli wolna od ryzyka stopa procentowa wynosi 6% w skali roku (kapitalizacja ciągła), zaś rynek znajduje się w stanie równowagi opisanej przez parytet opcji sprzedaży i kupna (put-call parity).",
+          "options": {
+            "A": "1,71 USD;",
+            "B": "2,81 USD;",
+            "C": "3,91 USD;",
+            "D": "4,01 USD."
+          }
+        },
+        {
+          "number": 66,
+          "text": "Analityk sporządza wycenę akcji Spółki notowanej na giełdzie specjalizującej się w wydobyciu i przetwarzaniu miedzi. Z analizy czynników rynkowych i finansowych, oszacował, że rentowność dziesięcioletniej obligacji zerokuponowych na rynku wynosi 5%, oszacowany współczynnik beta 1,2 i premia za ryzyko rynkowe 5%. Koszt długu analityk szacuje na 6%, a stopa podatkowa wynosi 20%. Wskaźnik długu (dług/aktywa) na podstawie ostatniego sprawozdania finansowego analityk oszacował na 60%. Uwzględniając czynniki niefinansowe ESG związane z wymaganiami uzyskania licencji i potencjalnymi karami środowiskowymi uznał, że koszt kapitału własnego powinien zostać podwyższony o 75 pb. Oblicz WACC spółki w podejściu integrującym czynniki ESG do wyceny i spośród poniższych odpowiedzi wskaż najbliższą wartość:",
+          "options": {
+            "A": "7,9%;",
+            "B": "6,2%;",
+            "C": "6,8%;",
+            "D": "7,6%."
+          }
+        },
+        {
+          "number": 67,
+          "text": "Zgodnie z MSSF 10 \"Skonsolidowane sprawozdania finansowe\", zatwierdzonym przez UE, \"grupa kapitałowa\" to:",
+          "options": {
+            "A": "jednostka dominująca i jej jednostki zależne;",
+            "B": "jednostka dominująca oraz jej jednostki zależne, jednostki stowarzyszone i wspólne przedsięwzięcia;",
+            "C": "znaczący inwestor i jego jednostki stowarzyszone;",
+            "D": "znaczący inwestor oraz jego jednostki zależne i jednostki stowarzyszone."
+          }
+        },
+        {
+          "number": 68,
+          "text": "Mając do dyspozycji poniższe charakterystyki czterech obligacji, wyznacz trzyletnią stopę terminową za rok. Podaj najbliższą wartość.\n\nDługość do terminu wykupu 1 rok: Stopa spot 5%\nDługość do terminu wykupu 2 lata: Stopa spot 5,257%\nDługość do terminu wykupu 3 lata: Stopa spot 5,519%\nDługość do terminu wykupu 4 lata: Stopa spot 5,732%",
+          "options": {
+            "A": "5,98%;",
+            "B": "5,66%;",
+            "C": "5,88%;",
+            "D": "5,74%."
+          }
+        },
+        {
+          "number": 69,
+          "text": "Obrót zorganizowany, w rozumieniu ustawy o obrocie instrumentami finansowymi, to:",
+          "options": {
+            "A": "obrót wyłącznie papierami wartościowymi dokonywany na terytorium Rzeczypospolitej Polskiej na rynku regulowanym albo w ASO;",
+            "B": "obrót instrumentami finansowymi innymi niż papiery wartościowe dokonywany na terytorium Rzeczypospolitej Polskiej wyłącznie na rynku regulowanym;",
+            "C": "obrót wyłącznie papierami wartościowymi dokonywany na terytorium Unii Europejskiej na rynku regulowanym;",
+            "D": "obrót papierami wartościowymi lub innymi instrumentami finansowymi dokonywany na terytorium Rzeczypospolitej Polskiej na rynku regulowanym albo w ASO."
+          }
+        },
+        {
+          "number": 70,
+          "text": "Zgodnie z oczekiwaniami inwestorów spółka TATRA za rok od dnia dzisiejszego wypłaci dywidendę na akcję w wysokości 7,00 zł. W przyszłości spodziewany jest stały wzrost dywidendy w tempie 5% rocznie (\"do nieskończoności\"). Roczna stopa zwrotu z aktywów wolnych od ryzyka wynosi 6%, zaś oczekiwana roczna stopa zwrotu z portfela rynkowego 13%. Na podstawie powyższych danych, wiedząc że dzisiejsza cena akcji spółki TATRA wynosi 70,0 zł określ, której z wymienionych poniżej wartości jest najbliższa wartość współczynnika beta tej akcji.",
+          "options": {
+            "A": "0,95;",
+            "B": "1,18;",
+            "C": "1,21;",
+            "D": "1,29."
+          }
+        },
+        {
+          "number": 71,
+          "text": "Dwuczynnikowa funkcja produkcji ma postać q = KL; gdzie: q - wielkość produkcji; K - nakład kapitału rzeczowego; L - nakład siły roboczej. Która z poniższych wypowiedzi poprawnie charakteryzuje wskazaną funkcję produkcji:",
+          "options": {
+            "A": "podana funkcja produkcji cechuje się stałymi efektami skali;",
+            "B": "podana funkcja produkcji ma postać funkcji Cobba-Douglasa;",
+            "C": "podwojenie nakładów obu czynników produkcji wywoła wzrost q, ale mniejszy niż jej podwojenie;",
+            "D": "podana funkcja opisuje proces produkcji w krótkim okresie."
+          }
+        },
+        {
+          "number": 72,
+          "text": "Która z wymienionych poniżej europejskich opcji kupna wystawionych na akcje spółek, które nie wypłacają dywidend, jest opcją wystawioną na akcję o najniższej rynkowej cenie. Załóż, że roczna stopa zwrotu z aktywów wolnych od ryzyka wynosi 5%, zaś rynek jest efektywny.\n\nOpcja E: Czas do wygaśnięcia 0,5; Cena wykonania 50; Odch. std stopy zwrotu 20%; Cena opcji 10\nOpcja F: Czas do wygaśnięcia 0,5; Cena wykonania 50; Odch. std stopy zwrotu 25%; Cena opcji 10\nOpcja G: Czas do wygaśnięcia 1,0; Cena wykonania 50; Odch. std stopy zwrotu 20%; Cena opcji 10\nOpcja H: Czas do wygaśnięcia 1,0; Cena wykonania 50; Odch. std stopy zwrotu 25%; Cena opcji 10",
+          "options": {
+            "A": "opcja E;",
+            "B": "opcja F;",
+            "C": "opcja G;",
+            "D": "opcja H."
+          }
+        },
+        {
+          "number": 73,
+          "text": "Wskaż produkt, który nie jest \"produktem finansowym\" w rozumieniu Rozporządzenia Parlamentu i Rady (UE) 2019/2088 z dnia 27 listopada 2019 r. w sprawie ujawniania informacji związanych ze zrównoważonym rozwojem w sektorze usług finansowych (zwanym też: SFDR):",
+          "options": {
+            "A": "produkt emerytalny;",
+            "B": "program emerytalny;",
+            "C": "UCITS;",
+            "D": "kredyt hipoteczny."
+          }
+        },
+        {
+          "number": 74,
+          "text": "Wskaż gdzie, zgodnie z Rozporządzeniem Parlamentu i Rady (UE) 2019/2088 z dnia 27 listopada 2019 r. w sprawie ujawniania informacji związanych ze zrównoważonym rozwojem w sektorze usług finansowych (zwanym też: SFDR), uczestnicy rynku finansowego powinni publikować informacje na temat swoich strategii dotyczących wprowadzania do działalności ryzyk dla zrównoważonego rozwoju w procesie podejmowania decyzji inwestycyjnych.",
+          "options": {
+            "A": "na swoich stronach internetowych;",
+            "B": "w sprawozdaniu finansowym;",
+            "C": "w raporcie dla zarządu;",
+            "D": "w raporcie dla rady nadzorczej."
+          }
+        },
+        {
+          "number": 75,
+          "text": "Na rynku są notowane dwie skarbowe obligacje zerokuponowe. Pierwsza obligacja o terminie wykupu trzech lat, druga ma okres zapadalności o jeden rok krótszy. Rentowność do wykupu pierwszej obligacji (YTM yield to maturity) wynosi 5,5%, a obligacji dwuletniej 5%. Obsługujące klienta biuro maklerskie umożliwia mu kupno cząstkowych obligacji dzięki czemu może zainwestować taką samą kwotę kapitału zarówno w obligacje zerokuponowe dwuletnie, jak i trzyletnie. Wyznacz i wskaż przy jakiej rocznej stopie procentowej za dwa lata inwestor uzyskałby większy kapitał na koniec trzeciego roku z reinwestowania środków z wykupu obligacji dwuletnich niż z inwestycji w obligacje trzyletnie.",
+          "options": {
+            "A": "wyższej niż 6,5%;",
+            "B": "równej 6%;",
+            "C": "niższej niż 6,4%;",
+            "D": "wyższej niż 5,5%, ale niższej niż 6%."
+          }
+        },
+        {
+          "number": 76,
+          "text": "Rozważasz zainwestowanie łącznie 10 000 zł w aktywa wolne od ryzyka o rocznej stopie zwrotu 5% oraz portfel P. Portfel P składa się w 60% z akcji spółki Zeta i w 40% z akcji spółki Greta. Oczekiwana roczna stopa zwrotu z akcji spółki Zeta wynosi 14%, zaś odchylenie standardowe jej stopy zwrotu 10%. Oczekiwana roczna stopa zwrotu z akcji spółki Greta wynosi 10%, zaś odchylenie standardowe jej stopy zwrotu 9%. Chciałbyś zainwestować posiadane środki w aktywa wolne od ryzyka oraz w portfel P w taki sposób, aby oczekiwana roczna stopa zwrotu z takiej inwestycji wyniosła 10%. Na podstawie powyższych informacji określ, której z poniższych wartości jest najbliższy udział akcji spółki Greta w takiej inwestycji (w portfelu złożonym z aktywów wolnych od ryzyka oraz portfela P).",
+          "options": {
+            "A": "25%;",
+            "B": "27%;",
+            "C": "31%;",
+            "D": "33%."
+          }
+        },
+        {
+          "number": 77,
+          "text": "Na podstawie ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi wskaż definicję alternatywnego funduszu inwestycyjnego:",
+          "options": {
+            "A": "jest to instytucja wspólnego inwestowania, której przedmiotem działalności, w tym w ramach wydzielonego subfunduszu, jest zbieranie aktywów od wielu inwestorów w celu ich lokowania w interesie tych inwestorów zgodnie z określoną polityką inwestycyjną, niebędąca funduszem działającym zgodnie z prawem wspólnotowym regulującym zasady zbiorowego inwestowania w papiery wartościowe;",
+            "B": "jest to instytucja wspólnego inwestowania, której przedmiotem działalności, jest zbieranie aktywów od wielu inwestorów w celu ich lokowania zgodnie z określoną polityką inwestycyjną, będąca funduszem działającym zgodnie z prawem wspólnotowym regulującym zasady zbiorowego inwestowania w papiery wartościowe;",
+            "C": "jest to instytucja wspólnego inwestowania, której przedmiotem działalności, w tym w ramach wydzielonego subfunduszu, jest zbieranie aktywów od 150 inwestorów w celu ich lokowania w interesie tych inwestorów, będąca funduszem działającym zgodnie z prawem wspólnotowym regulującym zasady zbiorowego inwestowania w papiery wartościowe;",
+            "D": "jest to instytucja wspólnego inwestowania, której przedmiotem działalności, w tym w ramach wydzielonego subfunduszu, jest zbieranie aktywów od 150 inwestorów w celu ich lokowania w interesie tych inwestorów zgodnie z określoną polityką inwestycyjną, będąca funduszem."
+          }
+        },
+        {
+          "number": 78,
+          "text": "Bank udzielił kredytu w wysokości 500 000 zł, który jest spłacany w 100 równych kwartalnych ratach. Oprocentowanie kredytu wynosi 6% w skali roku. Na podstawie powyższych danych oblicz różnicę pomiędzy 56 a 55 ratą kapitałową tego kredytu. Podaj najbliższą wartość.",
+          "options": {
+            "A": "73,24;",
+            "B": "123,73;",
+            "C": "83,12;",
+            "D": "62,45."
+          }
+        },
+        {
+          "number": 79,
+          "text": "Średni ważony koszt kapitału spółki zadłużonej jest równy 13%. Dług tej spółki stanowi 60% wartości spółki. Korzystając z modelu Millera-Modiglianiego oblicz szacunkowy koszt kapitału własnego tej spółki, gdyby w całości finansowana była kapitałem własnym. Przyjmij, że stopa podatku od dochodów spółki wynosi 20%. Podaj najbliższą wartość.",
+          "options": {
+            "A": "15,2%;",
+            "B": "13,9%;",
+            "C": "14,3%;",
+            "D": "14,8%."
+          }
+        },
+        {
+          "number": 80,
+          "text": "Czy, zgodnie z przepisami ustawy o ofercie publicznej i warunkach wprowadzania instrumentów finansowych do zorganizowanego systemu obrotu oraz o spółkach publicznych, dostawca usług finansowania społecznościowego ma obowiązek przekazania Komisji Nadzoru Finansowego arkusz kluczowych informacji inwestycyjnych?",
+          "options": {
+            "A": "nie;",
+            "B": "tak, w terminie na co najmniej 7 dni roboczych przed dniem udostępnienia arkusza kluczowych informacji inwestycyjnych do publicznej wiadomości;",
+            "C": "tak, w terminie na co najmniej 5 dni roboczych przed dniem udostępnienia arkusza kluczowych informacji inwestycyjnych do publicznej wiadomości;",
+            "D": "tak, w terminie na co najmniej 10 dni roboczych przed dniem udostępnienia arkusza kluczowych informacji inwestycyjnych do publicznej wiadomości."
+          }
+        },
+        {
+          "number": 81,
+          "text": "Wskaż błędną wypowiedź dotyczącą rozpiętości opcyjnej (option-adjusted spread) obligacji z opcjami dodatkowymi:",
+          "options": {
+            "A": "jest to różnica pomiędzy ceną rynkową a wartością analizowanego instrumentu dłużnego;",
+            "B": "najczęściej jest obliczana w odniesieniu do natychmiastowej stopy procentowej;",
+            "C": "jest niezależna od zakładanego poziomu zmienności stóp procentowych;",
+            "D": "jej wartość powiększona o wartość opcji (w punktach bazowych) równa jest rozpiętości statycznej."
+          }
+        },
+        {
+          "number": 82,
+          "text": "Zgodnie z MSR 8 \"Zasady (polityka) rachunkowości, zmiany wartości szacunkowych i korygowanie błędów\", zatwierdzonym przez UE, prawdą jest, że:",
+          "options": {
+            "A": "zmiana wartości szacunkowej, w wyniku pojawienia się nowych informacji lub nowych zdarzeń bądź zdobycia większego doświadczenia, stanowi korektę błędu;",
+            "B": "przykładowymi wartościami szacunkowymi są: odpis na oczekiwane straty kredytowe w zastosowaniu MSSF 9 \"Instrumenty finansowe\" i możliwa do uzyskania wartość netto składnika zapasów w zastosowaniu MSR 2 \"Zapasy\";",
+            "C": "koszt amortyzacji pozycji rzeczowych aktywów trwałych w zastosowaniu MSR 16 \"Rzeczowe aktywa trwałe\" nie stanowi przykładu wartości szacunkowej;",
+            "D": "w przypadku trudności w odróżnieniu zmiany zasad (polityki) rachunkowości od zmiany wartości szacunkowej, zmianę traktuje się jako zmianę zasad (polityki) rachunkowości."
+          }
+        },
+        {
+          "number": 83,
+          "text": "Analityk biura inwestycyjnego bada wrażliwość zmiany ceny obligacji w scenariuszach wzrostu i spadku stóp procentowych. Analizuje obligację czteroletną, o stałym oprocentowaniu, kuponie wypłacanym raz w roku i wartości nominalnej 1 000 złotych. Obligacja jest bez opcji wcześniejszego wykupu (call option). Z serwisu informacyjnego wie, że przy bieżącej cenie obligacji równej 1 020 złotych rentowność do wykupu (YTM) wynosi 5%. Wskaż, które z poniższych stwierdzeń dotyczących zmiany ceny obligacji przy zmianie rentowności do wykupu o 100 pb w górę lub w dół jest prawdziwe:",
+          "options": {
+            "A": "cena obligacji w przypadku wzrostu rentowności do wykupu spadnie mniej niż wzrost ceny w przypadku spadku rentowności do wykupu;",
+            "B": "cena obligacji w przypadku wzrostu rentowności do wykupu spadnie dokładnie tyle samo co wzrost ceny w przypadku spadku rentowności do wykupu;",
+            "C": "cena obligacji w przypadku wzrostu rentowności do wykupu spadnie więcej niż wzrost ceny w przypadku spadku rentowności do wykupu;",
+            "D": "na podstawie danych podanych w zadaniu nie można porównać zmian ceny obligacji przy zmianie rentowności do wykupu."
+          }
+        },
+        {
+          "number": 84,
+          "text": "Której z wymienionych poniżej wartości jest najbliższa wartość współczynnika delta rocznej europejskiej opcji kupna akcji niewypłacającej dywidendy, jeżeli wolna od ryzyka roczna stopa procentowa wynosi 6 procent (kapitalizacja ciągła), zmienność ceny akcji (mierzona w sposób uwzględniony w modelu Blacka-Scholesa) wynosi 30 procent w skali roku, zaś opcja jest at-the-money?",
+          "options": {
+            "A": "0,43;",
+            "B": "0,52;",
+            "C": "0,64;",
+            "D": "0,71."
+          }
+        },
+        {
+          "number": 85,
+          "text": "Krańcowy produkt siły roboczej (marginal product of labour, MPL) to:",
+          "options": {
+            "A": "wielkość produkcji przypadająca na jednostkę siły roboczej;",
+            "B": "dodatkowa wielkość produkcji wytworzona po zatrudnieniu dodatkowej jednostki siły roboczej, przy założeniu zmienności pozostałych nakładów czynników produkcji;",
+            "C": "dodatkowa wielkość produkcji wytworzona po zatrudnieniu dodatkowej jednostki siły roboczej, przy założeniu stałości pozostałych nakładów czynników produkcji;",
+            "D": "dodatkowa wielkość produkcji wytworzona po zatrudnieniu dodatkowej jednostki kapitału rzeczowego, przy założeniu stałości nakładów siły roboczej."
+          }
+        },
+        {
+          "number": 86,
+          "text": "Rezerwy obowiązkowe (naliczane jako pewna część zgromadzonych przez banki środków pieniężnych) gromadzone przez bank centralny:",
+          "options": {
+            "A": "nie mogą być źródłem przychodów odsetkowych banków, które utrzymują rezerwy;",
+            "B": "są ustalane na podstawie wartości wszystkich zgromadzonych przez bank środków pieniężnych;",
+            "C": "są ustalane z zastosowaniem stopy rezerw równej dla każdej kwoty zgromadzonych przez bank środków pieniężnych;",
+            "D": "mogą być utrzymywane okresowo na poziomie równym zero."
+          }
+        },
+        {
+          "number": 87,
+          "text": "Wskaż niepoprawne stwierdzenie związane z makroekonomicznym modelem IS-LM:",
+          "options": {
+            "A": "jest to model małej gospodarki otwartej;",
+            "B": "jest to model mogący ilustrować skutki ekspansywnej polityki pieniężnej;",
+            "C": "jest to model mogący ilustrować skutki restrykcyjnej polityki fiskalnej;",
+            "D": "krzywa LM z reguły nie ma negatywnego nachylenia."
+          }
+        },
+        {
+          "number": 88,
+          "text": "Zgodnie z MSR 38 \"Wartości niematerialne\", zatwierdzonym przez UE, prawdą jest, że:",
+          "options": {
+            "A": "do przykładów prac badawczych zalicza się projektowanie, wykonanie i testowanie wybranych rozwiązań w zakresie nowych lub udoskonalonych produktów, procesów, systemów lub usług;",
+            "B": "nakłady poniesione przez jednostkę na prace badawcze ujmuje się jako składnik wartości niematerialnych;",
+            "C": "nie ujmuje się jako składnika aktywów wartości firmy wytworzonej przez jednostkę;",
+            "D": "nakłady na wytworzone przez jednostkę we własnym zakresie marki ujmuje się jako składnik wartości niematerialnych."
+          }
+        },
+        {
+          "number": 89,
+          "text": "Spółka VEGA wyemitowała 1 mln akcji. Wiedząc, że wskaźnik zadłużenia ogólnego (kapitał obcy/aktywa ogółem) wynosi 0,5, wskaźnik ROA (zysk netto/aktywa ogółem) jest równy 10% a wartość wskaźnika P/E (cena/zysk netto) wynosi 11,17, wyznacz wartość wskaźnika P/BV (cena/wartości księgowej) spółki VEGA.",
+          "options": {
+            "A": "4,14;",
+            "B": "2,23;",
+            "C": "5,11;",
+            "D": "3,65."
+          }
+        },
+        {
+          "number": 90,
+          "text": "W pewnym kraju przeprowadzono reprezentacyjne badanie dotyczące preferencji wyborczych związanych z nadchodzącą II turą wyborów prezydenckich, w której wystartuje dwóch kandydatów. Na podstawie uzyskanych wyników pracownia przeprowadzająca badanie opublikowała raport pokazujący strukturę populacji uprawnionej do głosowania w podziale wg nazwiska popieranego kandydata. Pracownia zaznaczyła, że wykorzystała pewien test statystyczny. Wskaż stwierdzenie, które można uznać za poprawne zakładając prawidłowość wykonania przedstawionego badania:",
+          "options": {
+            "A": "raport prezentuje wyniki testu nieparametrycznego;",
+            "B": "raport prezentuje wyniki jednostronnego testu statystycznego dla jednej frakcji;",
+            "C": "pracownia podała w raporcie liczebność badanej próby i przyjęty błąd (w liczbie możliwych do oddania głosów);",
+            "D": "raport prezentuje wyniki jednostronnego testu statystycznego dla dwóch frakcji."
+          }
+        }
+      ],
+      "total_questions": 30
+    },
+    {
+      "test_id": 4,
+      "title": "Test 4",
+      "questions": [
+        {
+          "number": 91,
+          "text": "Zgodnie z ustawą o rachunkowości, prawdą jest, że:",
+          "options": {
+            "A": "jeżeli założenie kontynuacji działalności nie jest zasadne, to wycena aktywów jednostki następuje, w każdym przypadku, po cenach ich nabycia albo kosztach wytworzenia;",
+            "B": "jeżeli założenie kontynuacji działalności nie jest zasadne, to wycena aktywów jednostki następuje, w każdym przypadku, po cenach sprzedaży netto możliwych do uzyskania;",
+            "C": "otwarcie postępowania restrukturyzacyjnego nie stanowi przeszkody do uznania, że działalność jednostki będzie kontynuowana;",
+            "D": "zmiana formy prawnej jednostki, w każdym przypadku oznacza, że założenie kontynuacji działalności nie jest zasadne."
+          }
+        },
+        {
+          "number": 92,
+          "text": "W skład bieżących transferów pieniężnych uwzględnionych w rachunkach narodowych wchodzą:",
+          "options": {
+            "A": "płatności związane z nabywaniem przez gospodarstwa domowe dóbr i usług;",
+            "B": "płatności i świadczenia w naturze związane z nabywaniem przez gospodarstwa domowe dóbr i usług;",
+            "C": "podatki dochodowe;",
+            "D": "żadne z powyższych."
+          }
+        },
+        {
+          "number": 93,
+          "text": "Organami Urzędu Komisji Nadzoru Finansowego są:",
+          "options": {
+            "A": "Komisja Nadzoru Finansowego i Przewodniczący Komisji Nadzoru Finansowego;",
+            "B": "wyłącznie Komisja Nadzoru Finansowego;",
+            "C": "wyłącznie Przewodniczący Komisji Nadzoru Finansowego;",
+            "D": "Urząd Komisji Nadzoru Finansowego nie posiada swoich organów."
+          }
+        },
+        {
+          "number": 94,
+          "text": "Jeżeli z modelu regresji wielorakiej usuniemy jedną ze zmiennych, wówczas skorygowany współczynnik determinacji:",
+          "options": {
+            "A": "może ulec podwyższeniu;",
+            "B": "na pewno ulegnie obniżeniu albo pozostanie bez zmian, lecz nie ulegnie podwyższeniu;",
+            "C": "na pewno ulegnie podwyższeniu albo pozostanie bez zmian, lecz nie ulegnie obniżeniu;",
+            "D": "na pewno ulegnie obniżeniu."
+          }
+        },
+        {
+          "number": 95,
+          "text": "Teoretyczna wartość rocznego kontraktu forward na akcje spółki Z wynosi 110 zł. Przyjmując, że wolna od ryzyka stopa procentowa (kapitalizowana w sposób ciągły) jest równa 10% w skali roku, aktualna cena akcji spółki Z wynosi 100 zł, a spółka wypłaca corocznie dywidendę, oblicz i podaj wartość najbliższej dywidendy gotówkowej płatnej na koniec roku.",
+          "options": {
+            "A": "0,47;",
+            "B": "0,52;",
+            "C": "0,65;",
+            "D": "0,44."
+          }
+        },
+        {
+          "number": 96,
+          "text": "Zgodnie z ustawą o rachunkowości, skonsolidowane sprawozdania finansowe banków:",
+          "options": {
+            "A": "sporządza się zgodnie z MSR;",
+            "B": "mogą być sporządzane zgodnie z MSR, jeżeli organ zatwierdzający banku tak postanowi;",
+            "C": "mogą być sporządzane zgodnie z MSR, jeżeli organ nadzorujący banku tak postanowi;",
+            "D": "mogą być sporządzane zgodnie z MSR, jeżeli organ zarządzający banku tak postanowi."
+          }
+        },
+        {
+          "number": 97,
+          "text": "Polskie przedsiębiorstwo sprzedało duńskiemu nabywcy uprawnienie do emisji CO2. Uzyskane z tego tytułu przychody:",
+          "options": {
+            "A": "nie będą odnotowane w polskim bilansie płatniczym;",
+            "B": "będą odnotowane w przychodach polskiego rachunku kapitałowego bilansu płatniczego;",
+            "C": "będą odnotowane w rozchodach polskiego rachunku kapitałowego bilansu płatniczego;",
+            "D": "będą odnotowane jako przychody z tytułu eksportu usług na rachunku bieżącym polskiego bilansu płatniczego."
+          }
+        },
+        {
+          "number": 98,
+          "text": "Zdywersyfikowany portfel składa się z akcji trzech spółek, których dane podano w tabeli poniżej. Na postawie modelu CAPM oszacuj oczekiwaną stopę zwrotu z tego portfela. Przyjmij, że oczekiwana rynkowa stopa zwrotu wynosi 12%, a stopa wolna od ryzyka 6%. Podaj najbliższą wartość.\n\nSpółka A: Cena 20, Liczba akcji 1 200, Beta 0,90\nSpółka B: Cena 15, Liczba akcji 2 000, Beta 1,05\nSpółka C: Cena 5, Liczba akcji 4 000, Beta 1,25",
+          "options": {
+            "A": "11,99%;",
+            "B": "12,54%;",
+            "C": "12,07%;",
+            "D": "12,33%."
+          }
+        },
+        {
+          "number": 99,
+          "text": "Zarządzający portfelem akcji zidentyfikował, że korelacja między głównymi składnikami portfela zależy od stanu koniunktury. W okresach ujemnych stóp zwrotu korelacja rosła. Zakładając, że wagi w portfelu tych akcji oraz odchylenia standardowe stóp zwrotu tych akcji się nie zmieniły wskaż, które z poniższych stwierdzeń prawidłowo opisuje, jak zachowa się zmienność portfela mierzona odchyleniem standardowym w okresie dekoniunktury giełdowej:",
+          "options": {
+            "A": "zmienność portfela wzrośnie;",
+            "B": "zmienność portfela spadnie;",
+            "C": "zmienność portfela nie zmieni się;",
+            "D": "zmienność portfela spadnie o połowę."
+          }
+        },
+        {
+          "number": 100,
+          "text": "Wskaż zdanie prawdziwe. Obrotem wtórnym, w rozumieniu ustawy o obrocie instrumentami finansowymi, jest m.in. proponowanie:",
+          "options": {
+            "A": "w dowolny sposób, przez podmiot inny niż wystawca, nabycia każdego rodzaju instrumentów finansowych lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 200 osób, a przepis nie odnosi się w żaden sposób do formy proponowania;",
+            "B": "w dowolnej formie i w dowolny sposób, przez podmiot inny niż wystawca, nabycia instrumentów finansowych będących papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 200 osób lub do nieoznaczonego adresata;",
+            "C": "w dowolnej formie i w dowolny sposób, przez podmiot inny niż wystawca, nabycia instrumentów finansowych niebędących papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 150 osób lub do nieoznaczonego adresata;",
+            "D": "w formie elektronicznej, przez podmiot inny niż wystawca, nabycia instrumentów finansowych będących papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 150 osób lub do nieoznaczonego adresata."
+          }
+        },
+        {
+          "number": 101,
+          "text": "Roczna wartość sprzedaży w przedsiębiorstwie Y wynosi 5 mln zł. W ciągu roku przedsiębiorstwo poniosło stałe koszty w wysokości 1,5 mln zł i koszty zmienne w wysokości 3 mln zł. Na podstawie powyższych danych wyznacz procentowy wskaźnik bezpieczeństwa operacyjnego (marżę bezpieczeństwa).",
+          "options": {
+            "A": "25%;",
+            "B": "14%;",
+            "C": "33%;",
+            "D": "41%."
+          }
+        },
+        {
+          "number": 102,
+          "text": "Wskaż kategorię podmiotu, który nie jest wymieniony w Rozporządzeniu Parlamentu i Rady (UE) 2019/2088 z dnia 27 listopada 2019 r. w sprawie ujawniania informacji związanych ze zrównoważonym rozwojem w sektorze usług finansowych (zwanym też: SFDR) jako \"uczestnik rynku finansowego\":",
+          "options": {
+            "A": "zakład ubezpieczeń, który udostępnia ubezpieczeniowy produkt inwestycyjny;",
+            "B": "firma inwestycyjna, która świadczy usługi zarządzania portfelem;",
+            "C": "instytucja pracowniczych programów emerytalnych (IORP);",
+            "D": "bank, który nie świadczy usługi zarządzania portfelem."
+          }
+        },
+        {
+          "number": 103,
+          "text": "Wykorzystując dane dotyczące czterech projektów inwestycyjnych i stosując jako kryterium oceny metodę NPV wskaż, który projekt jest najlepszy. Do wyliczeń przyjmij wymaganą stopę zwrotu w wysokości 12%.\n\nProjekt A: CF0=-1000, CF1=300, CF2=300, CF3=300, CF4=300, CF5=300\nProjekt B: CF0=-2000, CF1=700, CF2=700, CF3=700, CF4=700, CF5=700\nProjekt C: CF0=-500, CF1=200, CF2=200, CF3=200, CF4=200, CF5=200\nProjekt D: CF0=-1500, CF1=400, CF2=400, CF3=400, CF4=400, CF5=400",
+          "options": {
+            "A": "Projekt A;",
+            "B": "Projekt B;",
+            "C": "Projekt C;",
+            "D": "Projekt D."
+          }
+        },
+        {
+          "number": 104,
+          "text": "Wartość dziennej sprzedaży spółki FURA dokonywanej na zasadzie kredytu kupieckiego wynosi 50 000 zł, zaś średni okres spłaty należności wynosi 30 dni. O ile procent zwiększy się kwota należności spółki FURA, jeżeli średnia dzienna sprzedaż tej spółki zwiększy się do 60 000 zł, zaś średni okres spłaty należności wzrośnie do 40 dni? Wskaż najbliższą wartość.",
+          "options": {
+            "A": "55%;",
+            "B": "60%;",
+            "C": "65%;",
+            "D": "68%."
+          }
+        },
+        {
+          "number": 105,
+          "text": "Załóżmy, że przez okres 10 lat średnia roczna stopa zwrotu (łącznie z dywidendami) z portfela zagregowanego rynku wyniosła 10%, a średnia roczna stopa zwrotu z aktywów wolnych od ryzyka 6%. Korzystając z poniższych danych z tego samego okresu (10 lat) o trzech różnych portfelach, w oparciu o wskaźnik Treynora wskaż, który portfel jest najlepszy.\n\nPortfel W: Średni roczny zwrot 12%, Beta 0,90\nPortfel S: Średni roczny zwrot 13%, Beta 1,05\nPortfel T: Średni roczny zwrot 14%, Beta 1,20",
+          "options": {
+            "A": "portfel T;",
+            "B": "portfel W;",
+            "C": "wszystkie portfele uzyskały identyczną wartość wskaźnika Treynora;",
+            "D": "portfel S."
+          }
+        },
+        {
+          "number": 106,
+          "text": "Obliczenie produktu krajowego brutto (PKB):",
+          "options": {
+            "A": "jest możliwe tylko w bieżących cenach rynkowych;",
+            "B": "jest możliwe tylko w skali całego państwa;",
+            "C": "odbywa się tylko w ujęciu rocznym;",
+            "D": "podlega regulacjom prawnym, w tym standardom ustanowionym przez ONZ i Unię Europejską."
+          }
+        },
+        {
+          "number": 107,
+          "text": "Podaj na czym polega opcyjna strategia call ratio spread.",
+          "options": {
+            "A": "na wystawieniu opcji call z niższą ceną wykonania i zakupie dwóch opcji call z wyższą ceną wykonania;",
+            "B": "na zakupie opcji call z niższą ceną wykonania i wystawieniu opcji call z wyższą ceną wykonania;",
+            "C": "na zakupie dwóch opcji call i jednej opcji put z tą samą (lub różnymi) cenami wykonania;",
+            "D": "na zakupie opcji call z niższą ceną wykonania i wystawieniu dwóch opcji call z wyższą ceną wykonania."
+          }
+        },
+        {
+          "number": 108,
+          "text": "Obligacja o okresie do wykupu 5 lat ma wartość nominalną 100,00 oraz kupon 8% rocznie płatny raz do roku (na koniec roku). Jej cena początkowa wynosi 100,00 (przy YTM 8%). Na podstawie powyższych danych określ, której z poniżej wymienionych wartości jest najbliższa cenowa wartość punktu bazowego tej obligacji.",
+          "options": {
+            "A": "0,3992;",
+            "B": "0,0671;",
+            "C": "0,0399;",
+            "D": "0,0126."
+          }
+        },
+        {
+          "number": 109,
+          "text": "Analityk z zespołu zarządzającego funduszem emerytalnym przygotowuje wycenę spółki posiadającej pozycję lidera na lokalnym rynku e-commerce. Z opublikowanych historycznych sprawozdań spółki wynika, że przez ponad 5 ostatnich lat spółka wypłacała dywidendę stanowiącą niewielki procent generowanych przepływów pieniężnych FCFE. Z analizy wynika, że spółka ma stabilną strukturę kapitału i jest kontrolowana przez akcjonariusza, który posiada pakiet 80% akcji. Wskaż, która z poniższych metod wyceny zdyskontowanych przepływów pieniężnych będzie najwłaściwsza dla wyceny Spółki:",
+          "options": {
+            "A": "DDM (Dicounted Dividend Model);",
+            "B": "FCFE (Discounted Free Cash Flow To Equity Model);",
+            "C": "FCFF (Discounted Free Cash Flow To Firm Model);",
+            "D": "żadna z powyższych."
+          }
+        },
+        {
+          "number": 110,
+          "text": "W przypadku rozliczania łączenia się spółek handlowych metodą łączenia udziałów, zgodnie z ustawą o rachunkowości, koszty poniesione w związku z połączeniem, w tym również koszty organizacji poniesione przy założeniu nowej spółki lub koszty podwyższenia kapitału spółki, na którą przechodzi majątek łączących się spółek, zalicza się do:",
+          "options": {
+            "A": "strat nadzwyczajnych;",
+            "B": "kosztów finansowych;",
+            "C": "pozostałych kosztów operacyjnych;",
+            "D": "kosztów ogólnego zarządu."
+          }
+        }
+      ],
+      "total_questions": 20
+    }
+  ]
+}

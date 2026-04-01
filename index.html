@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egzamin Doradcy Inwestycyjnego</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="subtitle">🎓 DORADCY INWESTYCYJNI</div>
+            <h1>Platforma Egzaminacyjna Doradcy Inwestycyjnego</h1>
+            <p>Kompletna platforma quizów do egzaminu Doradcy Inwestycyjnego</p>
+
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-number">110</div>
+                    <div class="stat-label">Pytania</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Testy</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">30</div>
+                    <div class="stat-label">Na Test</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">40</div>
+                    <div class="stat-label">Wynik Zaliczenia</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div id="landingPage">
+                <div class="section">
+                    <h2>📋 Dostępne Testy</h2>
+                    <div id="testsContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Display test cards
+        function displayTests() {
+            const container = document.getElementById('testsContainer');
+            container.innerHTML = '';
+
+            const tests = [
+                { id: 1, start: 1, count: 30 },
+                { id: 2, start: 31, count: 30 },
+                { id: 3, start: 61, count: 30 },
+                { id: 4, start: 91, count: 20 }
+            ];
+
+            tests.forEach(test => {
+                const card = document.createElement('div');
+                card.className = 'test-card';
+                card.innerHTML = `
+                    <div class="test-number">Test ${test.id}</div>
+                    <div class="test-title">Test ${test.id}</div>
+                    <div class="test-info">${test.count} Pytań</div>
+                    <button class="test-button" onclick="startTest(${test.id})">Zacznij →</button>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function startTest(testId) {
+            // Redirect to quiz page for specific test
+            window.location.href = `quizzes/quiz${testId}.html`;
+        }
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', displayTests);
+    </script>
+</body>
+</html>

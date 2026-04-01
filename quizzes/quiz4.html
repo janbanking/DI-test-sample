@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 4 - Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Test 4 - Egzamin Doradcy Inwestycyjnego</h1>
+            <p>20 Pytań</p>
+        </div>
+
+        <div class="main-content" style="grid-template-columns: 1fr;">
+            <!-- Quiz Screen -->
+            <div id="quizScreen" class="section">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="question-counter">
+                    Pytanie <span id="currentQuestion">1</span> z <span id="totalQuestions">20</span>
+                </div>
+                <div class="question-text" id="questionText"></div>
+                <div class="options" id="optionsContainer"></div>
+                <div class="buttons">
+                    <button class="btn-secondary" id="prevBtn" onclick="previousQuestion()">← Wstecz</button>
+                    <button class="btn-primary" id="nextBtn" onclick="nextQuestion()">Dalej →</button>
+                    <button class="btn-primary" id="finishBtn" onclick="finishQuiz()" style="display: none;">Zakończ →</button>
+                    <button class="btn-secondary" onclick="exitQuiz()" style="background: #dc3545;">Wyjdź z Quizu</button>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="resultsScreen" class="results-screen section">
+                <div class="result-card">
+                    <div class="result-status" id="resultStatus"></div>
+                    <div class="score-display" id="scoreDisplay">0 / 40</div>
+                </div>
+                <div class="results-grid">
+                    <div class="result-item">
+                        <h3>Wynik Całkowity</h3>
+                        <div class="value" id="totalScore">0</div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Poprawne</h3>
+                        <div class="value" id="correctCount">0</div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Poprawne %</h3>
+                        <div class="value" id="correctPercent">0%</div>
+                    </div>
+                    <div class="result-item">
+                        <h3>Niepoprawne %</h3>
+                        <div class="value" id="incorrectPercent">0%</div>
+                    </div>
+                </div>
+                <div class="result-breakdown">
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">✓ Poprawne Odpowiedzi</span>
+                        <span class="breakdown-value correct" id="breakdownCorrect">0 × (+2) = 0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">✗ Niepoprawne Odpowiedzi</span>
+                        <span class="breakdown-value incorrect" id="breakdownIncorrect">0 × (-1) = 0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">- Puste Odpowiedzi</span>
+                        <span class="breakdown-value" id="breakdownBlank">0 × (0) = 0</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn-primary" onclick="retakeQuiz()">Powtórz Quiz</button>
+                    <button class="btn-secondary" onclick="goHome()">Powrót do Domu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const QUESTIONS = [{"number":91,"text":"Zgodnie z ustawą o rachunkowości, prawdą jest, że:","options":{"A":"jeżeli założenie kontynuacji działalności nie jest zasadne, to wycena aktywów jednostki następuje, w każdym przypadku, po cenach ich nabycia albo kosztach wytworzenia;","B":"jeżeli założenie kontynuacji działalności nie jest zasadne, to wycena aktywów jednostki następuje, w każdym przypadku, po cenach sprzedaży netto możliwych do uzyskania;","C":"otwarcie postępowania restrukturyzacyjnego nie stanowi przeszkody do uznania, że działalność jednostki będzie kontynuowana;","D":"zmiana formy prawnej jednostki, w każdym przypadku oznacza, że założenie kontynuacji działalności nie jest zasadne."}},{"number":92,"text":"W skład bieżących transferów pieniężnych uwzględnionych w rachunkach narodowych wchodzą:","options":{"A":"płatności związane z nabywaniem przez gospodarstwa domowe dóbr i usług;","B":"płatności i świadczenia w naturze związane z nabywaniem przez gospodarstwa domowe dóbr i usług;","C":"podatki dochodowe;","D":"żadne z powyższych."}},{"number":93,"text":"Organami Urzędu Komisji Nadzoru Finansowego są:","options":{"A":"Komisja Nadzoru Finansowego i Przewodniczący Komisji Nadzoru Finansowego;","B":"wyłącznie Komisja Nadzoru Finansowego;","C":"wyłącznie Przewodniczący Komisji Nadzoru Finansowego;","D":"Urząd Komisji Nadzoru Finansowego nie posiada swoich organów."}},{"number":94,"text":"Jeżeli z modelu regresji wielorakiej usuniemy jedną ze zmiennych, wówczas skorygowany współczynnik determinacji:","options":{"A":"może ulec podwyższeniu;","B":"na pewno ulegnie obniżeniu albo pozostanie bez zmian, lecz nie ulegnie podwyższeniu;","C":"na pewno ulegnie podwyższeniu albo pozostanie bez zmian, lecz nie ulegnie obniżeniu;","D":"na pewno ulegnie obniżeniu."}},{"number":95,"text":"Teoretyczna wartość rocznego kontraktu forward na akcje spółki Z wynosi 110 zł. Przyjmując, że wolna od ryzyka stopa procentowa (kapitalizowana w sposób ciągły) jest równa 10% w skali roku, aktualna cena akcji spółki Z wynosi 100 zł, a spółka wypłaca corocznie dywidendę, oblicz i podaj wartość najbliższej dywidendy gotówkowej płatnej na koniec roku.","options":{"A":"0,47;","B":"0,52;","C":"0,65;","D":"0,44."}},{"number":96,"text":"Zgodnie z ustawą o rachunkowości, skonsolidowane sprawozdania finansowe banków:","options":{"A":"sporządza się zgodnie z MSR;","B":"mogą być sporządzane zgodnie z MSR, jeżeli organ zatwierdzający banku tak postanowi;","C":"mogą być sporządzane zgodnie z MSR, jeżeli organ nadzorujący banku tak postanowi;","D":"mogą być sporządzane zgodnie z MSR, jeżeli organ zarządzający banku tak postanowi."}},{"number":97,"text":"Polskie przedsiębiorstwo sprzedało duńskiemu nabywcy uprawnienie do emisji CO2. Uzyskane z tego tytułu przychody:","options":{"A":"nie będą odnotowane w polskim bilansie płatniczym;","B":"będą odnotowane w przychodach polskiego rachunku kapitałowego bilansu płatniczego;","C":"będą odnotowane w rozchodach polskiego rachunku kapitałowego bilansu płatniczego;","D":"będą odnotowane jako przychody z tytułu eksportu usług na rachunku bieżącym polskiego bilansu płatniczego."}},{"number":98,"text":"Zdywersyfikowany portfel składa się z akcji trzech spółek, których dane podano w tabeli poniżej. Na postawie modelu CAPM oszacuj oczekiwaną stopę zwrotu z tego portfela. Przyjmij, że oczekiwana rynkowa stopa zwrotu wynosi 12%, a stopa wolna od ryzyka 6%. Podaj najbliższą wartość.\n\nSpółka A: Cena 20, Liczba akcji 1 200, Beta 0,90\nSpółka B: Cena 15, Liczba akcji 2 000, Beta 1,05\nSpółka C: Cena 5, Liczba akcji 4 000, Beta 1,25","options":{"A":"11,99%;","B":"12,54%;","C":"12,07%;","D":"12,33%."}},{"number":99,"text":"Zarządzający portfelem akcji zidentyfikował, że korelacja między głównymi składnikami portfela zależy od stanu koniunktury. W okresach ujemnych stóp zwrotu korelacja rosła. Zakładając, że wagi w portfelu tych akcji oraz odchylenia standardowe stóp zwrotu tych akcji się nie zmieniły wskaż, które z poniższych stwierdzeń prawidłowo opisuje, jak zachowa się zmienność portfela mierzona odchyleniem standardowym w okresie dekoniunktury giełdowej:","options":{"A":"zmienność portfela wzrośnie;","B":"zmienność portfela spadnie;","C":"zmienność portfela nie zmieni się;","D":"zmienność portfela spadnie o połowę."}},{"number":100,"text":"Wskaż zdanie prawdziwe. Obrotem wtórnym, w rozumieniu ustawy o obrocie instrumentami finansowymi, jest m.in. proponowanie:","options":{"A":"w dowolny sposób, przez podmiot inny niż wystawca, nabycia każdego rodzaju instrumentów finansowych lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 200 osób, a przepis nie odnosi się w żaden sposób do formy proponowania;","B":"w dowolnej formie i w dowolny sposób, przez podmiot inny niż wystawca, nabycia instrumentów finansowych będących papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 200 osób lub do nieoznaczonego adresata;","C":"w dowolnej formie i w dowolny sposób, przez podmiot inny niż wystawca, nabycia instrumentów finansowych niebędących papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 150 osób lub do nieoznaczonego adresata;","D":"w formie elektronicznej, przez podmiot inny niż wystawca, nabycia instrumentów finansowych będących papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 150 osób lub do nieoznaczonego adresata."}},{"number":101,"text":"Roczna wartość sprzedaży w przedsiębiorstwie Y wynosi 5 mln zł. W ciągu roku przedsiębiorstwo poniosło stałe koszty w wysokości 1,5 mln zł i koszty zmienne w wysokości 3 mln zł. Na podstawie powyższych danych wyznacz procentowy wskaźnik bezpieczeństwa operacyjnego (marżę bezpieczeństwa).","options":{"A":"25%;","B":"14%;","C":"33%;","D":"41%."}},{"number":102,"text":"Wskaż kategorię podmiotu, który nie jest wymieniony w Rozporządzeniu Parlamentu i Rady (UE) 2019/2088 z dnia 27 listopada 2019 r. w sprawie ujawniania informacji związanych ze zrównoważonym rozwojem w sektorze usług finansowych (zwanym też: SFDR) jako \"uczestnik rynku finansowego\":","options":{"A":"zakład ubezpieczeń, który udostępnia ubezpieczeniowy produkt inwestycyjny;","B":"firma inwestycyjna, która świadczy usługi zarządzania portfelem;","C":"instytucja pracowniczych programów emerytalnych (IORP);","D":"bank, który nie świadczy usługi zarządzania portfelem."}},{"number":103,"text":"Wykorzystując dane dotyczące czterech projektów inwestycyjnych i stosując jako kryterium oceny metodę NPV wskaż, który projekt jest najlepszy. Do wyliczeń przyjmij wymaganą stopę zwrotu w wysokości 12%.\n\nProjekt A: CF0=-1000, CF1=300, CF2=300, CF3=300, CF4=300, CF5=300\nProjekt B: CF0=-2000, CF1=700, CF2=700, CF3=700, CF4=700, CF5=700\nProjekt C: CF0=-500, CF1=200, CF2=200, CF3=200, CF4=200, CF5=200\nProjekt D: CF0=-1500, CF1=400, CF2=400, CF3=400, CF4=400, CF5=400","options":{"A":"Projekt A;","B":"Projekt B;","C":"Projekt C;","D":"Projekt D."}},{"number":104,"text":"Wartość dziennej sprzedaży spółki FURA dokonywanej na zasadzie kredytu kupieckiego wynosi 50 000 zł, zaś średni okres spłaty należności wynosi 30 dni. O ile procent zwiększy się kwota należności spółki FURA, jeżeli średnia dzienna sprzedaż tej spółki zwiększy się do 60 000 zł, zaś średni okres spłaty należności wzrośnie do 40 dni? Wskaż najbliższą wartość.","options":{"A":"55%;","B":"60%;","C":"65%;","D":"68%."}},{"number":105,"text":"Załóżmy, że przez okres 10 lat średnia roczna stopa zwrotu (łącznie z dywidendami) z portfela zagregowanego rynku wyniosła 10%, a średnia roczna stopa zwrotu z aktywów wolnych od ryzyka 6%. Korzystając z poniższych danych z tego samego okresu (10 lat) o trzech różnych portfelach, w oparciu o wskaźnik Treynora wskaż, który portfel jest najlepszy.\n\nPortfel W: Średni roczny zwrot 12%, Beta 0,90\nPortfel S: Średni roczny zwrot 13%, Beta 1,05\nPortfel T: Średni roczny zwrot 14%, Beta 1,20","options":{"A":"portfel T;","B":"portfel W;","C":"wszystkie portfele uzyskały identyczną wartość wskaźnika Treynora;","D":"portfel S."}},{"number":106,"text":"Obliczenie produktu krajowego brutto (PKB):","options":{"A":"jest możliwe tylko w bieżących cenach rynkowych;","B":"jest możliwe tylko w skali całego państwa;","C":"odbywa się tylko w ujęciu rocznym;","D":"podlega regulacjom prawnym, w tym standardom ustanowionym przez ONZ i Unię Europejską."}},{"number":107,"text":"Podaj na czym polega opcyjna strategia call ratio spread.","options":{"A":"na wystawieniu opcji call z niższą ceną wykonania i zakupie dwóch opcji call z wyższą ceną wykonania;","B":"na zakupie opcji call z niższą ceną wykonania i wystawieniu opcji call z wyższą ceną wykonania;","C":"na zakupie dwóch opcji call i jednej opcji put z tą samą (lub różnymi) cenami wykonania;","D":"na zakupie opcji call z niższą ceną wykonania i wystawieniu dwóch opcji call z wyższą ceną wykonania."}},{"number":108,"text":"Obligacja o okresie do wykupu 5 lat ma wartość nominalną 100,00 oraz kupon 8% rocznie płatny raz do roku (na koniec roku). Jej cena początkowa wynosi 100,00 (przy YTM 8%). Na podstawie powyższych danych określ, której z poniżej wymienionych wartości jest najbliższa cenowa wartość punktu bazowego tej obligacji.","options":{"A":"0,3992;","B":"0,0671;","C":"0,0399;","D":"0,0126."}},{"number":109,"text":"Analityk z zespołu zarządzającego funduszem emerytalnym przygotowuje wycenę spółki posiadającej pozycję lidera na lokalnym rynku e-commerce. Z opublikowanych historycznych sprawozdań spółki wynika, że przez ponad 5 ostatnich lat spółka wypłacała dywidendę stanowiącą niewielki procent generowanych przepływów pieniężnych FCFE. Z analizy wynika, że spółka ma stabilną strukturę kapitału i jest kontrolowana przez akcjonariusza, który posiada pakiet 80% akcji. Wskaż, która z poniższych metod wyceny zdyskontowanych przepływów pieniężnych będzie najwłaściwsza dla wyceny Spółki:","options":{"A":"DDM (Dicounted Dividend Model);","B":"FCFE (Discounted Free Cash Flow To Equity Model);","C":"FCFF (Discounted Free Cash Flow To Firm Model);","D":"żadna z powyższych."}},{"number":110,"text":"W przypadku rozliczania łączenia się spółek handlowych metodą łączenia udziałów, zgodnie z ustawą o rachunkowości, koszty poniesione w związku z połączeniem, w tym również koszty organizacji poniesione przy założeniu nowej spółki lub koszty podwyższenia kapitału spółki, na którą przechodzi majątek łączących się spółek, zalicza się do:","options":{"A":"strat nadzwyczajnych;","B":"kosztów finansowych;","C":"pozostałych kosztów operacyjnych;","D":"kosztów ogólnego zarządu."}}];
+        const ANSWER_KEY = {"1":"B","2":"B","3":"B","4":"B","5":"B","6":"B","7":"B","8":"B","9":"B","10":"B","11":"B","12":"B","13":"B","14":"B","15":"B","16":"B","17":"B","18":"B","19":"B","20":"B","21":"B","22":"B","23":"B","24":"B","25":"B","26":"B","27":"B","28":"B","29":"B","30":"B","31":"B","32":"B","33":"B","34":"B","35":"B","36":"B","37":"B","38":"B","39":"B","40":"B","41":"B","42":"B","43":"B","44":"B","45":"B","46":"B","47":"B","48":"B","49":"B","50":"B","51":"B","52":"B","53":"B","54":"B","55":"B","56":"B","57":"B","58":"B","59":"B","60":"B","61":"B","62":"B","63":"B","64":"B","65":"B","66":"B","67":"B","68":"B","69":"B","70":"B","71":"B","72":"B","73":"B","74":"B","75":"B","76":"B","77":"B","78":"B","79":"B","80":"B","81":"B","82":"B","83":"B","84":"B","85":"B","86":"B","87":"B","88":"B","89":"B","90":"B","91":"B","92":"B","93":"B","94":"B","95":"B","96":"B","97":"B","98":"B","99":"B","100":"B","101":"B","102":"B","103":"B","104":"B","105":"B","106":"B","107":"B","108":"B","109":"B","110":"B"};
+
+        let currentQuestions = QUESTIONS;
+        let currentQuestionIndex = 0;
+        let answers = {};
+
+        const PASS_SCORE = 40;
+        const CORRECT_POINTS = 2;
+        const INCORRECT_POINTS = -1;
+
+        function displayQuestion() {
+            const q = currentQuestions[currentQuestionIndex];
+            const isAnswered = answers[currentQuestionIndex] !== undefined;
+
+            document.getElementById('currentQuestion').textContent = currentQuestionIndex + 1;
+            const progress = ((currentQuestionIndex + 1) / currentQuestions.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            document.getElementById('questionText').textContent = q.text;
+
+            const container = document.getElementById('optionsContainer');
+            container.innerHTML = '';
+
+            const answerKey = JSON.parse(localStorage.getItem('answerKey')) || ANSWER_KEY;
+
+            Object.entries(q.options).forEach(([key, value]) => {
+                const div = document.createElement('div');
+                div.className = 'option';
+
+                const isSelected = answers[currentQuestionIndex] === key;
+                const correctAnswer = answerKey[q.number];
+
+                if (isAnswered && isSelected) {
+                    div.classList.add('answered');
+                    if (key === correctAnswer) {
+                        div.classList.add('correct');
+                    } else {
+                        div.classList.add('incorrect');
+                    }
+                }
+
+                const feedback = isAnswered && isSelected && correctAnswer
+                    ? `<span class="feedback">${key === correctAnswer ? '✓ Poprawnie' : '✗ Źle'}</span>`
+                    : '';
+
+                div.innerHTML = `
+                    <input type="radio" id="opt_${key}" name="answer" value="${key}"
+                           ${isSelected ? 'checked' : ''} ${isAnswered ? 'disabled' : ''}
+                           onchange="selectAnswer('${key}')">
+                    <label for="opt_${key}">${key}: ${value}</label>
+                    ${feedback}
+                `;
+                container.appendChild(div);
+            });
+
+            document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+            const isLast = currentQuestionIndex === currentQuestions.length - 1;
+            document.getElementById('nextBtn').style.display = isLast ? 'none' : 'block';
+            document.getElementById('finishBtn').style.display = isLast ? 'block' : 'none';
+        }
+
+        function selectAnswer(key) {
+            answers[currentQuestionIndex] = key;
+            displayQuestion();
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        function finishQuiz() {
+            const answerKey = JSON.parse(localStorage.getItem('answerKey')) || ANSWER_KEY;
+            let correct = 0, incorrect = 0, blank = 0;
+
+            currentQuestions.forEach((q, idx) => {
+                const userAnswer = answers[idx];
+                const correctAnswer = answerKey[q.number];
+
+                if (!userAnswer) {
+                    blank++;
+                } else if (userAnswer === correctAnswer) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
+            });
+
+            const score = (correct * CORRECT_POINTS) + (incorrect * INCORRECT_POINTS);
+            const maxScore = currentQuestions.length * CORRECT_POINTS;
+            const passed = score >= PASS_SCORE;
+
+            document.getElementById('resultStatus').textContent = passed ? '✓ ZALICZONE' : '✗ NIEZALICZONE';
+            document.getElementById('resultStatus').className = 'result-status ' + (passed ? 'pass' : 'fail');
+            document.getElementById('scoreDisplay').textContent = `${score} / ${maxScore}`;
+            document.getElementById('totalScore').textContent = score;
+            document.getElementById('correctCount').textContent = correct;
+            document.getElementById('correctPercent').textContent = Math.round((correct / currentQuestions.length) * 100) + '%';
+            document.getElementById('incorrectPercent').textContent = Math.round((incorrect / currentQuestions.length) * 100) + '%';
+
+            document.getElementById('breakdownCorrect').textContent = `${correct} × (+2) = +${correct * CORRECT_POINTS}`;
+            document.getElementById('breakdownIncorrect').textContent = `${incorrect} × (-1) = ${incorrect * INCORRECT_POINTS}`;
+            document.getElementById('breakdownBlank').textContent = `${blank} × (0) = 0`;
+
+            document.getElementById('quizScreen').style.display = 'none';
+            document.getElementById('resultsScreen').style.display = 'block';
+        }
+
+        function retakeQuiz() {
+            currentQuestionIndex = 0;
+            answers = {};
+            document.getElementById('resultsScreen').style.display = 'none';
+            document.getElementById('quizScreen').style.display = 'block';
+            displayQuestion();
+        }
+
+        function exitQuiz() {
+            if (confirm('Czy na pewno chcesz wyjść z quizu? Twój postęp zostanie utracony.')) {
+                window.location.href = '../index.html';
+            }
+        }
+
+        function goHome() {
+            window.location.href = '../index.html';
+        }
+
+        // Initialize
+        window.addEventListener('DOMContentLoaded', displayQuestion);
+    </script>
+</body>
+</html>
