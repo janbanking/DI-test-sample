@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +9,17 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="subtitle">🎓 DORADCY INWESTYCYJNI</div>
+            <div class="subtitle">DORADCY INWESTYCYJNI</div>
             <h1>Platforma Egzaminacyjna Doradcy Inwestycyjnego</h1>
             <p>Kompletna platforma quizów do egzaminu Doradcy Inwestycyjnego</p>
 
             <div class="stats-bar">
                 <div class="stat-item">
-                    <div class="stat-number">110</div>
+                    <div class="stat-number">90</div>
                     <div class="stat-label">Pytania</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">4</div>
+                    <div class="stat-number">3</div>
                     <div class="stat-label">Testy</div>
                 </div>
                 <div class="stat-item">
@@ -34,26 +34,43 @@
         </div>
 
         <div class="main-content">
-            <div id="landingPage">
-                <div class="section">
-                    <h2>📋 Dostępne Testy</h2>
+            <div class="section">
+                <div class="tab-toggle">
+                    <button type="button" class="tab-btn active" id="tabExams" onclick="switchTab('exams')">Testy Egzaminacyjne</button>
+                    <button type="button" class="tab-btn" id="tabTopics" onclick="switchTab('topics')">Testy Tematyczne</button>
+                </div>
+
+                <div id="examsView">
+                    <h2>Dostępne Testy</h2>
                     <div id="testsContainer"></div>
+                </div>
+
+                <div id="topicsView" style="display:none;">
+                    <h2>Testy wg Tematów</h2>
+                    <div id="topicsContainer"></div>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="data/topic-map.js"></script>
     <script>
-        // Display test cards
+        function switchTab(tab) {
+            document.getElementById('examsView').style.display  = tab === 'exams'  ? 'block' : 'none';
+            document.getElementById('topicsView').style.display = tab === 'topics' ? 'block' : 'none';
+            document.getElementById('tabExams').classList.toggle('active', tab === 'exams');
+            document.getElementById('tabTopics').classList.toggle('active', tab === 'topics');
+            document.body.classList.toggle('theme-topics', tab === 'topics');
+        }
+
         function displayTests() {
             const container = document.getElementById('testsContainer');
             container.innerHTML = '';
 
             const tests = [
-                { id: 1, start: 1, count: 30 },
-                { id: 2, start: 31, count: 30 },
-                { id: 3, start: 61, count: 30 },
-                { id: 4, start: 91, count: 20 }
+                { id: 1, count: 30, date: '2025-03-23' },
+                { id: 2, count: 30, date: '2024-03-17' },
+                { id: 3, count: 30, date: '2023-04-16' }
             ];
 
             tests.forEach(test => {
@@ -61,21 +78,44 @@
                 card.className = 'test-card';
                 card.innerHTML = `
                     <div class="test-number">Test ${test.id}</div>
-                    <div class="test-title">Test ${test.id}</div>
+                    <div class="test-title">Egzamin KNF ${test.date}</div>
                     <div class="test-info">${test.count} Pytań</div>
-                    <button class="test-button" onclick="startTest(${test.id})">Zacznij →</button>
+                    <button class="test-button" onclick="startTest(${test.id})">Zacznij &rarr;</button>
                 `;
                 container.appendChild(card);
             });
         }
 
+        function displayTopics() {
+            const container = document.getElementById('topicsContainer');
+            container.innerHTML = '';
+
+            for (const [key, label] of Object.entries(TOPICS)) {
+                const count = TOPIC_QUESTIONS[key].length;
+                const card = document.createElement('div');
+                card.className = 'test-card';
+                card.innerHTML = `
+                    <div class="test-number">${count}</div>
+                    <div class="test-title">${label}</div>
+                    <div class="test-info">${count} Pytań</div>
+                    <button class="test-button" onclick="startTopic('${key}')">Zacznij &rarr;</button>
+                `;
+                container.appendChild(card);
+            }
+        }
+
         function startTest(testId) {
-            // Redirect to quiz page for specific test
             window.location.href = `quizzes/quiz${testId}.html`;
         }
 
-        // Initialize on page load
-        window.addEventListener('DOMContentLoaded', displayTests);
+        function startTopic(topicKey) {
+            window.location.href = `quizzes/quiz-topic.html?topic=${topicKey}`;
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            displayTests();
+            displayTopics();
+        });
     </script>
 </body>
 </html>

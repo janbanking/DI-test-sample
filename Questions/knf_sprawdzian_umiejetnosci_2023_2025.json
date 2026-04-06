@@ -1,0 +1,937 @@
+{
+  "metadata": {
+    "title": "KNF Egzamin Doradcy Inwestycyjni – Sprawdzian Umiejętności",
+    "description": "Zestawienie testów egzaminacyjnych z lat 2023–2025 (Zestaw numer 1)",
+    "source": "Komisja Nadzoru Finansowego – Komisja Egzaminacyjna dla Doradców Inwestycyjnych",
+    "exams_count": 3,
+    "total_questions": 90,
+    "questions_per_exam": 30,
+    "note": "KNF does not publish official answer keys. This file contains questions only."
+  },
+  "exams": [
+    {
+      "exam_id": "SU_2025_03_23",
+      "exam_date": "2025-03-23",
+      "set_number": 1,
+      "source_file": "2025_03_23__SU_zestaw_pytan_94858.pdf",
+      "questions": [
+        {
+          "question_number": 1,
+          "question_text": "Na podstawie MSR 2 \"Zapasy\", zatwierdzonego przez UE, wskaż stwierdzenie fałszywe:",
+          "options": {
+            "A": "zapasy wycenia się w cenie nabycia lub koszcie wytworzenia lub też według wartości netto możliwej do uzyskania, w zależności od tego, która z kwot jest wyższa;",
+            "B": "wartość netto możliwa do uzyskania jest to szacunkowa cena sprzedaży w toku zwykłej działalności gospodarczej pomniejszona o szacowane koszty przygotowania sprzedaży i szacunkowe koszty niezbędne do doprowadzenia sprzedaży do skutku;",
+            "C": "przykładami kosztów wyłączonych z ceny nabycia lub kosztu wytworzenia zapasów i ujmowanych jako koszty okresu, w którym je poniesiono, są ogólne koszty administracyjne, które nie przyczyniają się do doprowadzenia zapasów do ich aktualnego stanu i miejsca;",
+            "D": "przykładami kosztów wyłączonych z ceny nabycia lub kosztu wytworzenia zapasów i ujmowanych jako koszty okresu, w którym je poniesiono, są nietypowe wielkości (zużycie ponadnormatywne) zmarnowanych materiałów, robocizny oraz innych kosztów produkcyjnych."
+          }
+        },
+        {
+          "question_number": 2,
+          "question_text": "Zgodnie z przepisami ustawy Prawo przedsiębiorców kontrolę u przedsiębiorcy wszczyna się nie wcześniej niż po upływie 7 dni i nie później niż przed upływem 30 dni od dnia doręczenia zawiadomienia o zamiarze wszczęcia kontroli. Co dzieje się w sytuacji kiedy kontrola nie zostanie wszczęta w terminie 30 dni od dnia doręczenia zawiadomienia?",
+          "options": {
+            "A": "w takiej sytuacji wszczęcie kontroli wymaga ponownego zawiadomienia;",
+            "B": "w takiej sytuacji kontrola nie może już być wszczęta w tym samym przedmiocie sprawy;",
+            "C": "w takiej sytuacji wszczęcie kontroli następuje po upływie kolejnych 7 dni;",
+            "D": "w takiej sytuacji wszczęcie kontroli powinno nastąpić przed upływem kolejnych 30 dni od daty doręczenia zawiadomienia o zamiarze wszczęcia kontroli."
+          }
+        },
+        {
+          "question_number": 3,
+          "question_text": "Czy, zgodnie z przepisami ustawy o ofercie publicznej i warunkach wprowadzania instrumentów finansowych do zorganizowanego systemu obrotu oraz o spółkach publicznych, dostawca usług finansowania społecznościowego ma obowiązek przekazania Komisji Nadzoru Finansowego arkusz kluczowych informacji inwestycyjnych?",
+          "options": {
+            "A": "nie;",
+            "B": "tak, w terminie na co najmniej 7 dni roboczych przed dniem udostępnienia arkusza kluczowych informacji inwestycyjnych do publicznej wiadomości;",
+            "C": "tak, w terminie na co najmniej 5 dni roboczych przed dniem udostępnienia arkusza kluczowych informacji inwestycyjnych do publicznej wiadomości;",
+            "D": "tak, w terminie na co najmniej 10 dni roboczych przed dniem udostępnienia arkusza kluczowych informacji inwestycyjnych do publicznej wiadomości."
+          }
+        },
+        {
+          "question_number": 4,
+          "question_text": "Wskaż zdanie prawdziwe:",
+          "options": {
+            "A": "upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego mogą przeprowadzić w domu maklerskim wizytę nadzorczą w zakresie niezbędnym do nadzoru ostrożnościowego nad domami maklerskimi;",
+            "B": "upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego nie mogą przeprowadzić w domu maklerskim wizyty nadzorczej;",
+            "C": "upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego mogą przeprowadzić w domu maklerskim wizytę nadzorczą wyłącznie w zakresie ustalenia, jakimi regulaminami obsługi klienta dysponuje dom maklerski;",
+            "D": "upoważnieni pracownicy Urzędu Komisji Nadzoru Finansowego mogą przeprowadzić w domu maklerskim wizytę nadzorczą, która może trwać nie dłużej niż 30 dni."
+          }
+        },
+        {
+          "question_number": 5,
+          "question_text": "Na podstawie przepisów ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi wskaż, co należy do zadań depozytariusza:",
+          "options": {
+            "A": "wykonywanie obowiązków określonych w ustawie, w szczególności polegających na przechowywaniu aktywów oraz prowadzeniu rejestru aktywów funduszu inwestycyjnego lub alternatywnej spółki inwestycyjnej, a także na zapewnieniu właściwego monitorowania przepływu środków pieniężnych tych podmiotów;",
+            "B": "wykonywanie obowiązków polegających wyłącznie na przechowywaniu aktywów oraz prowadzeniu rejestru aktywów alternatywnej spółki inwestycyjnej;",
+            "C": "wykonywanie obowiązków polegających wyłącznie na przechowywaniu aktywów funduszu inwestycyjnego;",
+            "D": "wykonywanie obowiązków polegających wyłącznie na zapewnieniu właściwego monitorowania przepływu środków pieniężnych funduszu inwestycyjnego."
+          }
+        },
+        {
+          "question_number": 6,
+          "question_text": "Czy powołany przez bank komitet do spraw nominacji ma obowiązek przyjąć politykę różnorodności w składzie zarządu banku?",
+          "options": {
+            "A": "tak;",
+            "B": "nie, ponieważ to zadanie zawsze należy do rady nadzorczej banku;",
+            "C": "nie, ponieważ to zadanie zawsze należy do zarządu banku;",
+            "D": "nie, ponieważ przyjęta polityka różnorodności ma się odnosić wyłącznie do osób zasiadających na stanowiskach kierowniczych w banku."
+          }
+        },
+        {
+          "question_number": 7,
+          "question_text": "Czy, zgodnie z przepisami ustawy o obrocie instrumentami finansowymi, posiadanie akcji spółki akcyjnej prowadzącej rynek regulowany przez podmioty pozostające w tej samej grupie kapitałowej uważa się za ich posiadanie przez jeden podmiot?",
+          "options": {
+            "A": "tak;",
+            "B": "nie;",
+            "C": "nie, chyba że podmioty pozostające w tej samej grupie kapitałowej przekazały odpowiednie zawiadomienie Przewodniczącemu Komisji Nadzoru Finansowego;",
+            "D": "nie, chyba że podmioty pozostające w tej samej grupie kapitałowej przekazały odpowiednie zawiadomienie Komisji Nadzoru Finansowego."
+          }
+        },
+        {
+          "question_number": 8,
+          "question_text": "Organami Urzędu Komisji Nadzoru Finansowego są:",
+          "options": {
+            "A": "Komisja Nadzoru Finansowego i Przewodniczący Komisji Nadzoru Finansowego;",
+            "B": "wyłącznie Komisja Nadzoru Finansowego;",
+            "C": "wyłącznie Przewodniczący Komisji Nadzoru Finansowego;",
+            "D": "Urząd Komisji Nadzoru Finansowego nie posiada swoich organów."
+          }
+        },
+        {
+          "question_number": 9,
+          "question_text": "Zgodnie z ustawą o nadzorze nad rynkiem kapitałowym Komisja Nadzoru Finansowego, w przypadku wydania decyzji nakładającej karę za naruszenie przepisów rozporządzenia w sprawie nadużyć na rynku nr 596/2014 (zwanym też: MAR), może, w drodze uchwały, zdecydować o przekazaniu do publicznej wiadomości informacji o wydaniu tej decyzji. Czy Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej informacje dotyczące imienia i nazwiska osoby, której dotyczy taka decyzja?",
+          "options": {
+            "A": "nie, ponieważ w przypadku wydania takiej decyzji Komisja Nadzoru Finansowego nie posiada uprawnień do udostępniania informacji dotyczących osoby fizycznej;",
+            "B": "tak, a informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja, Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej przez okres 5 lat licząc od dnia ich udostępnienia;",
+            "C": "tak, a informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja, Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej przez okres roku licząc od dnia ich udostępnienia;",
+            "D": "tak, a informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja, Komisja Nadzoru Finansowego udostępnia na swojej stronie internetowej przez okres roku licząc od dnia podjęcia przez Komisję tej decyzji."
+          }
+        },
+        {
+          "question_number": 10,
+          "question_text": "Dokończ zdanie, aby było ono prawdziwe zgodnie z przepisami Kodeksu cywilnego: Każdy człowiek ma zdolność prawną",
+          "options": {
+            "A": "od chwili urodzenia;",
+            "B": "od ukończenia lat osiemnastu;",
+            "C": "którą uzyskuje poprzez zawarcie małżeństwa;",
+            "D": "którą uzyskuje poprzez zawarcie małżeństwa, o ile małżeństwo to nie zostanie unieważnione."
+          }
+        },
+        {
+          "question_number": 11,
+          "question_text": "Zgodnie z MSR 8 \"Zasady (polityka) rachunkowości, zmiany wartości szacunkowych i korygowanie błędów\", zatwierdzonym przez UE, prawdą jest, że:",
+          "options": {
+            "A": "zmiana wartości szacunkowej, w wyniku pojawienia się nowych informacji lub nowych zdarzeń bądź zdobycia większego doświadczenia, stanowi korektę błędu;",
+            "B": "przykładowymi wartościami szacunkowymi są: odpis na oczekiwane straty kredytowe w zastosowaniu MSSF 9 \"Instrumenty finansowe\" i możliwa do uzyskania wartość netto składnika zapasów w zastosowaniu MSR 2 \"Zapasy\";",
+            "C": "koszt amortyzacji pozycji rzeczowych aktywów trwałych w zastosowaniu MSR 16 \"Rzeczowe aktywa trwałe\" nie stanowi przykładu wartości szacunkowej;",
+            "D": "w przypadku trudności w odróżnieniu zmiany zasad (polityki) rachunkowości od zmiany wartości szacunkowej, zmianę traktuje się jako zmianę zasad (polityki) rachunkowości."
+          }
+        },
+        {
+          "question_number": 12,
+          "question_text": "Na podstawie ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi wskaż definicję alternatywnego funduszu inwestycyjnego:",
+          "options": {
+            "A": "jest to instytucja wspólnego inwestowania, której przedmiotem działalności, w tym w ramach wydzielonego subfunduszu, jest zbieranie aktywów od wielu inwestorów w celu ich lokowania w interesie tych inwestorów zgodnie z określoną polityką inwestycyjną, niebędąca funduszem działającym zgodnie z prawem wspólnotowym regulującym zasady zbiorowego inwestowania w papiery wartościowe;",
+            "B": "jest to instytucja wspólnego inwestowania, której przedmiotem działalności, jest zbieranie aktywów od wielu inwestorów w celu ich lokowania zgodnie z określoną polityką inwestycyjną, będąca funduszem działającym zgodnie z prawem wspólnotowym regulującym zasady zbiorowego inwestowania w papiery wartościowe;",
+            "C": "jest to instytucja wspólnego inwestowania, której przedmiotem działalności, w tym w ramach wydzielonego subfunduszu, jest zbieranie aktywów od 150 inwestorów w celu ich lokowania w interesie tych inwestorów, będąca funduszem działającym zgodnie z prawem wspólnotowym regulującym zasady zbiorowego inwestowania w papiery wartościowe;",
+            "D": "jest to instytucja wspólnego inwestowania, której przedmiotem działalności, w tym w ramach wydzielonego subfunduszu, jest zbieranie aktywów od 150 inwestorów w celu ich lokowania w interesie tych inwestorów zgodnie z określoną polityką inwestycyjną, będąca funduszem."
+          }
+        },
+        {
+          "question_number": 13,
+          "question_text": "Wskaż, który organ banku wprowadza oraz zapewnia działanie systemu zarządzania.",
+          "options": {
+            "A": "zarząd;",
+            "B": "żaden organ nie jest wskazany w odniesieniu do tego zadania w ustawie Prawo bankowe;",
+            "C": "rada nadzorcza;",
+            "D": "za to zadanie odpowiada wyłącznie prezes zarządu banku."
+          }
+        },
+        {
+          "question_number": 14,
+          "question_text": "Czy, w rozumieniu ustawy Prawo bankowe, w banku istotnym mają obowiązek działać komitet do spraw wynagrodzeń oraz komitet do spraw ryzyka?",
+          "options": {
+            "A": "tak;",
+            "B": "taki wymóg dotyczy każdego banku, a nie tylko banku istotnego;",
+            "C": "bank istotny ma obowiązek ustanowić jedynie komitet do spraw wynagrodzeń;",
+            "D": "bank istotny ma obowiązek ustanowić jedynie komitet do spraw ryzyka."
+          }
+        },
+        {
+          "question_number": 15,
+          "question_text": "Czy, zgodnie z ustawą o obrocie instrumentami finansowymi, spółka prowadząca rynek regulowany może organizować rynki wyodrębnione?",
+          "options": {
+            "A": "tak, przy czym wyodrębniony rynek powinien odnosić się jedynie do rodzaju papierów wartościowych;",
+            "B": "tak, przy czym wyodrębniony rynek powinien odnosić się do rodzaju papierów wartościowych lub innych instrumentów finansowych, jak również rodzaju ich emitentów;",
+            "C": "tak, przy czym wyodrębniony rynek powinien odnosić się jedynie do rodzaju emitentów papierów wartościowych;",
+            "D": "tak, przy czym wyodrębniony rynek powinien odnosić się jedynie do rodzaju papierów wartościowych oraz rodzaju ich emitentów."
+          }
+        },
+        {
+          "question_number": 16,
+          "question_text": "W przypadku rozliczania łączenia się spółek handlowych metodą łączenia udziałów, zgodnie z ustawą o rachunkowości, koszty poniesione w związku z połączeniem, w tym również koszty organizacji poniesione przy założeniu nowej spółki lub koszty podwyższenia kapitału spółki, na którą przechodzi majątek łączących się spółek, zalicza się do:",
+          "options": {
+            "A": "strat nadzwyczajnych;",
+            "B": "kosztów finansowych;",
+            "C": "pozostałych kosztów operacyjnych;",
+            "D": "kosztów ogólnego zarządu."
+          }
+        },
+        {
+          "question_number": 17,
+          "question_text": "Wskaż zdanie prawdziwe. Obrotem wtórnym, w rozumieniu ustawy o obrocie instrumentami finansowymi, jest m.in. proponowanie:",
+          "options": {
+            "A": "w dowolny sposób, przez podmiot inny niż wystawca, nabycia każdego rodzaju instrumentów finansowych lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 200 osób, a przepis nie odnosi się w żaden sposób do formy proponowania;",
+            "B": "w dowolnej formie i w dowolny sposób, przez podmiot inny niż wystawca, nabycia instrumentów finansowych będących papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 200 osób lub do nieoznaczonego adresata;",
+            "C": "w dowolnej formie i w dowolny sposób, przez podmiot inny niż wystawca, nabycia instrumentów finansowych niebędących papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 150 osób lub do nieoznaczonego adresata;",
+            "D": "w formie elektronicznej, przez podmiot inny niż wystawca, nabycia instrumentów finansowych będących papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 150 osób lub do nieoznaczonego adresata."
+          }
+        },
+        {
+          "question_number": 18,
+          "question_text": "Zgodnie z MSSF 3 \"Połączenia jednostek\", zatwierdzonym przez UE, prawdą jest, że:",
+          "options": {
+            "A": "zastosowanie metody przejęcia do rozliczenia połączenia jednostek wymaga zidentyfikowania jednostki przejmującej;",
+            "B": "stosując metodę przejęcia do rozliczenia połączenia jednostek, jednostka przejmująca ustala dzień przejęcia, którym jest dzień rozpoczęcia wywierania znaczącego wpływu na jednostkę przejmowaną;",
+            "C": "okres wyceny, następujący po dniu przejęcia, w którym jednostka przejmująca może skorygować kwoty tymczasowe ujęte w związku z połączeniem jednostek, nie powinien przekraczać dwóch lat od dnia przejęcia;",
+            "D": "do rozliczenia połączenia jednostek, jednostka przejmująca może stosować metodę praw własności."
+          }
+        },
+        {
+          "question_number": 19,
+          "question_text": "Zgodnie z ustawą o rachunkowości, przez \"aktywa netto\" rozumie się:",
+          "options": {
+            "A": "aktywa jednostki pomniejszone o aktywa obrotowe;",
+            "B": "aktywa obrotowe jednostki pomniejszone o zapasy;",
+            "C": "aktywa obrotowe jednostki pomniejszone o zobowiązania krótkoterminowe;",
+            "D": "aktywa jednostki pomniejszone o zobowiązania, odpowiadające wartościowo kapitałowi (funduszowi) własnemu."
+          }
+        },
+        {
+          "question_number": 20,
+          "question_text": "Zgodnie z ustawą o rachunkowości, skonsolidowane sprawozdania finansowe banków:",
+          "options": {
+            "A": "sporządza się zgodnie z MSR;",
+            "B": "mogą być sporządzane zgodnie z MSR, jeżeli organ zatwierdzający banku tak postanowi;",
+            "C": "mogą być sporządzane zgodnie z MSR, jeżeli organ nadzorujący banku tak postanowi;",
+            "D": "mogą być sporządzane zgodnie z MSR, jeżeli organ zarządzający banku tak postanowi."
+          }
+        },
+        {
+          "question_number": 21,
+          "question_text": "Obrót zorganizowany, w rozumieniu ustawy o obrocie instrumentami finansowymi, to:",
+          "options": {
+            "A": "obrót wyłącznie papierami wartościowymi dokonywany na terytorium Rzeczypospolitej Polskiej na rynku regulowanym albo w ASO;",
+            "B": "obrót instrumentami finansowymi innymi niż papiery wartościowe dokonywany na terytorium Rzeczypospolitej Polskiej wyłącznie na rynku regulowanym;",
+            "C": "obrót wyłącznie papierami wartościowymi dokonywany na terytorium Unii Europejskiej na rynku regulowanym;",
+            "D": "obrót papierami wartościowymi lub innymi instrumentami finansowymi dokonywany na terytorium Rzeczypospolitej Polskiej na rynku regulowanym albo w ASO."
+          }
+        },
+        {
+          "question_number": 22,
+          "question_text": "Wskaż kategorię podmiotu, który nie jest wymieniony w Rozporządzeniu Parlamentu i Rady (UE) 2019/2088 z dnia 27 listopada 2019 r. w sprawie ujawniania informacji związanych ze zrównoważonym rozwojem w sektorze usług finansowych (zwanym też: SFDR) jako \"uczestnik rynku finansowego\":",
+          "options": {
+            "A": "zakład ubezpieczeń, który udostępnia ubezpieczeniowy produkt inwestycyjny;",
+            "B": "firma inwestycyjna, która świadczy usługi zarządzania portfelem;",
+            "C": "instytucja pracowniczych programów emerytalnych (IORP);",
+            "D": "bank, który nie świadczy usługi zarządzania portfelem."
+          }
+        },
+        {
+          "question_number": 23,
+          "question_text": "Czy bank może udzielać kredytu na kupno bankowych papierów wartościowych emitowanych przez siebie?",
+          "options": {
+            "A": "nie;",
+            "B": "nie, ale może udzielić pożyczki pieniężnej na taki cel;",
+            "C": "tak;",
+            "D": "tak, ale nie dotyczy to udzielania kredytów dla członków organów statutowych banku."
+          }
+        },
+        {
+          "question_number": 24,
+          "question_text": "Wskaż gdzie, zgodnie z Rozporządzeniem Parlamentu i Rady (UE) 2019/2088 z dnia 27 listopada 2019 r. w sprawie ujawniania informacji związanych ze zrównoważonym rozwojem w sektorze usług finansowych (zwanym też: SFDR), uczestnicy rynku finansowego powinni publikować informacje na temat swoich strategii dotyczących wprowadzania do działalności ryzyk dla zrównoważonego rozwoju w procesie podejmowania decyzji inwestycyjnych.",
+          "options": {
+            "A": "na swoich stronach internetowych;",
+            "B": "w sprawozdaniu finansowym;",
+            "C": "w raporcie dla zarządu;",
+            "D": "w raporcie dla rady nadzorczej."
+          }
+        },
+        {
+          "question_number": 25,
+          "question_text": "Wykonanie zobowiązań. Czy wierzyciel może odmówić przyjęcia świadczenia częściowego?",
+          "options": {
+            "A": "wierzyciel może odmówić przyjęcia świadczenia częściowego, nawet jeżeli cała wierzytelność jest już wymagalna;",
+            "B": "wierzyciel nie może odmówić przyjęcia świadczenia częściowego, chociażby cała wierzytelność była już wymagalna, chyba że przyjęcie takiego świadczenia narusza jego uzasadniony interes;",
+            "C": "wierzyciel zobowiązany jest odmówić przyjęcia świadczenia częściowego, kiedy przyjęcie takiego świadczenia narusza jego interes finansowy;",
+            "D": "wierzyciel nie może odmówić przyjęcia świadczenia częściowego, nawet jeżeli przyjęcie takiego świadczenia narusza jego uzasadniony interes."
+          }
+        },
+        {
+          "question_number": 26,
+          "question_text": "Wskaż zdanie prawdziwe:",
+          "options": {
+            "A": "Komisja Nadzoru Finansowego przekazuje do publicznej wiadomości istotne informacje, które mogą mieć wpływ na ocenę papierów wartościowych będących przedmiotem oferty publicznej lub ubiegania się o dopuszczenie do obrotu na rynku regulowanym, aby zapewnić inwestorom ochronę lub zapewnić prawidłowe działanie rynku;",
+            "B": "Komisja Nadzoru Finansowego nie posiada uprawnień do przekazywania do publicznej wiadomości informacji, które mogłyby mieć wpływ na ocenę papierów wartościowych będących przedmiotem oferty publicznej lub ubiegania się o dopuszczenie do obrotu na rynku regulowanym;",
+            "C": "Komisja Nadzoru Finansowego przekazuje do publicznej wiadomości każdą informację, która może mieć wpływ na ocenę papierów wartościowych nie będących przedmiotem oferty publicznej, aby zapewnić inwestorom równy dostęp do informacji;",
+            "D": "Komisja Nadzoru Finansowego przekazuje do publicznej wiadomości informacje, które mają wpływ na ocenę każdego instrumentu finansowego, o ile oceni, że takie działanie zapewni inwestorom równy dostęp do informacji."
+          }
+        },
+        {
+          "question_number": 27,
+          "question_text": "Wskaż definicję listu zastawnego:",
+          "options": {
+            "A": "list zastawny jest dłużnym papierem wartościowym wyemitowanym przez bank hipoteczny, który jest zabezpieczony aktywami stanowiącymi zabezpieczenie listów zastawnych, względem których posiadaczom listów zastawnych przysługuje bezpośrednio roszczenie zarówno do osobnej masy upadłości wyodrębnionej zgodnie z przepisami ustawy Prawo upadłościowe, jak i do banku hipotecznego;",
+            "B": "list zastawny jest instrumentem finansowym wyemitowanym przez bank niebędący spółką akcyjną, który jest zabezpieczony aktywami stanowiącymi zabezpieczenie listów zastawnych, względem których posiadaczom listów zastawnych przysługuje bezpośrednio roszczenie zarówno do osobnej masy upadłości wyodrębnionej zgodnie z przepisami ustawy Prawo upadłościowe, jak i do banku hipotecznego;",
+            "C": "list zastawny jest dłużnym instrumentem finansowym wyemitowanym przez bank niebędący spółką akcyjną, który jest zabezpieczony aktywami stanowiącymi zabezpieczenie listów zastawnych;",
+            "D": "list zastawny jest dłużnym papierem wartościowym wyemitowanym przez bank niebędący spółką akcyjną, który jest zabezpieczony aktywami stanowiącymi zabezpieczenie listów zastawnych, względem których posiadaczom listów zastawnych przysługuje pośrednio roszczenie zarówno do osobnej masy upadłości wyodrębnionej zgodnie z przepisami ustawy Prawo upadłościowe, jak i do banku hipotecznego."
+          }
+        },
+        {
+          "question_number": 28,
+          "question_text": "Czy po wygaśnięciu umocowania pełnomocnik jest obowiązany zwrócić mocodawcy dokument pełnomocnictwa?",
+          "options": {
+            "A": "tak;",
+            "B": "wyłącznie wtedy, kiedy zwrotu dokumentu pełnomocnictwa zażąda mocodawca;",
+            "C": "nie;",
+            "D": "pełnomocnik ma obowiązek zniszczyć dokument pełnomocnictwa."
+          }
+        },
+        {
+          "question_number": 29,
+          "question_text": "Czy, zgodnie z przepisami ustawy o ofercie publicznej i warunkach wprowadzania instrumentów finansowych do zorganizowanego systemu obrotu oraz o spółkach publicznych, emitent kwitów depozytowych, dopuszczonych do obrotu na rynku regulowanym na terytorium Rzeczypospolitej Polskiej, jest obowiązany do przekazywania informacji dotyczących własnej sytuacji finansowej lub prawnej?",
+          "options": {
+            "A": "nie;",
+            "B": "tak, o ile mogłaby ona w istotny sposób wpłynąć na możliwość wywiązania się przez niego z obowiązków wynikających z wyemitowania kwitów depozytowych;",
+            "C": "tak, ale jedynie kiedy taka informacja wpłynęła na wywiązanie się przez niego z obowiązków wynikających z wyemitowania kwitów depozytowych;",
+            "D": "tak, o ile o takie informacje wystąpi nabywca kwitów depozytowych."
+          }
+        },
+        {
+          "question_number": 30,
+          "question_text": "Wskaż produkt, który nie jest \"produktem finansowym\" w rozumieniu Rozporządzenia Parlamentu i Rady (UE) 2019/2088 z dnia 27 listopada 2019 r. w sprawie ujawniania informacji związanych ze zrównoważonym rozwojem w sektorze usług finansowych (zwanym też: SFDR):",
+          "options": {
+            "A": "produkt emerytalny;",
+            "B": "program emerytalny;",
+            "C": "UCITS;",
+            "D": "kredyt hipoteczny."
+          }
+        }
+      ]
+    },
+    {
+      "exam_id": "SU_2024_03_17",
+      "exam_date": "2024-03-17",
+      "set_number": 1,
+      "source_file": "2024_Sprawdzian_umiejetnosci_17_03_2024.pdf",
+      "questions": [
+        {
+          "question_number": 1,
+          "question_text": "Do którego momentu papiery wartościowe w liczbie wskazanej w treści imiennego świadectwa depozytowego nie mogą być przedmiotem obrotu?",
+          "options": {
+            "A": "Do chwili utraty ważności przez to świadectwo depozytowe albo zwrotu tego świadectwa wystawiającemu przed upływem terminu jego ważności;",
+            "B": "Papiery wartościowe wskazane w tym świadectwie są zawsze przedmiotem obrotu;",
+            "C": "W terminie do końca dnia, w którym nastąpił zwrot świadectwa wystawiającemu, nawet jeżeli nie płynął termin ważności świadectwa;",
+            "D": "W terminie do końca dnia, w którym nastąpił zwrot świadectwa wystawiającemu, nawet jeżeli upłynął już termin ważności świadectwa."
+          }
+        },
+        {
+          "question_number": 2,
+          "question_text": "Wskaż, kto wyznacza biegłego rewidenta, który ma przeprowadzić badanie sprawozdania założycieli spółki akcyjnej:",
+          "options": {
+            "A": "założyciele spółki wskazują biegłego w umowie spółki;",
+            "B": "akcjonariusze, którzy objęli wszystkie akcje spółki;",
+            "C": "sąd rejestrowy właściwy ze względu na siedzibę spółki;",
+            "D": "sąd rejestrowy właściwy dla m.st. Warszawy."
+          }
+        },
+        {
+          "question_number": 3,
+          "question_text": "Na podstawie Rozporządzenia Ministra Finansów w sprawie informacji bieżących i okresowych przekazywanych przez emitentów papierów wartościowych oraz warunków uznawania za równoważne informacji wymaganych przepisami prawa państwa niebędącego państwem członkowskim, wskaż stwierdzenie prawdziwe w odniesieniu do raportów kwartalnych emitentów akcji:",
+          "options": {
+            "A": "obowiązek przekazywania do publicznej wiadomości dotyczy raportów kwartalnych za każdy kwartał roku obrotowego;",
+            "B": "w przypadku stosowania MSR kwartalne skrócone sprawozdanie finansowe, zawarte w raporcie kwartalnym, sporządza się zgodnie z zakresem określonym w MSR 1 \"Prezentacja sprawozdań finansowych\";",
+            "C": "w przypadku stosowania MSR kwartalne sprawozdanie finansowe, zawarte w raporcie kwartalnym, sporządza się w wersji skróconej, której zakres został określony w tych standardach;",
+            "D": "kwartalne sprawozdanie finansowe, zawarte w raporcie kwartalnym, podlega obowiązkowi przeglądu przez firmę audytorską."
+          }
+        },
+        {
+          "question_number": 4,
+          "question_text": "Wskaż, zgodnie z Kodeksem Dobrej Praktyki Domów Maklerskich, czy dom maklerski ma obowiązek udzielania odpowiedzi na pisemne reklamacje klientów:",
+          "options": {
+            "A": "tak;",
+            "B": "tak, ale tylko wtedy jeżeli dom maklerski uzna, że reklamacja jest zasadna;",
+            "C": "nie, ponieważ dom maklerski nie ma obowiązku udzielania odpowiedzi na reklamacje;",
+            "D": "nie, przy czym wyniki analizy reklamacji dom maklerski przedstawia zarządowi domu maklerskiego."
+          }
+        },
+        {
+          "question_number": 5,
+          "question_text": "Czy oświadczenia woli w związku z dokonywaniem czynności dotyczących obrotu papierami wartościowymi lub innymi instrumentami finansowymi kierowane do firm inwestycyjnych mogą być składane w postaci elektronicznej?",
+          "options": {
+            "A": "Tak, za wyjątkiem składania zleceń nabycia certyfikatów inwestycyjnych funduszy inwestycyjnych;",
+            "B": "Tak, za wyjątkiem składania zleceń nabycia instrumentów pochodnych;",
+            "C": "Tak;",
+            "D": "Mogą być składane wyłącznie w tradycyjnej formie papierowej oraz drogą telefonicznego kontaktu."
+          }
+        },
+        {
+          "question_number": 6,
+          "question_text": "Wskaż, zgodnie ze Statutem Związku Maklerów i Doradców, kto może być wybrany na Rzecznika Dyscyplinarnego Związku Maklerów i Doradców:",
+          "options": {
+            "A": "Członek Zwyczajny Związku;",
+            "B": "doradca inwestycyjny, ale nie ma obowiązku aby należał do Związku Maklerów i Doradców;",
+            "C": "Członek Zwyczajny Związku, który jest członkiem Związku przez co najmniej 4 lata;",
+            "D": "Członek Nadzwyczajny Związku."
+          }
+        },
+        {
+          "question_number": 7,
+          "question_text": "Wskaż, zgodnie z Regulaminem Krajowego Depozytu Papierów Wartościowych S.A., czy uczestnicy prowadzący rachunki papierów wartościowych lub rachunki zbiorcze, zobowiązani są zatrudniać do prowadzenia ewidencji papierów wartościowych osoby posiadające odpowiednią wiedzę oraz doświadczenie lub kwalifikacje w tym zakresie:",
+          "options": {
+            "A": "tak;",
+            "B": "Regulamin Krajowego Depozytu Papierów Wartościowych S.A. nie określa takiego obowiązku;",
+            "C": "tak, ale wyłącznie w zakresie dotyczącym rachunków zbiorczych;",
+            "D": "tak, przy czym Regulamin Krajowego Depozytu Papierów Wartościowych S.A. wprowadza wymóg posiadania odpowiedniego certyfikatu wydanego przez Krajowy Depozyt Papierów Wartościowych S.A."
+          }
+        },
+        {
+          "question_number": 8,
+          "question_text": "Kto reprezentuje osobę prawną lub prowadzi jej sprawy w sytuacji braku organu albo braku w składzie organu uprawnionego do reprezentowania tej osoby prawnej?",
+          "options": {
+            "A": "Kurator ustanowiony przez organ właścicielski;",
+            "B": "Opiekun ustanowiony przez organ właścicielski;",
+            "C": "Opiekun ustanowiony przez sąd;",
+            "D": "Kurator ustanowiony przez sąd."
+          }
+        },
+        {
+          "question_number": 9,
+          "question_text": "Komisja Nadzoru Finansowego przyjmuje zgłoszenia naruszeń lub potencjalnych naruszeń przepisów ustawy o obrocie instrumentami finansowymi. Czy przekazanie Komisji Nadzoru Finansowego takiego zgłoszenia może stanowić przyczynę rozwiązania z osobą zgłaszającą umowy o pracę?",
+          "options": {
+            "A": "Tak;",
+            "B": "Nie;",
+            "C": "Tak, o ile zgłoszenie dotyczy tylko faktycznych naruszeń;",
+            "D": "Tak, jeżeli zostanie wykazane, że dotyczy to jedynie potencjalnych naruszeń."
+          }
+        },
+        {
+          "question_number": 10,
+          "question_text": "Wskaż, zgodnie z Kodeksem Dobrej Praktyki Domów Maklerskich, czy dom maklerski ma obowiązek informować klienta o istniejących i potencjalnych czynnikach ryzyka wynikających z właściwości poszczególnych instrumentów finansowych:",
+          "options": {
+            "A": "tak, o ile klient złoży wniosek o informowanie go w takim zakresie;",
+            "B": "tak, ale dotyczy to wyłącznie instrumentów finansowych, które nie są papierami wartościowymi;",
+            "C": "tak, dom maklerski ma taki obowiązek;",
+            "D": "dom maklerski nie ma takiego obowiązku."
+          }
+        },
+        {
+          "question_number": 11,
+          "question_text": "Wskaż, zgodnie ze Statutem Związku Maklerów i Doradców, zdanie prawdziwe dotyczące Sądu Dyscyplinarnego Związku Maklerów i Doradców:",
+          "options": {
+            "A": "Sąd Dyscyplinarny nie może wystąpić do Komisji Nadzoru Finansowego o skreślenie z listy maklerów lub doradców albo o zawieszenie uprawnień do wykonywania zawodu, wskazując ustawowe przesłanki odpowiednio skreślenia lub zawieszenia;",
+            "B": "Sąd Dyscyplinarny może wystąpić do Komisji Nadzoru Finansowego o skreślenie z listy maklerów lub doradców albo o zawieszenie uprawnień do wykonywania zawodu, wskazując ustawowe przesłanki odpowiednio skreślenia lub zawieszenia;",
+            "C": "w Statucie Związku Maklerów i Doradców brak jest postanowienia dotyczącego wystąpienia Sądu Dyscyplinarnego do Komisji Nadzoru Finansowego w sprawie skreślenia z listy maklerów lub doradców albo o zawieszenie uprawnień do wykonywania zawodu;",
+            "D": "Sąd Dyscyplinarny może wystąpić do Urzędu Komisji Nadzoru Finansowego o skreślenie z listy maklerów lub doradców albo o zawieszenie uprawnień do wykonywania zawodu, wskazując ustawowe przesłanki odpowiednio skreślenia lub zawieszenia."
+          }
+        },
+        {
+          "question_number": 12,
+          "question_text": "Na podstawie ustawy o rachunkowości, wskaż stwierdzenie prawdziwe:",
+          "options": {
+            "A": "przez \"rezerwy\" rozumie się zobowiązania, których termin wymagalności lub kwota nie są pewne;",
+            "B": "przez \"znaczącego inwestora\" rozumie się jednostkę, która sprawuje kontrolę nad jednostką zależną;",
+            "C": "przez \"jednostkę stowarzyszoną\" rozumie się jednostkę, która jest współkontrolowana przez wspólników na podstawie zawartej pomiędzy nimi umowy, umowy spółki lub statutu;",
+            "D": "do instrumentów finansowych zalicza się rezerwy i aktywa z tytułu odroczonego podatku dochodowego."
+          }
+        },
+        {
+          "question_number": 13,
+          "question_text": "Przyjmując założenie, że statut spółki akcyjnej nie określa minimalnej wysokości kapitału zakładowego, wskaż, kiedy następuje zawiązanie spółki akcyjnej w organizacji:",
+          "options": {
+            "A": "z chwilą objęcia wszystkich akcji przez akcjonariuszy;",
+            "B": "z chwilą objęcia minimum 50% akcji przez akcjonariuszy;",
+            "C": "z chwilą objęcia wszystkich akcji przez akcjonariusza większościowego;",
+            "D": "z chwilą objęcia minimum 50% akcji przez akcjonariusza większościowego."
+          }
+        },
+        {
+          "question_number": 14,
+          "question_text": "Na czyje żądanie posiadacz rachunku zbiorczego przekazuje dane identyfikujące osoby uprawnione z papierów wartościowych zapisanych na rachunku zbiorczym oraz dane o liczbie i rodzaju papierów wartościowych posiadanych przez te osoby?",
+          "options": {
+            "A": "Na żądanie Komisji Nadzoru Finansowego albo Generalnego Inspektora Informacji Finansowej;",
+            "B": "Na żądanie Przewodniczącego Komisji Nadzoru Finansowego;",
+            "C": "Na żądanie wyłącznie Komisji Nadzoru Finansowego;",
+            "D": "Na żądanie wyłącznie Generalnego Inspektora Informacji Finansowej."
+          }
+        },
+        {
+          "question_number": 15,
+          "question_text": "Od kiedy człowiek ma zdolność prawną?",
+          "options": {
+            "A": "Od chwili urodzenia;",
+            "B": "Od chwili uzyskania pełnoletności;",
+            "C": "Od chwili zawarcia małżeństwa przed uzyskaniem pełnoletności;",
+            "D": "Od chwili ukończenia lat trzynastu."
+          }
+        },
+        {
+          "question_number": 16,
+          "question_text": "Zgodnie z MSSF 5 \"Aktywa trwałe przeznaczone do sprzedaży oraz działalność zaniechana\", zatwierdzonym przez UE, jednostka wycenia składnik aktywów trwałych (lub grupę do zbycia) zaklasyfikowany jako przeznaczony do sprzedaży w kwocie:",
+          "options": {
+            "A": "równej jego wartości godziwej;",
+            "B": "wyższej z jego wartości bilansowej i wartości godziwej pomniejszonej o koszty sprzedaży;",
+            "C": "niższej z jego wartości bilansowej i wartości godziwej pomniejszonej o koszty sprzedaży;",
+            "D": "wyższej z jego wartości godziwej i wartości użytkowej."
+          }
+        },
+        {
+          "question_number": 17,
+          "question_text": "Wskaż, kiedy rezydenci i nierezydenci Rzeczypospolitej Polskiej są obowiązani zgłaszać, w formie pisemnej, polskim organom celnym lub organom Straży Granicznej, przywóz do oraz wywóz za granicę Rzeczypospolitej Polskiej złota dewizowego lub platyny dewizowej:",
+          "options": {
+            "A": "przekraczając granicę państwową Rzeczypospolitej Polskiej;",
+            "B": "przekraczając granicę państwową Rzeczypospolitej Polskiej wyłącznie drogą lotniczą;",
+            "C": "przekraczając granicę Unii Europejskiej;",
+            "D": "taki obowiązek nie został określony w przepisach prawa."
+          }
+        },
+        {
+          "question_number": 18,
+          "question_text": "Czy podmiot prowadzący zagraniczny rynek regulowany działający na terytorium innego państwa członkowskiego Unii Europejskiej może bez zezwolenia Komisji Nadzoru Finansowego instalować na terytorium Rzeczypospolitej Polskiej systemy informatyczne i urządzenia techniczne umożliwiające dostęp do tego rynku podmiotom prowadzącym działalność na terytorium Rzeczypospolitej Polskiej?",
+          "options": {
+            "A": "Tak, przy czym warunkiem podjęcia takich czynności jest poinformowanie Komisji Nadzoru Finansowego przez właściwy organ nadzoru, który udzielił temu podmiotowi zezwolenia na prowadzenie rynku regulowanego, o zamiarze podjęcia takich czynności;",
+            "B": "Tak, ale wyłącznie jeżeli taki podmiot uzyska zezwolenie Komisji Nadzoru Finansowego;",
+            "C": "Tak, przy czym warunkiem podjęcia takich czynności jest poinformowanie Komisji Nadzoru Finansowego przez ten podmiot o zamiarze podjęcia takich czynności;",
+            "D": "Tak, ale wyłącznie jeżeli taki podmiot uzyska wpis do właściwego rejestru organu nadzoru, który udzielił temu podmiotowi zezwolenia na prowadzenie rynku regulowanego w innym państwie członkowskim Unii Europejskiej."
+          }
+        },
+        {
+          "question_number": 19,
+          "question_text": "Przez tytuły uczestnictwa w instytucjach wspólnego inwestowania rozumie się:",
+          "options": {
+            "A": "wyemitowane na podstawie właściwych przepisów prawa polskiego lub obcego papiery wartościowe lub niebędące papierami wartościowymi instrumenty finansowe reprezentujące prawa majątkowe przysługujące uczestnikom instytucji wspólnego inwestowania, w tym w szczególności jednostki uczestnictwa funduszy inwestycyjnych;",
+            "B": "wyemitowane na podstawie właściwych przepisów prawa polskiego lub obcego papiery wartościowe lub niebędące papierami wartościowymi instrumenty finansowe reprezentujące prawa majątkowe przysługujące uczestnikom instytucji wspólnego inwestowania, z wyjątkiem jednostek uczestnictwa funduszy inwestycyjnych;",
+            "C": "wyemitowane na podstawie właściwych przepisów prawa polskiego lub obcego papiery wartościowe lub niebędące papierami wartościowymi instrumenty finansowe reprezentujące prawa majątkowe przysługujące uczestnikom instytucji wspólnego inwestowania, z wyjątkiem jednostek uczestnictwa specjalistycznych funduszy inwestycyjnych;",
+            "D": "wyemitowane na podstawie właściwych przepisów prawa polskiego lub obcego papiery wartościowe lub niebędące papierami wartościowymi instrumenty finansowe reprezentujące prawa majątkowe przysługujące uczestnikom instytucji wspólnego inwestowania, z wyjątkiem jednostek uczestnictwa funduszy inwestycyjnych zamkniętych."
+          }
+        },
+        {
+          "question_number": 20,
+          "question_text": "Co potwierdza imienne świadectwo depozytowe?",
+          "options": {
+            "A": "Potwierdza posiadanie rachunku instrumentów finansowych;",
+            "B": "Potwierdza prawo uczestnictwa w walnym zgromadzeniu;",
+            "C": "Potwierdza legitymację do realizacji uprawnień wynikających z zapisów na rachunku papierów wartościowych, z wyłączeniem prawa uczestnictwa w walnym zgromadzeniu;",
+            "D": "Potwierdza legitymację do realizacji uprawnień wynikających z papierów wartościowych wskazanych w jego treści, które nie są lub nie mogą być realizowane wyłącznie na podstawie zapisów na rachunku papierów wartościowych, z wyłączeniem prawa uczestnictwa w walnym zgromadzeniu."
+          }
+        },
+        {
+          "question_number": 21,
+          "question_text": "Wskaż zadanie prawdziwe w odniesieniu do emisji bankowych papierów wartościowych:",
+          "options": {
+            "A": "banki mogą emitować bankowe papiery wartościowe na warunkach podawanych do publicznej wiadomości;",
+            "B": "banki nie mogą emitować bankowych papierów wartościowych;",
+            "C": "banki mogą emitować bankowe papiery wartościowe na warunkach podawanych do wiadomości ich akcjonariuszy;",
+            "D": "banki mogą emitować bankowe papiery wartościowe na warunkach podawanych do wiadomości wybranych przez dany bank akcjonariuszy."
+          }
+        },
+        {
+          "question_number": 22,
+          "question_text": "Wskaż, zgodnie ze Statutem Związku Maklerów i Doradców, najwyższy organ Związku:",
+          "options": {
+            "A": "Zjazd Maklerów i Doradców;",
+            "B": "Zarząd Związku Maklerów i Doradców;",
+            "C": "Komisja Rewizyjna Związku Maklerów i Doradców;",
+            "D": "Sąd Dyscyplinarny Związku Maklerów i Doradców."
+          }
+        },
+        {
+          "question_number": 23,
+          "question_text": "Zgodnie z MSR 38 \"Wartości niematerialne\", zatwierdzonym przez UE, prawdą jest, że:",
+          "options": {
+            "A": "termin \"składnik wartości niematerialnych\" oznacza możliwy do zidentyfikowania niepieniężny składnik aktywów, nieposiadający postaci fizycznej;",
+            "B": "wystarczającym warunkiem ujęcia (w sprawozdaniu z sytuacji finansowej) składnika wartości niematerialnych jest udowodnienie, że jest prawdopodobne, że jednostka osiągnie przyszłe korzyści ekonomiczne, które można przyporządkować danemu składnikowi aktywów;",
+            "C": "składnik wartości niematerialnych wycenia się, po początkowym ujęciu, zawsze z wykorzystaniem modelu opartego na wartości przeszacowanej;",
+            "D": "nakłady na wytworzone przez jednostkę we własnym zakresie marki i listy klientów ujmuje się jako składniki wartości niematerialnych."
+          }
+        },
+        {
+          "question_number": 24,
+          "question_text": "Wskaż, w jaki sposób powinny być dokonane wpłaty na akcje spółki akcyjnej w organizacji:",
+          "options": {
+            "A": "wpłaty powinny być dokonane bezpośrednio lub za pośrednictwem firmy inwestycyjnej, na rachunek spółki w organizacji prowadzony przez bank na terytorium Unii Europejskiej lub państwa będącego stroną umowy o Europejskim Obszarze Gospodarczym;",
+            "B": "wpłaty powinny być dokonane bezpośrednio lub za pośrednictwem firmy inwestycyjnej, na rachunek spółki w organizacji prowadzony przez bank na terytorium Rzeczypospolitej Polskiej;",
+            "C": "wpłaty powinny być dokonane bezpośrednio na rachunek spółki w organizacji prowadzony przez bank na terytorium Unii Europejskiej lub państwa będącego stroną umowy o Europejskim Obszarze Gospodarczym;",
+            "D": "wpłaty powinny być dokonane za pośrednictwem firmy inwestycyjnej na rachunek spółki w organizacji prowadzony przez bank na terytorium Unii Europejskiej lub państwa będącego stroną umowy o Europejskim Obszarze Gospodarczym."
+          }
+        },
+        {
+          "question_number": 25,
+          "question_text": "Wskaż organ spółki akcyjnej, który dokonuje wyboru podmiotu prowadzącego rejestr akcjonariuszy tej spółki:",
+          "options": {
+            "A": "zarząd;",
+            "B": "walne zgromadzenie;",
+            "C": "prezes zarządu;",
+            "D": "żaden organ spółki akcyjnej nie dokonuje takiego wyboru, ponieważ to, kto prowadzi rejestr akcjonariuszy spółki akcyjnej wynika z przepisów prawa."
+          }
+        },
+        {
+          "question_number": 26,
+          "question_text": "Wskaż, jakie działania powinna podjąć firma inwestycyjna świadcząca usługi wykonywania zleceń nabycia lub zbycia instrumentów finansowych w związku z wykonaniem zlecenia klienta:",
+          "options": {
+            "A": "firma inwestycyjna powinna podjąć wszelkie uzasadnione działania w celu uzyskania możliwie najlepszych wyników dla klienta, uwzględniając w szczególności cenę instrumentu finansowego, koszty związane z wykonaniem zlecenia, czas zawarcia transakcji, prawdopodobieństwo zawarcia transakcji oraz jej rozliczenia, wielkość zlecenia i jego charakter;",
+            "B": "firma inwestycyjna powinna podjąć wszelkie uzasadnione działania w celu uzyskania możliwie najlepszych wyników dla klienta, uwzględniając jednakże wyłącznie cenę instrumentu finansowego i koszty związanymi z wykonaniem zlecenia;",
+            "C": "firma inwestycyjna powinna podjąć wszelkie uzasadnione działania w celu uzyskania możliwie najlepszych wyników dla klienta, uwzględniając jednakże wielkość i charakter zleceń złożonych przez pozostałych klientów firmy inwestycyjnej;",
+            "D": "z obowiązujących przepisów prawa nie wynika obowiązek, aby firma inwestycyjna, świadcząc takie czynności, miała kierować się wymogami takimi jak cena instrumentu finansowego, koszty związane z wykonaniem zlecenia, czas zawarcia transakcji, prawdopodobieństwo zawarcia transakcji oraz jej rozliczenia, wielkość zlecenia i jego charakter."
+          }
+        },
+        {
+          "question_number": 27,
+          "question_text": "Zgodnie z MSSF 10 \"Skonsolidowane sprawozdania finansowe\", zatwierdzonym przez UE, jednostka dominująca przedstawia \"udziały niekontrolujące\" w swoim skonsolidowanym sprawozdaniu z sytuacji finansowej, w:",
+          "options": {
+            "A": "kapitale własnym, oddzielnie od kapitału własnego właścicieli jednostki dominującej;",
+            "B": "kapitałach rezerwowych;",
+            "C": "zobowiązaniach finansowych;",
+            "D": "rezerwach."
+          }
+        },
+        {
+          "question_number": 28,
+          "question_text": "W jakiej formie następuje zbycie przedsiębiorstwa?",
+          "options": {
+            "A": "W formie umowy cywilnoprawnej zawartej przez prokurentów;",
+            "B": "W formie pisemnej;",
+            "C": "W formie pisemnej z podpisami notarialnie poświadczonymi;",
+            "D": "W formie postanowienia wydanego przez sąd rejestrowy."
+          }
+        },
+        {
+          "question_number": 29,
+          "question_text": "Zgodnie z ustawą o rachunkowości, w przypadku umorzenia akcji własnych, w spółce akcyjnej, dodatnią różnicę między ich wartością nominalną a ceną nabycia należy odnieść na:",
+          "options": {
+            "A": "kapitał zakładowy;",
+            "B": "kapitał zapasowy;",
+            "C": "zobowiązania długoterminowe;",
+            "D": "rezerwy na zobowiązania."
+          }
+        },
+        {
+          "question_number": 30,
+          "question_text": "Wskaż, zgodnie z ustawą Kodeks spółek handlowych, ile powinien wynosić kapitał zakładowy spółki akcyjnej:",
+          "options": {
+            "A": "co najmniej 100 000 złotych;",
+            "B": "co najmniej 100 000 euro;",
+            "C": "co najmniej 10 000 złotych;",
+            "D": "co najmniej 10 000 euro."
+          }
+        }
+      ]
+    },
+    {
+      "exam_id": "SU_2023_04_16",
+      "exam_date": "2023-04-16",
+      "set_number": 1,
+      "source_file": "2023_SU__83223.pdf",
+      "questions": [
+        {
+          "question_number": 1,
+          "question_text": "Kto, zgodnie z przepisami ustawy o obrocie instrumentami finansowymi, może organizować rynek obrotu skarbowymi papierami wartościowymi w rozumieniu ustawy o finansach publicznych oraz instrumentami finansowymi, których instrumentem bazowym jest skarbowy papier wartościowy:",
+          "options": {
+            "A": "minister właściwy do spraw budżetu;",
+            "B": "Giełda Papierów Wartościowych w Warszawie S.A.;",
+            "C": "Komisja Nadzoru Finansowego;",
+            "D": "Krajowy Depozyt Papierów Wartościowych Spółka Akcyjna."
+          }
+        },
+        {
+          "question_number": 2,
+          "question_text": "Zgodnie z przepisami ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi, wskaż podmiot, z którym towarzystwo funduszy inwestycyjnych może zawrzeć umowę o wykonywanie funkcji depozytariusza funduszu inwestycyjnego:",
+          "options": {
+            "A": "Krajowy Depozyt Papierów Wartościowych Spółka Akcyjna;",
+            "B": "Giełda Papierów Wartościowych w Warszawie S.A.;",
+            "C": "inne towarzystwo funduszy inwestycyjnych;",
+            "D": "Catalyst."
+          }
+        },
+        {
+          "question_number": 3,
+          "question_text": "Mając na uwadze postanowienia Regulaminu Krajowego Depozytu Papierów Wartościowych S.A., wskaż zasadę, która nie ma zastosowania do ewidencji papierów wartościowych prowadzonej przez Krajowy Depozyt Papierów Wartościowych S.A.:",
+          "options": {
+            "A": "zasada przejrzystości;",
+            "B": "zasada odrębnej rejestracji papierów wartościowych;",
+            "C": "zasada nieuwzględniania typów uczestnictwa;",
+            "D": "zasada jednoczesności zapisów."
+          }
+        },
+        {
+          "question_number": 4,
+          "question_text": "Mając na uwadze przepisy ustawy o Narodowym Banku Polskim, wskaż stwierdzenie fałszywe. W wykonaniu swoich zadań Narodowy Bank Polski współdziała z właściwymi organami państwa w kształtowaniu i realizacji polityki gospodarczej państwa, dążąc przy tym do zapewnienia należytej realizacji założeń polityki pieniężnej, a w szczególności:",
+          "options": {
+            "A": "przekazuje organom państwa założenia polityki pieniężnej oraz informacje dotyczące realizacji polityki pieniężnej i sytuacji w systemie bankowym;",
+            "B": "współdziała z Prezesem Rady Ministrów w opracowaniu planów finansowych państwa;",
+            "C": "opiniuje projekty aktów normatywnych z zakresu polityki gospodarczej;",
+            "D": "opiniuje projekty aktów normatywnych dotyczących działalności banków i mających znaczenie dla systemu bankowego."
+          }
+        },
+        {
+          "question_number": 5,
+          "question_text": "Na podstawie MSR 8 \"Zasady (polityka) rachunkowości, zmiany wartości szacunkowych i korygowanie błędów\", zatwierdzonego przez UE, wskaż stwierdzenie fałszywe:",
+          "options": {
+            "A": "\"wartości szacunkowe\" są to kwoty pieniężne w sprawozdaniu finansowym, które podlegają niepewności wyceny;",
+            "B": "przykładem wartości szacunkowej jest odpis na oczekiwane straty kredytowe w zastosowaniu MSSF 9 \"Instrumenty finansowe\";",
+            "C": "zmiana wartości szacunkowej z założenia odnosi się do poprzednich okresów oraz stanowi korektę błędu;",
+            "D": "w przypadku trudności w odróżnieniu zmiany zasad (polityki) rachunkowości od zmiany wartości szacunkowej zmianę traktuje się jako zmianę wartości szacunkowej."
+          }
+        },
+        {
+          "question_number": 6,
+          "question_text": "Zgodnie z Rozporządzeniem Ministra Finansów w sprawie szczególnych zasad rachunkowości banków, prawdą jest, że:",
+          "options": {
+            "A": "aktywa i zobowiązania finansowe, a także zobowiązania pozabilansowe, ujmowane są w księgach rachunkowych na dzień zawarcia transakcji;",
+            "B": "zdematerializowane papiery wartościowe nienotowane na rynku regulowanym oraz w alternatywnym systemie obrotu, należące do klientów, zapisane na rachunkach papierów wartościowych, wycenia się według wartości godziwej;",
+            "C": "zabezpieczenie inwestycji netto w podmiocie zagranicznym rozlicza się w sposób przewidziany dla zabezpieczeń wartości godziwej;",
+            "D": "w przypadku zbycia inwestycji netto w podmiocie zagranicznym skutki wyceny instrumentu zabezpieczającego, odnoszące się do części zabezpieczenia uznanego za skuteczne, ujmuje się odpowiednio w zyskach nadzwyczajnych lub stratach nadzwyczajnych."
+          }
+        },
+        {
+          "question_number": 7,
+          "question_text": "Mając na uwadze przepisy ustawy – Kodeks spółek handlowych, wskaż stwierdzenie prawdziwe:",
+          "options": {
+            "A": "akcjonariusz spółki komandytowo-akcyjnej nie odpowiada za zobowiązania spółki;",
+            "B": "akcjonariusz spółki komandytowo-akcyjnej odpowiada za zobowiązania spółki;",
+            "C": "akcjonariusz spółki komandytowo-akcyjnej odpowiada wyłącznie za zobowiązania podatkowe spółki;",
+            "D": "Kodeks spółek handlowych nie reguluje kwestii odpowiedzialności akcjonariusza spółki komandytowo-akcyjnej za zobowiązania spółki."
+          }
+        },
+        {
+          "question_number": 8,
+          "question_text": "Zgodnie z postanowieniami Kodeksu Dobrej Praktyki Domów Maklerskich, dom maklerski, jako profesjonalny pośrednik w obrocie instrumentami finansowymi:",
+          "options": {
+            "A": "nie może wykorzystywać swojej uprzywilejowanej pozycji;",
+            "B": "nie może wykorzystywać swojej uprzywilejowanej pozycji, ale przy podejmowaniu decyzji inwestycyjnych na własny rachunek może wykorzystywać informacje o obrotach klientów oraz inne dane dotyczące klientów;",
+            "C": "nie może wykorzystywać swojej uprzywilejowanej pozycji, ale przy podejmowaniu decyzji inwestycyjnych na własny rachunek może wykorzystywać informacje o zleceniach klientów oraz inne dane dotyczące klientów;",
+            "D": "nie może wykorzystywać swojej uprzywilejowanej pozycji, ale przy podejmowaniu decyzji inwestycyjnych na własny rachunek może wykorzystywać informacje o stanach, obrotach i zleceniach klientów."
+          }
+        },
+        {
+          "question_number": 9,
+          "question_text": "Przepisy ustawy – Kodeks cywilny o sprzedaży rzeczy stosuje się odpowiednio:",
+          "options": {
+            "A": "wyłącznie do sprzedaży energii;",
+            "B": "do sprzedaży energii, praw oraz wody;",
+            "C": "wyłącznie do sprzedaży energii oraz wody;",
+            "D": "wyłącznie do sprzedaży praw oraz wody."
+          }
+        },
+        {
+          "question_number": 10,
+          "question_text": "Mając na uwadze przepisy ustawy o nadzorze nad rynkiem finansowym, wskaż stwierdzenie prawdziwe:",
+          "options": {
+            "A": "Przewodniczący Komisji Nadzoru Finansowego nadaje Urzędowi Komisji Nadzoru Finansowego statut zarządzeniem wewnętrznym;",
+            "B": "Prezes Rady Ministrów, w drodze zarządzenia, nadaje Urzędowi Komisji Nadzoru Finansowego statut, w którym określa jego organizację wewnętrzną;",
+            "C": "minister właściwy do spraw budżetu, w drodze rozporządzenia, nadaje Urzędowi Komisji Nadzoru Finansowego statut;",
+            "D": "uchwalenie statutu Urzędu Komisji Nadzoru Finansowego należy do zadań Komisji Nadzoru Finansowego."
+          }
+        },
+        {
+          "question_number": 11,
+          "question_text": "Na podstawie ustawy o rachunkowości, wskaż stwierdzenie fałszywe:",
+          "options": {
+            "A": "dzień bilansowy to dzień, na który jednostka sporządza sprawozdanie finansowe;",
+            "B": "aktywa netto to aktywa jednostki pomniejszone o zobowiązania, odpowiadające wartościowo kapitałowi (funduszowi) własnemu;",
+            "C": "kapitały mniejszości to część aktywów jednostki zależnej, objętej skonsolidowanym sprawozdaniem finansowym, która należy do udziałowców innych niż jednostki grupy kapitałowej;",
+            "D": "grupa kapitałowa to jednostka dominująca wraz z jednostkami zależnymi i jednostkami stowarzyszonymi."
+          }
+        },
+        {
+          "question_number": 12,
+          "question_text": "Mając na uwadze przepisy ustawy – Kodeks spółek handlowych, wskaż stwierdzenie prawdziwe:",
+          "options": {
+            "A": "umowa spółki jawnej nie może przewidywać, że wspólnik jest pozbawiony prawa reprezentowania spółki albo że jest uprawniony do jej reprezentowania tylko łącznie z innym wspólnikiem lub prokurentem;",
+            "B": "umowa spółki jawnej musi przewidywać, że jeden wspólnik jest pozbawiony prawa reprezentowania spółki;",
+            "C": "umowa spółki jawnej może przewidywać, że wspólnik jest pozbawiony prawa reprezentowania spółki albo że jest uprawniony do jej reprezentowania tylko łącznie z innym wspólnikiem lub prokurentem;",
+            "D": "umowa spółki jawnej musi przewidywać, że jeden wspólnik jest uprawniony do reprezentowania spółki tylko łącznie z innym wspólnikiem lub prokurentem."
+          }
+        },
+        {
+          "question_number": 13,
+          "question_text": "Zgodnie z przepisami ustawy o obrocie instrumentami finansowymi, wskaż kto dokonuje wpisu na listę doradców inwestycyjnych:",
+          "options": {
+            "A": "Komisja Nadzoru Finansowego;",
+            "B": "Dyrektor Generalny Komisji Nadzoru Finansowego;",
+            "C": "Komisja Egzaminacyjna dla Doradców Inwestycyjnych;",
+            "D": "Przewodniczący Komisji Egzaminacyjnej dla Doradców Inwestycyjnych."
+          }
+        },
+        {
+          "question_number": 14,
+          "question_text": "Zgodnie z przepisami ustawy o obrocie instrumentami finansowymi, dom maklerski staje się uczestnikiem systemu rekompensat z chwilą:",
+          "options": {
+            "A": "udzielenia mu przez Komisję Nadzoru Finansowego zezwolenia na prowadzenie działalności maklerskiej;",
+            "B": "upływu 10 dni od daty udzielenia mu przez Komisję Nadzoru Finansowego zezwolenia na prowadzenie działalności maklerskiej;",
+            "C": "upływu 5 dni od daty udzielenia mu przez Komisję Nadzoru Finansowego zezwolenia na prowadzenie działalności maklerskiej;",
+            "D": "upływu 10 dni od daty doręczenia mu zezwolenia na prowadzenie działalności maklerskiej udzielonego przez Komisję Nadzoru Finansowego."
+          }
+        },
+        {
+          "question_number": 15,
+          "question_text": "Na podstawie MSR 28 \"Inwestycje w jednostkach stowarzyszonych i wspólnych przedsięwzięciach\", zatwierdzonego przez UE, wskaż stwierdzenie fałszywe:",
+          "options": {
+            "A": "\"jednostka stowarzyszona\" jest to jednostka, nad którą inwestor sprawuje kontrolę;",
+            "B": "stosując metodę praw własności, inwestycje ujmuje się zgodnie z tą metodą od dnia, w którym dana jednostka spełnia wymogi definicji jednostki stowarzyszonej lub wspólnego przedsięwzięcia;",
+            "C": "stosując metodę praw własności, wartość firmy dotyczącą jednostki stowarzyszonej lub wspólnego przedsięwzięcia ujmuje się w wartości bilansowej inwestycji;",
+            "D": "amortyzacja wartości firmy dotyczącej jednostki stowarzyszonej lub wspólnego przedsięwzięcia, powstałej przy zastosowaniu metody praw własności, nie jest dozwolona."
+          }
+        },
+        {
+          "question_number": 16,
+          "question_text": "Zgodnie z przepisami ustawy – Prawo bankowe, bank informuje Komisję Nadzoru Finansowego o zamierzonym programie emisji papierów wartościowych wskazując warunki i wartość programu emisji:",
+          "options": {
+            "A": "na 30 dni przed terminem emisji;",
+            "B": "niezwłocznie;",
+            "C": "na 60 dni przed terminem emisji;",
+            "D": "w dniu rozpoczęcia emisji."
+          }
+        },
+        {
+          "question_number": 17,
+          "question_text": "Zgodnie z rozporządzeniem Ministra Rozwoju i Finansów w sprawie określenia szczegółowych warunków technicznych i organizacyjnych dla firm inwestycyjnych, banków, o których mowa w art. 70 ust. 2 ustawy o obrocie instrumentami finansowymi, i banków powierniczych, firma inwestycyjna świadcząca usługi przechowywania lub rejestrowania instrumentów finansowych oraz prowadzenia rachunków pieniężnych jest obowiązana do:",
+          "options": {
+            "A": "przechowywania lub rejestrowania aktywów klienta w taki sposób, aby możliwe było w każdej chwili wyodrębnienie aktywów przechowywanych na rzecz jednego klienta od aktywów innego klienta oraz od aktywów własnych firmy inwestycyjnej;",
+            "B": "przechowywania lub rejestrowania aktywów klienta w taki sposób, aby możliwe było raz na miesiąc wyodrębnienie aktywów przechowywanych na rzecz jednego klienta od aktywów innego klienta oraz od aktywów własnych firmy inwestycyjnej;",
+            "C": "przechowywania lub rejestrowania aktywów klienta w taki sposób, aby możliwe było w każdej chwili, ale nie częściej niż raz na miesiąc, wyodrębnienie aktywów przechowywanych na rzecz jednego klienta od aktywów innego klienta oraz od aktywów własnych firmy inwestycyjnej;",
+            "D": "przechowywania lub rejestrowania aktywów klienta w taki sposób, aby możliwe było, w pierwszy dzień każdego kwartału, wyodrębnienie aktywów przechowywanych na rzecz jednego klienta od aktywów innego klienta oraz od aktywów własnych firmy inwestycyjnej."
+          }
+        },
+        {
+          "question_number": 18,
+          "question_text": "Zgodnie z przepisami ustawy – Kodeks cywilny, jeżeli kupujący dopuścił się zwłoki z odebraniem rzeczy sprzedanej:",
+          "options": {
+            "A": "sprzedawca musi oddać rzecz na przechowanie na koszt i niebezpieczeństwo kupującego;",
+            "B": "sprzedawca może oddać rzecz na przechowanie na koszt i niebezpieczeństwo kupującego;",
+            "C": "sprzedawca pod żadnym warunkiem nie może oddać rzeczy na przechowanie na koszt i niebezpieczeństwo kupującego;",
+            "D": "sprzedawca niezwłocznie wystawia rzecz do ponownego sprzedania."
+          }
+        },
+        {
+          "question_number": 19,
+          "question_text": "Mając na uwadze przepisy ustawy o Narodowym Banku Polskim, wskaż stwierdzenie fałszywe:",
+          "options": {
+            "A": "Narodowy Bank Polski nie posiada osobowości prawnej;",
+            "B": "Narodowy Bank Polski nie podlega wpisowi do rejestru przedsiębiorstw państwowych;",
+            "C": "działalność Narodowego Banku Polskiego jest prowadzona na obszarze Rzeczypospolitej Polskiej;",
+            "D": "siedzibą Narodowego Banku Polskiego jest Warszawa."
+          }
+        },
+        {
+          "question_number": 20,
+          "question_text": "Zgodnie z przepisami ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi, wskaż, co nie należy do celów inwestycyjnych funduszu inwestycyjnego otwartego:",
+          "options": {
+            "A": "ochrona realnej wartości aktywów funduszu inwestycyjnego;",
+            "B": "osiąganie przychodów z lokat netto funduszu inwestycyjnego;",
+            "C": "wzrost wartości aktywów funduszu inwestycyjnego w wyniku wzrostu wartości lokat;",
+            "D": "systematyczne zwiększanie liczby uczestników."
+          }
+        },
+        {
+          "question_number": 21,
+          "question_text": "Zgodnie z MSR 40 \"Nieruchomości inwestycyjne\", zatwierdzonym przez UE, nieruchomość inwestycyjną posiadaną na własność początkowo wycenia się według:",
+          "options": {
+            "A": "wartości godziwej;",
+            "B": "wartości przeszacowanej;",
+            "C": "wartości netto możliwej do uzyskania;",
+            "D": "ceny nabycia lub kosztu wytworzenia. Przy początkowej wycenie uwzględnia się koszty przeprowadzenia transakcji."
+          }
+        },
+        {
+          "question_number": 22,
+          "question_text": "Zgodnie z przepisami ustawy o obrocie instrumentami finansowymi, wskaż kto może skreślić doradcę inwestycyjnego z listy doradców inwestycyjnych:",
+          "options": {
+            "A": "Komisja Nadzoru Finansowego;",
+            "B": "Dyrektor Generalny Komisji Nadzoru Finansowego;",
+            "C": "Komisja Egzaminacyjna dla Doradców Inwestycyjnych;",
+            "D": "Przewodniczący Komisji Egzaminacyjnej dla Doradców Inwestycyjnych."
+          }
+        },
+        {
+          "question_number": 23,
+          "question_text": "Zgodnie z przepisami ustawy – Kodeks cywilny, jeżeli pełnomocnik po wygaśnięciu umocowania dokona w imieniu mocodawcy czynności prawnej w granicach pierwotnego umocowania, to:",
+          "options": {
+            "A": "czynność prawna nigdy nie może zostać uznana za ważną;",
+            "B": "czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć;",
+            "C": "czynność prawna zawsze jest ważna;",
+            "D": "czynność prawna jest ważna wyłącznie po wyrażeniu odrębnego potwierdzenia przez mocodawcę w terminie 5 dni od daty wykonania tej czynności prawnej."
+          }
+        },
+        {
+          "question_number": 24,
+          "question_text": "Zgodnie z przepisami ustawy – Kodeks spółek handlowych, do powstania spółki akcyjnej wymaga się spełnienia czterech wymogów. Którego z przedstawionych wymogów do takich się nie zalicza:",
+          "options": {
+            "A": "zawiązanie spółki, w tym podpisanie statutu przez założycieli;",
+            "B": "wniesienie przez akcjonariuszy wkładów na pokrycie całego kapitału zakładowego, z uwzględnieniem zasad dotyczących terminów pokrywania akcji obejmowanych za wkłady pieniężne oraz niepieniężne;",
+            "C": "ustanowienie wyłącznie zarządu, tj. bez obowiązku ustanowienia rady nadzorczej;",
+            "D": "wpis do rejestru."
+          }
+        },
+        {
+          "question_number": 25,
+          "question_text": "Zgodnie z postanowieniami Kodeksu Dobrej Praktyki Domów Maklerskich, przy zarządzaniu portfelem na zlecenie klienta dom maklerski zobowiązany jest:",
+          "options": {
+            "A": "do udzielania na każde żądanie klienta lub jego pełnomocnika w granicach umocowania, informacji dotyczących stanu jego portfela oraz operacji dokonanych w ramach zarządzania, o ile umowa o zarządzanie nie stanowi inaczej;",
+            "B": "do udzielania wyłącznie pełnomocnikowi klienta informacji dotyczących stanu jego portfela oraz operacji dokonanych w ramach zarządzania;",
+            "C": "do udzielania na każde żądanie pełnomocnika klienta wyłącznie informacji dotyczących operacji dokonanych w ramach zarządzania;",
+            "D": "do udzielania na każde żądanie klienta lub jego pełnomocnika w granicach umocowania wyłącznie informacji dotyczących stanu jego portfela."
+          }
+        },
+        {
+          "question_number": 26,
+          "question_text": "Zgodnie z ustawą o rachunkowości, w przypadku rozliczenia połączenia spółek handlowych metodą nabycia:",
+          "options": {
+            "A": "kapitał (fundusz) własny spółki przejętej ustalony na dzień połączenia jako aktywa netto według wartości godziwej podlega wyłączeniu;",
+            "B": "w bilansie połączonych spółek wyłączeniu nie podlegają wzajemne należności i zobowiązania;",
+            "C": "nadwyżka ceny przejęcia nad wartością godziwą aktywów netto spółki przejętej wykazywana jest w pasywach spółki, na którą przeszedł majątek połączonych spółek, jako ujemna wartość firmy;",
+            "D": "odpisów amortyzacyjnych od wartości firmy dokonuje się metodą liniową i zalicza się je do pozostałych przychodów operacyjnych."
+          }
+        },
+        {
+          "question_number": 27,
+          "question_text": "Mając na uwadze przepisy ustawy o nadzorze nad rynkiem kapitałowym wskaż, co nie należy do zadań Komisji Nadzoru Finansowego:",
+          "options": {
+            "A": "podejmowanie działań służących prawidłowemu funkcjonowaniu rynku kapitałowego;",
+            "B": "sprawowanie nadzoru nad działalnością podmiotów nadzorowanych oraz wykonywaniem przez te podmioty obowiązków związanych z ich uczestnictwem w obrocie na rynku kapitałowym, w zakresie określonym przepisami prawa;",
+            "C": "podejmowanie działań edukacyjnych i informacyjnych w zakresie funkcjonowania rynku kapitałowego;",
+            "D": "wykonywanie wyłącznie zadań określonych przez Ministra Finansów."
+          }
+        },
+        {
+          "question_number": 28,
+          "question_text": "Czy, zgodnie z postanowieniami Kodeksu Dobrej Praktyki Domów Maklerskich, członek Izby Domów Maklerskich (IDM) zobowiązany jest poinformować klientów i podmioty współpracujące o fakcie, że jego działalność podlega zasadom Kodeksu Dobrej Praktyki Domów Maklerskich?",
+          "options": {
+            "A": "nie;",
+            "B": "tak – co najmniej poprzez wywieszenie stosownej informacji w swojej siedzibie (centrali) i Punktach Obsługi Klientów oraz swojej stronie internetowej;",
+            "C": "tak – wyłącznie poprzez wywieszenie stosownej informacji na swojej stronie internetowej;",
+            "D": "tak – wyłącznie poprzez wywieszenie stosownej informacji w swojej siedzibie (centrali)."
+          }
+        },
+        {
+          "question_number": 29,
+          "question_text": "Zgodnie z przepisami ustawy o nadzorze nad rynkiem finansowym, w sprawach cywilnych wynikających ze stosunków związanych z uczestnictwem w obrocie na rynku finansowym albo dotyczących podmiotów wykonujących działalność na tym rynku uprawnienia prokuratora wynikające z przepisów ustawy - Kodeks postępowania cywilnego przysługują:",
+          "options": {
+            "A": "Przewodniczącemu Komisji Nadzoru Finansowego;",
+            "B": "Zastępcy Przewodniczącego Komisji Nadzoru Finansowego;",
+            "C": "Komisji Nadzoru Finansowego;",
+            "D": "Zastępcom Przewodniczącego Komisji Nadzoru Finansowego."
+          }
+        },
+        {
+          "question_number": 30,
+          "question_text": "Zgodnie z przepisami ustawy o giełdach towarowych, wskaż czego ustawa nie wymienia jako cel działania spółki prowadzącej giełdę towarową:",
+          "options": {
+            "A": "koncentracja podaży i popytu na towary giełdowe;",
+            "B": "zapewnienie bezpiecznego i sprawnego przebiegu transakcji giełdowych i rozliczeń;",
+            "C": "upowszechnianie jednolitych informacji umożliwiających ocenę aktualnej wartości towarów giełdowych;",
+            "D": "obsługa klientów detalicznych."
+          }
+        }
+      ]
+    }
+  ]
+}

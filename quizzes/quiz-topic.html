@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Tematyczny - Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="theme-topics">
+    <div class="container">
+        <div class="header">
+            <h1 id="topicTitle">Test Tematyczny</h1>
+            <p id="topicInfo"></p>
+        </div>
+
+        <div class="main-content">
+            <!-- Quiz Screen -->
+            <div id="quizScreen" class="section">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="question-counter">
+                    Pytanie <span id="currentQuestion">1</span> z <span id="totalQuestions">0</span>
+                </div>
+                <div class="question-text" id="questionText"></div>
+                <div class="options" id="optionsContainer"></div>
+                <div id="explanationBox" class="explanation-box hidden"></div>
+                <div class="buttons">
+                    <button type="button" class="btn-secondary" id="prevBtn">&#8592; Wstecz</button>
+                    <button type="button" class="btn-primary"   id="nextBtn">Dalej &#8594;</button>
+                    <button type="button" class="btn-primary"   id="finishBtn" style="display:none;">Zakończ &#8594;</button>
+                    <button type="button" class="btn-secondary" onclick="exitQuiz()" style="background:#dc3545;">Wyjdź z Quizu</button>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="resultsScreen" class="results-screen section">
+                <div class="result-card">
+                    <div class="result-status" id="resultStatus"></div>
+                    <div class="score-display"  id="scoreDisplay">0 / 0</div>
+                </div>
+                <div class="results-grid">
+                    <div class="result-item"><h3>Wynik Całkowity</h3><div class="value" id="totalScore">0</div></div>
+                    <div class="result-item"><h3>Poprawne</h3><div class="value" id="correctCount">0</div></div>
+                    <div class="result-item"><h3>Poprawne %</h3><div class="value" id="correctPercent">0%</div></div>
+                    <div class="result-item"><h3>Niepoprawne %</h3><div class="value" id="incorrectPercent">0%</div></div>
+                </div>
+                <div class="result-breakdown">
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">&#10003; Poprawne Odpowiedzi</span>
+                        <span class="breakdown-value correct" id="breakdownCorrect">0 &times; (+2) = 0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">&#10007; Niepoprawne Odpowiedzi</span>
+                        <span class="breakdown-value incorrect" id="breakdownIncorrect">0 &times; (-1) = 0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">&#8211; Puste Odpowiedzi</span>
+                        <span class="breakdown-value" id="breakdownBlank">0 &times; (0) = 0</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button type="button" class="btn-primary"   onclick="retakeQuiz()">Powtórz Quiz</button>
+                    <button type="button" class="btn-secondary" onclick="goHome()">Powrót do Domu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../data/topic-map.js"></script>
+    <script>
+        const CORRECT_PTS = 2;
+        const WRONG_PTS   = -1;
+
+        const params = new URLSearchParams(window.location.search);
+        const topicKey = params.get('topic');
+
+        const QUESTIONS = TOPIC_QUESTIONS[topicKey] || [];
+        const topicName = TOPICS[topicKey] || 'Nieznany temat';
+
+        document.getElementById('topicTitle').textContent = topicName;
+        document.getElementById('topicInfo').textContent = QUESTIONS.length + ' Pytań';
+        document.getElementById('totalQuestions').textContent = QUESTIONS.length;
+        document.title = topicName + ' - Quiz Tematyczny';
+
+        let idx = 0;
+        let ans = {};
+
+        function display() {
+            const q  = QUESTIONS[idx];
+
+            document.getElementById('currentQuestion').textContent = idx + 1;
+            document.getElementById('progressFill').style.width =
+                ((idx + 1) / QUESTIONS.length * 100) + '%';
+            document.getElementById('questionText').textContent = q.text;
+
+            const selected = ans[idx];
+            let html = '';
+            for (const [key, val] of Object.entries(q.options)) {
+                const isSel = selected === key;
+                const cor   = q.answer;
+                let cls = '';
+                if (selected !== undefined && isSel)
+                    cls = (key === cor) ? 'correct' : 'incorrect';
+
+                const fb = (selected !== undefined && isSel)
+                    ? `<span class="feedback">${key === cor ? '&#10003; Poprawnie' : '&#10007; Źle'}</span>`
+                    : '';
+
+                html += `
+                    <div class="option ${cls} ${selected !== undefined ? 'answered' : ''}"
+                         ${selected === undefined ? `data-key="${key}"` : ''}>
+                        <span class="option-marker">${isSel ? (key === cor ? '&#10003;' : '&#10007;') : '&#9675;'}</span>
+                        <span class="option-text">${key}: ${val}</span>
+                        ${fb}
+                    </div>`;
+            }
+            document.getElementById('optionsContainer').innerHTML = html;
+
+            // Show explanation if wrong answer was selected
+            const expBox = document.getElementById('explanationBox');
+            if (selected !== undefined) {
+                const cor = q.answer;
+                if (selected !== cor && q.explanation) {
+                    expBox.innerHTML = '<span class="exp-label">Wyjaśnienie:</span> ' + q.explanation + ' <em>Prawidłowa odpowiedź: <strong>' + cor + '</strong>.</em>';
+                    expBox.classList.remove('hidden');
+                } else {
+                    expBox.innerHTML = '';
+                    expBox.classList.add('hidden');
+                }
+            } else {
+                expBox.innerHTML = '';
+                expBox.classList.add('hidden');
+            }
+
+            document.getElementById('prevBtn').disabled = idx === 0;
+            const last = idx === QUESTIONS.length - 1;
+            document.getElementById('nextBtn').style.display   = last ? 'none'  : 'block';
+            document.getElementById('finishBtn').style.display = last ? 'block' : 'none';
+        }
+
+        let pickLocked = false;
+        function pick(key) {
+            if (pickLocked) return;
+            pickLocked = true;
+            ans[idx] = key;
+            display();
+            setTimeout(() => { pickLocked = false; }, 300);
+        }
+
+        document.getElementById('prevBtn').addEventListener('click', function(e) {
+            if (!e.isTrusted) return;
+            if (idx > 0) { idx--; display(); }
+        });
+        document.getElementById('nextBtn').addEventListener('click', function(e) {
+            if (!e.isTrusted) return;
+            if (idx < QUESTIONS.length - 1) { idx++; display(); }
+        });
+        document.getElementById('finishBtn').addEventListener('click', function(e) {
+            if (!e.isTrusted) return;
+            finishQuiz();
+        });
+
+        document.getElementById('optionsContainer').addEventListener('click', function(e) {
+            if (!e.isTrusted) return;
+            const opt = e.target.closest('.option[data-key]');
+            if (opt) pick(opt.dataset.key);
+        });
+
+        function finishQuiz() {
+            let correct = 0, wrong = 0, blank = 0;
+            QUESTIONS.forEach((q, i) => {
+                const u = ans[i];
+                if (!u) blank++; else if (u === q.answer) correct++; else wrong++;
+            });
+            const score  = correct * CORRECT_PTS + wrong * WRONG_PTS;
+            const max    = QUESTIONS.length * CORRECT_PTS;
+            const pct    = QUESTIONS.length > 0 ? Math.round(score / max * 100) : 0;
+
+            document.getElementById('resultStatus').textContent  = pct >= 60 ? '✓ DOBRY WYNIK' : '✗ WYMAGA POPRAWY';
+            document.getElementById('resultStatus').className    = 'result-status ' + (pct >= 60 ? 'pass' : 'fail');
+            document.getElementById('scoreDisplay').textContent  = score + ' / ' + max;
+            document.getElementById('totalScore').textContent    = score;
+            document.getElementById('correctCount').textContent  = correct;
+            document.getElementById('correctPercent').textContent   = Math.round(correct / QUESTIONS.length * 100) + '%';
+            document.getElementById('incorrectPercent').textContent = Math.round(wrong   / QUESTIONS.length * 100) + '%';
+            document.getElementById('breakdownCorrect').textContent   = correct + ' × (+2) = +' + (correct * CORRECT_PTS);
+            document.getElementById('breakdownIncorrect').textContent = wrong   + ' × (-1) = '  + (wrong * WRONG_PTS);
+            document.getElementById('breakdownBlank').textContent     = blank   + ' × (0) = 0';
+
+            document.getElementById('quizScreen').style.display    = 'none';
+            document.getElementById('resultsScreen').style.display = 'block';
+        }
+
+        function retakeQuiz() {
+            idx = 0; ans = {};
+            document.getElementById('resultsScreen').style.display = 'none';
+            document.getElementById('quizScreen').style.display    = 'block';
+            display();
+        }
+
+        function exitQuiz() {
+            if (confirm('Czy na pewno chcesz wyjść z quizu? Twój postęp zostanie utracony.'))
+                window.location.href = '../index.html';
+        }
+
+        function goHome() { window.location.href = '../index.html'; }
+
+        window.addEventListener('DOMContentLoaded', display);
+    </script>
+</body>
+</html>

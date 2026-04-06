@@ -1,0 +1,495 @@
+{
+  "exams": [
+    {
+      "exam_id": "SU_2025_03_23",
+      "exam_date": "2025-03-23",
+      "label": "Egzamin 2025-03-23",
+      "answers": [
+        {
+          "question": "Question 1",
+          "correct_answer": "A",
+          "explanation": "Odpowiedź A jest nieprawdziwa, ponieważ zgodnie z MSR 2 \"Zapasy\" (par. 9) zapasy wycenia się w kwocie NIŻSZEJ z ceny nabycia/kosztu wytworzenia i wartości netto możliwej do uzyskania (NRV) – a nie wyższej, jak twierdzi opcja A. Celem tej zasady jest unikanie wykazywania zapasów po wartości wyższej niż kwota, którą jednostka spodziewa się uzyskać ze sprzedaży. Pozostałe opcje B, C i D zawierają definicje i przykłady zgodne z MSR 2."
+        },
+        {
+          "question": "Question 2",
+          "correct_answer": "A",
+          "explanation": "Zgodnie z art. 48 ust. 2 ustawy Prawo przedsiębiorców, kontrolę wszczyna się nie wcześniej niż po upływie 7 dni i nie później niż przed upływem 30 dni od dnia doręczenia zawiadomienia o zamiarze wszczęcia kontroli. Jeżeli kontrola nie zostanie wszczęta w tym terminie, wszczęcie kontroli wymaga ponownego zawiadomienia. Przepis ten ma na celu ochronę przedsiębiorcy przed nieokreślonym zawieszeniem stanu niepewności – organ traci uprawnienie wynikające z pierwotnego zawiadomienia i musi zainicjować procedurę od nowa."
+        },
+        {
+          "question": "Question 3",
+          "correct_answer": "B",
+          "explanation": "Na podstawie przepisów ustawy o ofercie publicznej dotyczących finansowania społecznościowego (crowdfunding), dostawca usług finansowania społecznościowego jest obowiązany przekazać Komisji Nadzoru Finansowego arkusz kluczowych informacji inwestycyjnych na co najmniej 7 dni roboczych przed dniem jego udostępnienia do publicznej wiadomości. Termin ten umożliwia KNF weryfikację dokumentu przed jego publikacją. Opcje C (5 dni) i D (10 dni) podają błędne okresy, natomiast opcja A (brak obowiązku) jest sprzeczna z ustawą."
+        },
+        {
+          "question": "Question 4",
+          "correct_answer": "A",
+          "explanation": "Ustawa o nadzorze nad rynkiem kapitałowym przyznaje upoważnionym pracownikom UKNF prawo do przeprowadzania w domach maklerskich wizyt nadzorczych w zakresie niezbędnym do nadzoru ostrożnościowego. Jest to instrument nadzoru o charakterze inspekcyjnym, mniej formalny niż kontrola, pozwalający na bieżące monitorowanie sytuacji w DM. Opcja B błędnie neguje takie uprawnienie, opcja C zawęża je tylko do regulaminów, a opcja D błędnie ogranicza czas wizyty do 30 dni."
+        },
+        {
+          "question": "Question 5",
+          "correct_answer": "A",
+          "explanation": "Art. 72 ust. 1 ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi określa kompleksowy zakres zadań depozytariusza: przechowywanie aktywów, prowadzenie rejestru aktywów funduszu inwestycyjnego lub ASI oraz zapewnienie właściwego monitorowania przepływu środków pieniężnych tych podmiotów. Opcje B, C i D zawierają tylko wybrane elementy tego katalogu, opisując zadania depozytariusza w sposób niekompletny lub ograniczony do jednego podmiotu."
+        },
+        {
+          "question": "Question 6",
+          "correct_answer": "A",
+          "explanation": "Prawo bankowe nakłada na komitet do spraw nominacji w banku obowiązek przyjęcia polityki różnorodności w składzie zarządu banku. Polityka ta powinna obejmować kryteria dotyczące wykształcenia, doświadczenia zawodowego, płci i wieku. Jest to wymóg wynikający z implementacji unijnych wytycznych EBA dotyczących wewnętrznego zarządzania bankami. Opcje B, C i D błędnie przypisują to zadanie innym organom lub zawężają jego zakres."
+        },
+        {
+          "question": "Question 7",
+          "correct_answer": "A",
+          "explanation": "Zgodnie z ustawą o obrocie instrumentami finansowymi, posiadanie akcji spółki akcyjnej prowadzącej rynek regulowany przez podmioty pozostające w tej samej grupie kapitałowej uważa się za ich posiadanie przez jeden podmiot. Przepis ten ma zapobiegać obchodzeniu limitów koncentracji własności w spółkach prowadzących infrastrukturę rynkową poprzez rozproszenie akcji pomiędzy podmiotami powiązanymi."
+        },
+        {
+          "question": "Question 8",
+          "correct_answer": "A",
+          "explanation": "Zgodnie z art. 5 ust. 2 ustawy o nadzorze nad rynkiem finansowym, organami Urzędu Komisji Nadzoru Finansowego są Komisja Nadzoru Finansowego oraz Przewodniczący Komisji Nadzoru Finansowego. UKNF jest aparatem wykonawczym KNF i nie posiada odrębnych organów poza KNF i jej Przewodniczącym. Pozostałe opcje są błędne, ponieważ albo wymieniają tylko jeden organ, albo twierdzą, że UKNF nie posiada żadnych organów."
+        },
+        {
+          "question": "Question 9",
+          "correct_answer": "B",
+          "explanation": "Ustawa o nadzorze nad rynkiem finansowym stanowi, że informacje dotyczące imienia i nazwiska osoby, której dotyczy decyzja KNF nakładająca karę za naruszenie MAR (rozporządzenie 596/2014), są udostępniane na stronie internetowej KNF przez okres 5 lat, licząc od dnia ich udostępnienia. Podstawą jest art. 96e ust. 3 ustawy o nadzorze nad rynkiem finansowym, implementujący wymogi art. 34 MAR. Opcja C (1 rok od udostępnienia) i D (1 rok od decyzji) podają błędne okresy."
+        },
+        {
+          "question": "Question 10",
+          "correct_answer": "A",
+          "explanation": "Art. 8 §1 Kodeksu cywilnego wyraźnie stanowi, że każdy człowiek ma zdolność prawną od chwili urodzenia. Zdolność prawna to zdolność do bycia podmiotem praw i obowiązków cywilnoprawnych. Powstaje z chwilą urodzenia się dziecka żywego i trwa do chwili śmierci. Nie jest uzależniona od osiągnięcia pełnoletności, zawarcia małżeństwa ani żadnego innego zdarzenia."
+        },
+        {
+          "question": "Question 11",
+          "correct_answer": "B",
+          "explanation": "Po nowelizacji MSR 8 (obowiązującej od 2023 r.), standard wprowadził definicję \"wartości szacunkowych\" jako kwot w sprawozdaniu finansowym podlegających niepewności wyceny. Przykłady wskazane w opcji B – odpis na oczekiwane straty kredytowe (MSSF 9) oraz NRV zapasów (MSR 2) – są wprost wymienione w zmienionym standardzie. Opcja A jest fałszywa (zmiana szacunku nie jest korektą błędu), opcja C jest fałszywa (amortyzacja IS przykładem szacunku), a D jest fałszywa (wątpliwa zmiana traktowana jest jako zmiana szacunku, nie polityki)."
+        },
+        {
+          "question": "Question 12",
+          "correct_answer": "A",
+          "explanation": "Art. 2 pkt 10a ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi definiuje AFI jako instytucję wspólnego inwestowania, której przedmiotem działalności jest zbieranie aktywów od wielu inwestorów w celu ich lokowania w interesie tych inwestorów zgodnie z określoną polityką inwestycyjną, przy czym nie jest ona funduszem UCITS (działającym zgodnie z prawem UE regulującym zbiorowe inwestowanie w PW). Kluczowym elementem definicji jest wyłączenie funduszy UCITS oraz brak ograniczenia do 150 inwestorów."
+        },
+        {
+          "question": "Question 13",
+          "correct_answer": "A",
+          "explanation": "Art. 9a ust. 1 Prawa bankowego stanowi, że zarząd banku odpowiada za wprowadzenie i zapewnienie działania systemu zarządzania. Jest to jeden z podstawowych obowiązków zarządu jako organu zarządzającego bankiem, obejmujący m.in. system kontroli wewnętrznej, zarządzanie ryzykiem i compliance. Rada nadzorcza sprawuje nadzór nad tym systemem, ale to zarząd jest odpowiedzialny za jego funkcjonowanie."
+        },
+        {
+          "question": "Question 14",
+          "correct_answer": "A",
+          "explanation": "Prawo bankowe nakłada na banki istotne obowiązek posiadania zarówno komitetu do spraw wynagrodzeń, jak i komitetu do spraw ryzyka. Obowiązek ten wynika z implementacji dyrektywy CRD IV. \"Bank istotny\" to bank spełniający kryteria znaczenia systemowego określone w ustawie. Opcja B jest błędna, bo wymóg dotyczy właśnie banków istotnych, a nie każdego banku."
+        },
+        {
+          "question": "Question 15",
+          "correct_answer": "B",
+          "explanation": "Ustawa o obrocie instrumentami finansowymi (art. dotyczący spółek prowadzących rynek regulowany) zezwala na organizowanie rynków wyodrębnionych, przy czym wyodrębniony rynek powinien odnosić się do rodzaju papierów wartościowych lub innych instrumentów finansowych, jak również rodzaju ich emitentów. Możliwość ta dotyczy więc zarówno kryterium instrumentu, jak i kryterium emitenta – łącznie lub rozdzielnie."
+        },
+        {
+          "question": "Question 16",
+          "correct_answer": "B",
+          "explanation": "Art. 44c ust. 5 ustawy o rachunkowości stanowi wprost: \"Koszty poniesione w związku z połączeniem, w tym również koszty organizacji poniesione przy założeniu nowej spółki lub koszty podwyższenia kapitału spółki, na którą przechodzi majątek łączących się spółek, zalicza się do kosztów finansowych.\" Przepis jest jednoznaczny i nie przewiduje żadnych wyjątków – koszty te trafiają do kosztów finansowych (opcja B), a nie do kosztów ogólnego zarządu (D), kosztów operacyjnych (C) ani strat nadzwyczajnych (A). Klasyfikacja do kosztów finansowych wynika z charakteru połączenia – jest to operacja o naturze finansowo-kapitałowej, a nie operacyjnej."
+        },
+        {
+          "question": "Question 17",
+          "correct_answer": "C",
+          "explanation": "Art. 3 pkt 7 lit. b ustawy o obrocie instrumentami finansowymi definiuje obrót wtórny (lit. b) jako: proponowanie w dowolnej formie i w dowolny sposób, przez podmiot inny niż wystawca, nabycia instrumentów finansowych NIEBĘDĄCYCH papierami wartościowymi lub nabywanie ich od tego innego podmiotu, jeżeli propozycja skierowana jest do co najmniej 150 osób lub do nieoznaczonego adresata. Opcja C dokładnie odwzorowuje brzmienie tej litery. Opcja B była błędna z dwóch powodów jednocześnie: (1) błędnie wskazywała instrumenty finansowe BĘDĄCE papierami wartościowymi (lit. b dotyczy wyłącznie niebędących PW – obrót wtórny PW przebiega przez lit. a, tj. ofertę publiczną), oraz (2) błędnie podawała próg 200 osób zamiast ustawowego progu 150 osób."
+        },
+        {
+          "question": "Question 18",
+          "correct_answer": "A",
+          "explanation": "MSSF 3 \"Połączenia jednostek\" (par. 5) wymaga przy zastosowaniu metody przejęcia: (1) zidentyfikowania jednostki przejmującej, (2) ustalenia dnia przejęcia, (3) ujęcia i wyceny możliwych do zidentyfikowania przejętych aktywów, zobowiązań i udziałów niekontrolujących oraz (4) ujęcia i wyceny wartości firmy lub zysku z tytułu okazyjnego nabycia. Odpowiedź A poprawnie wskazuje pierwszy krok. Opcja B jest błędna – dniem przejęcia jest dzień uzyskania kontroli, nie znaczącego wpływu."
+        },
+        {
+          "question": "Question 19",
+          "correct_answer": "D",
+          "explanation": "Art. 3 ust. 1 pkt 29 ustawy o rachunkowości definiuje aktywa netto jako aktywa jednostki pomniejszone o zobowiązania, odpowiadające wartościowo kapitałowi (funduszowi) własnemu. Jest to tożsame z wartością netto majątku jednostki, czyli tym, co pozostaje po odjęciu wszystkich zobowiązań od całości aktywów. Definicja ta jest fundamentem bilansu w polskiej rachunkowości."
+        },
+        {
+          "question": "Question 20",
+          "correct_answer": "A",
+          "explanation": "Na mocy art. 4 rozporządzenia (WE) nr 1606/2002 Parlamentu Europejskiego i Rady, skonsolidowane sprawozdania finansowe emitentów papierów wartościowych, których PW są dopuszczone do obrotu na rynku regulowanym w UE, muszą być sporządzane zgodnie z MSR. Jest to wymóg bezwzględny – decyzja organu zatwierdzającego banku nie jest potrzebna. Ustawa o rachunkowości potwierdza ten obowiązek dla banków w art. 55 ust. 5."
+        },
+        {
+          "question": "Question 21",
+          "correct_answer": "D",
+          "explanation": "Art. 3 pkt 9a ustawy o obrocie instrumentami finansowymi definiuje obrót zorganizowany jako obrót papierami wartościowymi lub innymi instrumentami finansowymi dokonywany na terytorium Rzeczypospolitej Polskiej na rynku regulowanym albo w alternatywnym systemie obrotu (ASO). Definicja obejmuje oba typy instrumentów (nie tylko PW) i oba typy platform (rynek regulowany i ASO)."
+        },
+        {
+          "question": "Question 22",
+          "correct_answer": "D",
+          "explanation": "Art. 2 pkt 1 SFDR (rozporządzenie 2019/2088) zawiera zamknięty katalog \"uczestników rynku finansowego\". Bank jest uczestnikiem tylko wtedy, gdy świadczy usługę zarządzania portfelem. Bank, który tej usługi nie świadczy, nie jest uczestnikiem rynku finansowego w rozumieniu SFDR i nie podlega jej obowiązkom informacyjnym. Zakład ubezpieczeń oferujący IBIP (A), firma inwestycyjna świadcząca zarządzanie portfelem (B) i IORP (C) są wprost wymienione w katalogu."
+        },
+        {
+          "question": "Question 23",
+          "correct_answer": "A",
+          "explanation": "Art. 93 ust. 1 Prawa bankowego zakazuje bankowi udzielania kredytów i pożyczek pieniężnych na kupno lub objęcie wyemitowanych przez siebie bankowych papierów wartościowych. Zakaz ten ma na celu zapobieganie sztucznemu kreowaniu popytu na własne instrumenty oraz zapewnienie integralności procesu emisji. Zakaz dotyczy zarówno kredytów, jak i pożyczek pieniężnych, więc opcja B (dopuszczająca pożyczkę) jest błędna."
+        },
+        {
+          "question": "Question 24",
+          "correct_answer": "A",
+          "explanation": "Art. 4 ust. 1 SFDR nakłada na uczestników rynku finansowego obowiązek publikowania na swoich stronach internetowych informacji o strategiach dotyczących uwzględniania ryzyk dla zrównoważonego rozwoju w procesie podejmowania decyzji inwestycyjnych. Strona internetowa zapewnia transparentność i powszechny dostęp dla inwestorów. Sprawozdanie finansowe (B), raport dla zarządu (C) ani raport dla rady nadzorczej (D) nie są właściwym miejscem tej publikacji według SFDR."
+        },
+        {
+          "question": "Question 25",
+          "correct_answer": "B",
+          "explanation": "Art. 450 §1 Kodeksu cywilnego stanowi, że wierzyciel nie może odmówić przyjęcia świadczenia częściowego, chociażby cała wierzytelność była już wymagalna, chyba że przyjęcie takiego świadczenia narusza jego uzasadniony interes. Przepis chroni dłużnika przed odmową częściowego zaspokojenia, jednocześnie chroniąc uzasadnione interesy wierzyciela – np. gdy częściowe spełnienie świadczenia nie jest dla niego ekonomicznie sensowne."
+        },
+        {
+          "question": "Question 26",
+          "correct_answer": "A",
+          "explanation": "Art. 53 ust. 3 ustawy o ofercie publicznej uprawnia KNF do przekazywania do publicznej wiadomości istotnych informacji, które mogą mieć wpływ na ocenę papierów wartościowych będących przedmiotem oferty publicznej lub ubiegania się o dopuszczenie do obrotu na rynku regulowanym, w celu zapewnienia inwestorom ochrony lub prawidłowego działania rynku. Kompetencja KNF jest tu ograniczona do PW z oferty publicznej lub ubiegających się o dopuszczenie – nie dotyczy wszystkich instrumentów finansowych."
+        },
+        {
+          "question": "Question 27",
+          "correct_answer": "A",
+          "explanation": "Art. 3 ust. 1 ustawy o listach zastawnych i bankach hipotecznych: list zastawny jest dłużnym papierem wartościowym wyemitowanym przez bank hipoteczny, zabezpieczonym aktywami stanowiącymi zabezpieczenie listów zastawnych, wobec których posiadaczom przysługuje bezpośrednio roszczenie zarówno do osobnej masy upadłości wyodrębnionej zgodnie z ustawą Prawo upadłościowe, jak i do banku hipotecznego. Kluczowe cechy: (1) emitent to bank hipoteczny, (2) roszczenie jest bezpośrednie – nie pośrednie jak w opcji D."
+        },
+        {
+          "question": "Question 28",
+          "correct_answer": "A",
+          "explanation": "Art. 102 Kodeksu cywilnego stanowi, że po wygaśnięciu umocowania pełnomocnik obowiązany jest zwrócić mocodawcy dokument pełnomocnictwa. Może żądać poświadczonego odpisu tego dokumentu. Uprawnienie do żądania zwrotu nie jest warunkiem obowiązku zwrotu – pełnomocnik musi zwrócić dokument bez względu na to, czy mocodawca o to prosi, co wyklucza opcję B."
+        },
+        {
+          "question": "Question 29",
+          "correct_answer": "B",
+          "explanation": "Ustawa o ofercie publicznej nakłada na emitenta kwitów depozytowych dopuszczonych do obrotu na rynku regulowanym na terytorium RP obowiązek przekazywania informacji dotyczących własnej sytuacji finansowej lub prawnej, o ile mogłyby one w istotny sposób wpłynąć na możliwość wywiązania się przez emitenta z obowiązków wynikających z wyemitowania kwitów. Jest to zasada proporcjonalności – obowiązek ujawnienia dotyczy tylko informacji materialnie istotnych dla zdolności obsługi kwitów."
+        },
+        {
+          "question": "Question 30",
+          "correct_answer": "D",
+          "explanation": "Art. 2 pkt 12 SFDR definiuje \"produkt finansowy\" jako portfel zarządzany, AIF, IBIP (ubezpieczeniowy produkt inwestycyjny), program emerytalny, produkt emerytalny, UCITS lub OIPE. Kredyt hipoteczny nie mieści się w tej definicji – jest produktem kredytowym, nie inwestycyjnym. Mimo że inne produkty bankowe mogą być objęte SFDR, kredyt hipoteczny wprost nie figuruje w definicji."
+        }
+      ]
+    },
+    {
+      "exam_id": "SU_2024_03_17",
+      "exam_date": "2024-03-17",
+      "label": "Egzamin 2024-03-17",
+      "answers": [
+        {
+          "question": "Question 1",
+          "correct_answer": "A",
+          "explanation": "Ustawa o obrocie instrumentami finansowymi stanowi, że papiery wartościowe w liczbie wskazanej w treści imiennego świadectwa depozytowego nie mogą być przedmiotem obrotu do chwili utraty ważności przez to świadectwo albo zwrotu świadectwa wystawiającemu przed upływem terminu jego ważności. Mechanizm ten zapobiega jednoczesnej realizacji uprawnień z PW (np. na WZA) i ich sprzedaży, blokując możliwość obrotu na czas ważności świadectwa."
+        },
+        {
+          "question": "Question 2",
+          "correct_answer": "C",
+          "explanation": "Art. 312 §1 KSH wskazuje, że biegłego rewidenta do zbadania sprawozdania założycieli spółki akcyjnej wyznacza sąd rejestrowy właściwy ze względu na siedzibę spółki. Wyznaczenie przez sąd – a nie przez założycieli lub akcjonariuszy – ma na celu zagwarantowanie niezależności badania i ochronę przyszłych akcjonariuszy przed manipulowaniem wyceną wkładów. Opcja D (sąd właściwy dla m.st. Warszawy) podaje błędne kryterium właściwości sądu."
+        },
+        {
+          "question": "Question 3",
+          "correct_answer": "C",
+          "explanation": "Rozporządzenie Ministra Finansów w sprawie informacji bieżących i okresowych stanowi, że w przypadku stosowania MSR kwartalne sprawozdanie finansowe zawarte w raporcie kwartalnym sporządza się w wersji skróconej, której zakres został określony w tych standardach – tj. zgodnie z MSR 34 \"Śródroczna sprawozdawczość finansowa\". Opcja B błędnie wskazuje MSR 1 jako podstawę zakresu sprawozdania kwartalnego. Opcja D jest błędna – sprawozdanie kwartalne nie podlega obowiązkowemu przeglądowi przez biegłego rewidenta."
+        },
+        {
+          "question": "Question 4",
+          "correct_answer": "A",
+          "explanation": "Kodeks Dobrej Praktyki Domów Maklerskich wyraźnie stanowi, że dom maklerski ma obowiązek udzielania odpowiedzi na pisemne reklamacje klientów. Obowiązek ten ma charakter bezwzględny – nie jest uzależniony od uznania zasadności reklamacji przez DM. Opcja B jest błędna, ponieważ odpowiedź musi być udzielona niezależnie od oceny merytorycznej reklamacji. Brak odpowiedzi na reklamację stanowi naruszenie standardów etycznych i regulacyjnych."
+        },
+        {
+          "question": "Question 5",
+          "correct_answer": "C",
+          "explanation": "Ustawa o obrocie instrumentami finansowymi wprost dopuszcza składanie oświadczeń woli dotyczących czynności w zakresie obrotu PW i innymi instrumentami finansowymi kierowanych do firm inwestycyjnych w postaci elektronicznej, bez wyjątków. Opcje A i B błędnie wprowadzają ograniczenia (certyfikaty inwestycyjne, instrumenty pochodne), które nie wynikają z przepisów. Opcja D jest całkowicie błędna – forma elektroniczna jest dopuszczona."
+        },
+        {
+          "question": "Question 6",
+          "correct_answer": "C",
+          "explanation": "Statut Związku Maklerów i Doradców stanowi, że Rzecznikiem Dyscyplinarnym może być Członek Zwyczajny Związku, który jest członkiem Związku przez co najmniej 4 lata. Wymóg minimalnego stażu członkowskiego ma zapewnić odpowiednie doświadczenie w środowisku profesjonalnym. Opcja A pomija wymóg stażu, opcja B błędnie sugeruje, że doradca nie musi być członkiem ZMiD, a opcja D wskazuje na Członka Nadzwyczajnego, który nie spełnia wymogów."
+        },
+        {
+          "question": "Question 7",
+          "correct_answer": "A",
+          "explanation": "Regulamin Krajowego Depozytu Papierów Wartościowych S.A. nakłada na uczestników prowadzących rachunki PW lub rachunki zbiorcze obowiązek zatrudniania do prowadzenia ewidencji PW osób posiadających odpowiednią wiedzę, doświadczenie lub kwalifikacje. Wymóg ten zapewnia bezpieczeństwo i prawidłowość ewidencjonowania PW na poziomie uczestników KDPW. Opcja D błędnie dodaje wymóg certyfikatu wydanego przez KDPW, który nie wynika z Regulaminu."
+        },
+        {
+          "question": "Question 8",
+          "correct_answer": "D",
+          "explanation": "Art. 42 §1 Kodeksu cywilnego stanowi, że jeżeli osoba prawna nie może prowadzić swoich spraw z braku powołanych do tego organów, sąd ustanawia dla niej kuratora. Kuratora ustanawia zatem sąd – nie organ właścicielski. Kurator (nie opiekun) jest właściwą instytucją dla osób prawnych, a opiekun stosowany jest przy osobach fizycznych nieposiadających zdolności do czynności prawnych. Opcje A i B błędnie wskazują organ właścicielski, a opcja C myli kuratora z opiekunem."
+        },
+        {
+          "question": "Question 9",
+          "correct_answer": "B",
+          "explanation": "Art. 3a ust. 1 zdanie trzecie ustawy o nadzorze nad rynkiem kapitałowym wyraźnie stanowi, że przekazanie KNF zgłoszenia naruszeń lub potencjalnych naruszeń przepisów ustawy o obrocie instrumentami finansowymi nie może stanowić przyczyny rozwiązania z osobą zgłaszającą umowy o pracę, umowy zlecenia, umowy o dzieło ani innej umowy o podobnym charakterze. Jest to mechanizm ochrony tzw. sygnalisty, zapewniający bezpieczeństwo osobom zgłaszającym nieprawidłowości."
+        },
+        {
+          "question": "Question 10",
+          "correct_answer": "C",
+          "explanation": "Kodeks Dobrej Praktyki Domów Maklerskich nakłada na dom maklerski bezwzględny obowiązek informowania klienta o istniejących i potencjalnych czynnikach ryzyka wynikających z właściwości poszczególnych instrumentów finansowych. Obowiązek ten nie jest uzależniony od wniosku klienta (A) ani ograniczony do instrumentów niebędących PW (B). Ma charakter proaktywny – DM powinien z własnej inicjatywy informować klienta o ryzykach."
+        },
+        {
+          "question": "Question 11",
+          "correct_answer": "B",
+          "explanation": "Statut ZMiD stanowi, że Sąd Dyscyplinarny może wystąpić do Komisji Nadzoru Finansowego – a nie do jej Urzędu (D) – o skreślenie z listy maklerów lub doradców albo o zawieszenie uprawnień do wykonywania zawodu, wskazując ustawowe przesłanki odpowiednio skreślenia lub zawieszenia. Wystąpienie do KNF, a nie do UKNF, jest istotnym rozróżnieniem, ponieważ KNF jest organem kolegialnym podejmującym decyzje w tych sprawach."
+        },
+        {
+          "question": "Question 12",
+          "correct_answer": "A",
+          "explanation": "Art. 3 ust. 1 pkt 21 ustawy o rachunkowości definiuje rezerwy jako zobowiązania, których termin wymagalności lub kwota nie są pewne. Jest to klasyczna definicja rezerwy w polskiej rachunkowości, spójna z MSR 37. Opcja B opisuje zobowiązanie warunkowe (contingent liability), a nie rezerwę. Opcja C opisuje jednostkę współzależną, nie rezerwę. Opcja D jest błędna – rezerwy i aktywa z tyt. odroczonego podatku nie są instrumentami finansowymi."
+        },
+        {
+          "question": "Question 13",
+          "correct_answer": "A",
+          "explanation": "Art. 306 KSH stanowi, że spółka akcyjna w organizacji powstaje – tj. zawiązuje się – z chwilą objęcia wszystkich akcji przez akcjonariuszy. Jest to moment, w którym spółka uzyskuje status podmiotu prawa (choć jeszcze bez wpisu do rejestru). Wymóg objęcia WSZYSTKICH akcji jest bezwzględny – objęcie 50% (B i D) lub tylko przez akcjonariusza większościowego (C i D) jest niewystarczające."
+        },
+        {
+          "question": "Question 14",
+          "correct_answer": "A",
+          "explanation": "Ustawa o obrocie instrumentami finansowymi stanowi, że posiadacz rachunku zbiorczego przekazuje dane identyfikujące osoby uprawnione z PW zapisanych na rachunku zbiorczym oraz dane o liczbie i rodzaju PW na żądanie Komisji Nadzoru Finansowego albo Generalnego Inspektora Informacji Finansowej. Oba organy mają uprawnienie do żądania tych danych – opcja C ograniczająca to prawo tylko do KNF i opcja D tylko do GIIF są błędne."
+        },
+        {
+          "question": "Question 15",
+          "correct_answer": "A",
+          "explanation": "Art. 8 §1 Kodeksu cywilnego stanowi, że każdy człowiek ma zdolność prawną od chwili urodzenia. Zdolność prawna jest kategorią obiektywną – powstaje automatycznie wraz z urodzeniem się dziecka żywego i nie jest związana z pełnoletnością, zawarciem małżeństwa ani żadnym innym zdarzeniem. Trwa do chwili śmierci."
+        },
+        {
+          "question": "Question 16",
+          "correct_answer": "C",
+          "explanation": "MSSF 5 \"Aktywa trwałe przeznaczone do sprzedaży\" (par. 15) nakazuje wyceniać aktywa zaklasyfikowane jako przeznaczone do sprzedaży w kwocie niższej z: wartości bilansowej oraz wartości godziwej pomniejszonej o koszty sprzedaży (FVLCTS). Zasada ta chroni przed zawyżaniem wartości aktywów, które mają być zbyte – jeśli sprzedaż przyniesie mniej niż wartość bilansowa, odpis z tytułu utraty wartości jest ujmowany natychmiast."
+        },
+        {
+          "question": "Question 17",
+          "correct_answer": "A",
+          "explanation": "Art. 18 ust. 1 ustawy Prawo dewizowe stanowi, że rezydenci i nierezydenci przekraczający granicę państwową Rzeczypospolitej Polskiej są obowiązani zgłaszać polskim organom celnym lub organom Straży Granicznej przywóz do i wywóz za granicę złota dewizowego lub platyny dewizowej. Obowiązek zgłoszenia jest związany z przekroczeniem granicy państwowej RP – nie granicy UE (C), i nie jest ograniczony do drogi lotniczej (B)."
+        },
+        {
+          "question": "Question 18",
+          "correct_answer": "A",
+          "explanation": "Ustawa o obrocie instrumentami finansowymi implementuje zasadę swobodnego świadczenia usług na rynku UE: podmiot prowadzący zagraniczny rynek regulowany z innego państwa UE może instalować systemy IT na terytorium RP bez zezwolenia KNF, pod warunkiem uprzedniego poinformowania KNF przez właściwy organ nadzoru kraju macierzystego, który udzielił temu podmiotowi zezwolenia na prowadzenie rynku regulowanego. Kluczowe jest, że informuje organ macierzysty – nie sam podmiot (C)."
+        },
+        {
+          "question": "Question 19",
+          "correct_answer": "A",
+          "explanation": "Art. 3 pkt 28a ustawy o obrocie instrumentami finansowymi definiuje tytuły uczestnictwa w instytucjach wspólnego inwestowania jako PW lub niebędące PW instrumenty finansowe reprezentujące prawa majątkowe uczestników tych instytucji, w tym w szczególności jednostki uczestnictwa funduszy inwestycyjnych. Słowo \"w szczególności\" oznacza, że katalog jest otwarty i obejmuje jednostki uczestnictwa – co wyklucza opcje B, C i D sugerujące ich wyłączenie."
+        },
+        {
+          "question": "Question 20",
+          "correct_answer": "D",
+          "explanation": "Imienne świadectwo depozytowe potwierdza legitymację do realizacji uprawnień wynikających z papierów wartościowych wskazanych w jego treści, które nie są lub nie mogą być realizowane wyłącznie na podstawie zapisów na rachunku PW – z wyłączeniem prawa uczestnictwa w walnym zgromadzeniu. Istotą jest, że świadectwo służy do korzystania z uprawnień korporacyjnych innych niż uczestnictwo w WZA (do tego służy zapis na rachunku), np. do realizacji prawa poboru poza systemem depozytowym."
+        },
+        {
+          "question": "Question 21",
+          "correct_answer": "A",
+          "explanation": "Art. 89 ust. 1 Prawa bankowego stanowi, że banki mogą emitować bankowe papiery wartościowe na warunkach podawanych do publicznej wiadomości. Oznacza to pełną transparentność warunków emisji – są one dostępne dla wszystkich, a nie tylko dla akcjonariuszy (C i D). Opcja B, twierdząca że banki nie mogą emitować BPW, jest oczywiście błędna."
+        },
+        {
+          "question": "Question 22",
+          "correct_answer": "A",
+          "explanation": "Statut Związku Maklerów i Doradców stanowi, że najwyższym organem Związku jest Zjazd Maklerów i Doradców. Jest to organ uchwałodawczy, złożony ze wszystkich członków ZMiD, posiadający kompetencje do podejmowania najważniejszych decyzji dotyczących funkcjonowania Związku. Zarząd (B) jest organem wykonawczym, Komisja Rewizyjna (C) – kontrolnym, a Sąd Dyscyplinarny (D) – orzekającym."
+        },
+        {
+          "question": "Question 23",
+          "correct_answer": "A",
+          "explanation": "MSR 38 par. 8 definiuje składnik wartości niematerialnych jako możliwy do zidentyfikowania niepieniężny składnik aktywów, nieposiadający postaci fizycznej. Możliwość zidentyfikowania oznacza, że składnik można wyodrębnić lub że wynika z praw umownych lub innych praw. Opcja B jest błędna – samo prawdopodobieństwo korzyści jest warunkiem koniecznym, ale niewystarczającym. Opcja C jest błędna – możliwy jest model przeszacowania lub kosztu. Opcja D jest błędna – marki własne nie są ujmowane jako WN."
+        },
+        {
+          "question": "Question 24",
+          "correct_answer": "A",
+          "explanation": "Art. 309(2) KSH stanowi, że wpłaty na akcje SA w organizacji powinny być dokonane bezpośrednio lub za pośrednictwem firmy inwestycyjnej, na rachunek spółki w organizacji prowadzony przez bank na terytorium Unii Europejskiej lub państwa będącego stroną umowy o Europejskim Obszarze Gospodarczym. Dopuszczalne są oba sposoby wpłaty (bezpośrednio lub przez FI), a bank może być w całym EOG – nie tylko w Polsce (B)."
+        },
+        {
+          "question": "Question 25",
+          "correct_answer": "B",
+          "explanation": "Art. 3281 §1 KSH stanowi, że rejestr akcjonariuszy spółki akcyjnej prowadzi podmiot wybrany przez walne zgromadzenie spółki. Decyzja o wyborze podmiotu prowadzącego rejestr leży w gestii WZA – a nie zarządu (A) ani prezesa zarządu (C). Opcja D jest błędna, ponieważ wyboru dokonuje WZA na podstawie przepisów prawa, ale nie wynika z nich z góry, kto prowadzi rejestr – to właśnie WZA podejmuje tę decyzję."
+        },
+        {
+          "question": "Question 26",
+          "correct_answer": "A",
+          "explanation": "Art. 27b ustawy o obrocie instrumentami finansowymi (implementacja MiFID II, zasada best execution) nakłada na firmy inwestycyjne obowiązek podejmowania wszelkich uzasadnionych działań w celu uzyskania najlepszego możliwego wyniku dla klienta, uwzględniając: cenę instrumentu finansowego, koszty wykonania zlecenia, czas zawarcia transakcji, prawdopodobieństwo zawarcia i rozliczenia transakcji, wielkość i charakter zlecenia. Katalog tych czynników jest kompleksowy – nie ogranicza się tylko do ceny i kosztów (B)."
+        },
+        {
+          "question": "Question 27",
+          "correct_answer": "A",
+          "explanation": "MSSF 10 par. 22 wymaga, aby jednostka dominująca prezentowała udziały niekontrolujące w skonsolidowanym sprawozdaniu z sytuacji finansowej w ramach kapitału własnego, oddzielnie od kapitału własnego właścicieli jednostki dominującej. Jest to fundamentalna zasada konsolidacji – udziały niekontrolujące są częścią kapitału własnego grupy, mimo że nie należą do właścicieli jednostki dominującej."
+        },
+        {
+          "question": "Question 28",
+          "correct_answer": "C",
+          "explanation": "Art. 751 §1 KC stanowi, że zbycie przedsiębiorstwa powinno być dokonane w formie pisemnej z podpisami notarialnie poświadczonymi. Jest to forma szczególna – zwykła forma pisemna (B) jest niewystarczająca, a akt notarialny (D) byłby wymagany tylko wtedy, gdyby w skład przedsiębiorstwa wchodziły nieruchomości (co powoduje wymóg aktu notarialnego dla całej czynności). Standardowo wystarczą podpisy notarialnie poświadczone."
+        },
+        {
+          "question": "Question 29",
+          "correct_answer": "B",
+          "explanation": "Ustawa o rachunkowości (art. 36 ust. 2e) stanowi, że w przypadku umorzenia akcji własnych dodatnią różnicę między wartością nominalną umorzonych akcji a ceną ich nabycia odnosi się na kapitał zapasowy. Jest to regulacja szczegółowa dotycząca rachunkowego ujęcia umorzenia akcji własnych – nadwyżka wartości nominalnej nad ceną nabycia jest \"zyskiem\" na transakcji, który trafia na kapitał zapasowy, a nie zwiększa wynik finansowy."
+        },
+        {
+          "question": "Question 30",
+          "correct_answer": "A",
+          "explanation": "Art. 308 §1 KSH stanowi, że kapitał zakładowy spółki akcyjnej powinien wynosić co najmniej 100 000 złotych. Jest to minimalna kwota wymagana do zarejestrowania SA w Polsce. Opcja B (100 000 euro) byłaby kwotą zbyt wysoką i wyrażoną w obcej walucie, co byłoby sprzeczne z polskim systemem prawnym. Opcje C i D (10 000 zł/euro) odnoszą się do minimalnego kapitału sp. z o.o., nie SA."
+        }
+      ]
+    },
+    {
+      "exam_id": "SU_2023_04_16",
+      "exam_date": "2023-04-16",
+      "label": "Egzamin 2023-04-16",
+      "answers": [
+        {
+          "question": "Question 1",
+          "correct_answer": "A",
+          "explanation": "Art. 94 ust. 1 ustawy o obrocie instrumentami finansowymi stanowi, że minister właściwy do spraw budżetu może organizować rynek obrotu skarbowymi papierami wartościowymi w rozumieniu ustawy o finansach publicznych oraz instrumentami finansowymi, których instrumentem bazowym jest skarbowy papier wartościowy. Kompetencja ta wynika ze szczególnej roli Ministra Finansów jako emisariusza obligacji skarbowych i zarządcy długiem publicznym."
+        },
+        {
+          "question": "Question 2",
+          "correct_answer": "A",
+          "explanation": "Art. 72 ust. 1 ustawy o funduszach inwestycyjnych stanowi, że depozytariuszem funduszu inwestycyjnego może być wyłącznie bank mający siedzibę na terytorium RP z kapitałem własnym co najmniej 100 mln zł lub Krajowy Depozyt Papierów Wartościowych S.A. Towarzystwo FI (C) nie może być depozytariuszem zarządzanych przez siebie funduszy ze względu na conflict of interest. Catalyst (D) to platforma obrotu, nie podmiot świadczący usługi depozytariusza."
+        },
+        {
+          "question": "Question 3",
+          "correct_answer": "C",
+          "explanation": "Regulamin KDPW określa następujące zasady mające zastosowanie do ewidencji PW: zasada przejrzystości, zasada odrębnej rejestracji papierów wartościowych, zasada jednoczesności zapisów oraz zasada zgodności sald. \"Zasada nieuwzględniania typów uczestnictwa\" nie jest jedną z zasad wymienionych w Regulaminie KDPW – jej nazwa sugeruje coś odwrotnego do faktycznej zasady, zgodnie z którą typy uczestnictwa mają znaczenie dla praw i obowiązków uczestników."
+        },
+        {
+          "question": "Question 4",
+          "correct_answer": "B",
+          "explanation": "Art. 17 ust. 1 ustawy o Narodowym Banku Polskim stanowi, że NBP współdziała z właściwymi organami państwa, a w zakresie przygotowania budżetu państwa – z ministrem właściwym do spraw finansów publicznych, a nie z Prezesem Rady Ministrów. Opcja B twierdzi, że NBP współdziała z Prezesem RM w opracowaniu planów finansowych państwa – jest to fałszywe, ponieważ właściwym organem jest minister finansów."
+        },
+        {
+          "question": "Question 5",
+          "correct_answer": "C",
+          "explanation": "MSR 8 par. 32 wyraźnie rozróżnia zmianę zasad (polityki) rachunkowości od zmiany wartości szacunkowej. Zmiana wartości szacunkowej (par. 36-38) jest ujmowana prospektywnie – nie odnosi się do poprzednich okresów i z definicji nie stanowi korekty błędu. Stwierdzenie C jest zatem fałszywe. Błędy (par. 41-42) są kategorią odrębną i wymagają korekty retrospektywnej."
+        },
+        {
+          "question": "Question 6",
+          "correct_answer": "A",
+          "explanation": "Rozporządzenie Ministra Finansów w sprawie szczególnych zasad rachunkowości banków stanowi, że aktywa i zobowiązania finansowe, a także zobowiązania pozabilansowe, ujmowane są w księgach rachunkowych na dzień zawarcia transakcji (trade date accounting). Jest to odejście od ogólnej zasady memoriałowej i wynika ze specyfiki instrumentów finansowych, gdzie prawa i obowiązki powstają z chwilą zawarcia umowy."
+        },
+        {
+          "question": "Question 7",
+          "correct_answer": "A",
+          "explanation": "Art. 135 KSH stanowi, że akcjonariusz spółki komandytowo-akcyjnej nie odpowiada za zobowiązania spółki. W spółce k-a za zobowiązania odpowiadają wyłącznie komplementariusze (bez ograniczeń, całym swoim majątkiem). Akcjonariusze wnoszą kapitał, ale nie ponoszą odpowiedzialności osobistej – jest to jedna z kluczowych różnic między S.K.A. a spółką komandytową, gdzie komandytariusz odpowiada do wysokości sumy komandytowej."
+        },
+        {
+          "question": "Question 8",
+          "correct_answer": "A",
+          "explanation": "Kodeks Dobrej Praktyki Domów Maklerskich stanowi, że dom maklerski jako profesjonalny pośrednik nie może wykorzystywać swojej uprzywilejowanej pozycji. Oznacza to całkowity zakaz wykorzystywania informacji o zleceniach, stanach i obrotach klientów przy podejmowaniu własnych decyzji inwestycyjnych. Opcje B, C i D błędnie sugerują, że DM może korzystać z pewnych kategorii informacji klientowskich we własnym obrocie – jest to niedopuszczalne."
+        },
+        {
+          "question": "Question 9",
+          "correct_answer": "B",
+          "explanation": "Art. 555 KC stanowi, że przepisy o sprzedaży rzeczy stosuje się odpowiednio do sprzedaży energii, praw oraz wody. Katalog ten jest enumeratywny – wymienione są trzy kategorie: energia, prawa i woda. Opcja A (tylko energia) i opcja D (tylko prawa i woda) podają niekompletne wyliczenia, a opcja C (tylko energia i woda) pomija prawa."
+        },
+        {
+          "question": "Question 10",
+          "correct_answer": "B",
+          "explanation": "Art. 17 ust. 5 ustawy o nadzorze nad rynkiem finansowym stanowi, że Prezes Rady Ministrów, w drodze zarządzenia, nadaje Urzędowi Komisji Nadzoru Finansowego statut, w którym określa jego organizację wewnętrzną. Jest to kompetencja Prezesa RM – nie Przewodniczącego KNF (A), nie ministra finansów (C) ani samej Komisji (D). Statut nadawany zarządzeniem RM zapewnia niezależność UKNF od jego własnego kierownictwa."
+        },
+        {
+          "question": "Question 11",
+          "correct_answer": "D",
+          "explanation": "Art. 3 ust. 1 pkt 44 ustawy o rachunkowości definiuje grupę kapitałową jako jednostkę dominującą wraz z jednostkami zależnymi. Definicja ta nie obejmuje jednostek stowarzyszonych – są one ujmowane metodą praw własności w skonsolidowanym sprawozdaniu, ale nie wchodzą w skład grupy kapitałowej. Odpowiedź D twierdząca, że grupa kapitałowa obejmuje jednostki stowarzyszone, jest zatem fałszywa."
+        },
+        {
+          "question": "Question 12",
+          "correct_answer": "C",
+          "explanation": "Art. 30 §1 KSH stanowi, że umowa spółki jawnej może przewidywać, że wspólnik jest pozbawiony prawa reprezentowania spółki albo że jest uprawniony do jej reprezentowania tylko łącznie z innym wspólnikiem lub prokurentem. Jest to uprawnienie do modyfikacji zasady domyślnej (każdy wspólnik może samodzielnie reprezentować spółkę). Opcja A błędnie twierdzi, że taka modyfikacja jest niemożliwa, a opcje B i D sugerują obowiązkowość pewnych rozwiązań."
+        },
+        {
+          "question": "Question 13",
+          "correct_answer": "A",
+          "explanation": "Art. 124 ust. 4 ustawy o obrocie instrumentami finansowymi stanowi, że wpisu osoby fizycznej na listę doradców inwestycyjnych dokonuje Komisja Nadzoru Finansowego. Jest to decyzja administracyjna wydawana przez KNF jako organ kolegialny – nie przez Dyrektora Generalnego UKNF (B) ani przez Komisję Egzaminacyjną (C, D), która jest organem przeprowadzającym egzaminy, a nie prowadzącym listę."
+        },
+        {
+          "question": "Question 14",
+          "correct_answer": "A",
+          "explanation": "Art. 133 ust. 1 ustawy o obrocie instrumentami finansowymi stanowi, że dom maklerski staje się uczestnikiem systemu rekompensat z chwilą udzielenia mu przez Komisję Nadzoru Finansowego zezwolenia na prowadzenie działalności maklerskiej. Uczestnictwo w systemie rekompensat jest obligatoryjne i automatyczne – powstaje z mocy prawa w momencie udzielenia zezwolenia, bez potrzeby oczekiwania (opcje B, C, D błędnie wskazują na termin odroczony)."
+        },
+        {
+          "question": "Question 15",
+          "correct_answer": "A",
+          "explanation": "MSR 28 par. 3 definiuje jednostkę stowarzyszoną jako jednostkę, na którą inwestor wywiera znaczący wpływ, ale nad którą nie sprawuje kontroli. Sprawowanie kontroli charakteryzuje zależność (subsidiary), a nie stowarzyszenie. Opcja A twierdzi, że jednostka stowarzyszona to taka, nad którą inwestor sprawuje kontrolę – jest to błędne (kontrola = jednostka zależna). Dlatego opcja A jest stwierdzeniem fałszywym."
+        },
+        {
+          "question": "Question 16",
+          "correct_answer": "A",
+          "explanation": "Art. 89 ust. 3 Prawa bankowego stanowi, że bank informuje Komisję Nadzoru Finansowego o zamierzonym programie emisji papierów wartościowych, wskazując warunki i wartość programu emisji, na 30 dni przed terminem emisji. Termin 30-dniowy umożliwia KNF weryfikację warunków emisji i podjęcie ewentualnych działań nadzorczych przed jej rozpoczęciem."
+        },
+        {
+          "question": "Question 17",
+          "correct_answer": "A",
+          "explanation": "Rozporządzenie MF w sprawie szczegółowych warunków technicznych i organizacyjnych dla firm inwestycyjnych stanowi, że firma inwestycyjna przechowuje lub rejestruje aktywa klienta w taki sposób, aby możliwe było w każdej chwili wyodrębnienie aktywów jednego klienta od aktywów innego klienta oraz od aktywów własnych firmy. Wymóg \"w każdej chwili\" jest kluczowy – zapewnia ochronę klientów w każdym momencie, nie tylko okresowo (B, C) lub kwartalnie (D)."
+        },
+        {
+          "question": "Question 18",
+          "correct_answer": "B",
+          "explanation": "Art. 551 KC stanowi, że jeżeli kupujący dopuścił się zwłoki z odebraniem rzeczy sprzedanej, sprzedawca może oddać rzecz na przechowanie na koszt i niebezpieczeństwo kupującego. Jest to uprawnienie sprzedawcy (\"może\"), a nie obowiązek (\"musi\" – opcja A). Prawo to chroni sprzedawcę przed kosztami przechowania rzeczy, którą kupujący niezasadnie odmawia odebrania."
+        },
+        {
+          "question": "Question 19",
+          "correct_answer": "A",
+          "explanation": "Art. 2 ust. 1 ustawy o Narodowym Banku Polskim stanowi wprost, że Narodowy Bank Polski posiada osobowość prawną. Oznacza to, że NBP jest odrębnym podmiotem prawa – może nabywać prawa i zaciągać zobowiązania we własnym imieniu. Stwierdzenie A, że NBP nie posiada osobowości prawnej, jest zatem fałszywe."
+        },
+        {
+          "question": "Question 20",
+          "correct_answer": "D",
+          "explanation": "Art. 3 ustawy o funduszach inwestycyjnych określa cele inwestycyjne FIO: ochrona realnej wartości aktywów (A), osiąganie przychodów z lokat netto (B) i wzrost wartości aktywów w wyniku wzrostu wartości lokat (C). \"Systematyczne zwiększanie liczby uczestników\" nie jest celem inwestycyjnym FIO – jest to cel handlowy/marketingowy, a nie ustawowy cel funduszu inwestycyjnego."
+        },
+        {
+          "question": "Question 21",
+          "correct_answer": "D",
+          "explanation": "MSR 40 par. 20 stanowi, że nieruchomość inwestycyjną posiadaną na własność ujmuje się początkowo według ceny nabycia lub kosztu wytworzenia. Przy wycenie początkowej uwzględnia się koszty przeprowadzenia transakcji (np. opłaty notarialne, podatek od czynności cywilnoprawnych). Dopiero po początkowym ujęciu jednostka może wybrać model wartości godziwej lub model kosztu do późniejszej wyceny."
+        },
+        {
+          "question": "Question 22",
+          "correct_answer": "A",
+          "explanation": "Art. 124 ust. 5 ustawy o obrocie instrumentami finansowymi stanowi, że skreślenia doradcy inwestycyjnego z listy dokonuje Komisja Nadzoru Finansowego. Analogicznie jak przy wpisie na listę, organem właściwym jest KNF – nie Dyrektor Generalny UKNF ani Komisja Egzaminacyjna. Skreślenie z listy jest decyzją administracyjną, która może nastąpić np. na wniosek DI lub z urzędu."
+        },
+        {
+          "question": "Question 23",
+          "correct_answer": "B",
+          "explanation": "Art. 105 KC stanowi, że jeżeli pełnomocnik po wygaśnięciu umocowania dokona w imieniu mocodawcy czynności prawnej w granicach pierwotnego umocowania, czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć. Zasada ta chroni bezpieczeństwo obrotu i osoby trzecie działające w dobrej wierze. Czynność jest więc co do zasady ważna – ale z możliwością powołania się na wygaśnięcie przez drugą stronę."
+        },
+        {
+          "question": "Question 24",
+          "correct_answer": "C",
+          "explanation": "Art. 306 KSH wymaga do powstania SA: (1) zawiązania spółki (podpisanie statutu), (2) wniesienia przez akcjonariuszy wkładów na pokrycie kapitału zakładowego, (3) ustanowienia zarządu I rady nadzorczej (obie są obowiązkowe w SA – art. 381 KSH), (4) wpisu do rejestru. Opcja C twierdzi, że wystarczy ustanowienie \"wyłącznie zarządu\" bez rady nadzorczej – jest to błędne, rada nadzorcza jest obowiązkowa w SA."
+        },
+        {
+          "question": "Question 25",
+          "correct_answer": "A",
+          "explanation": "Kodeks Dobrej Praktyki Domów Maklerskich stanowi, że przy zarządzaniu portfelem DM jest zobowiązany do udzielania na każde żądanie klienta lub jego pełnomocnika (w granicach umocowania) informacji dotyczących stanu portfela oraz operacji dokonanych w ramach zarządzania, o ile umowa o zarządzanie nie stanowi inaczej. Dostęp do informacji jest prawem zarówno klienta, jak i jego pełnomocnika, bez rozróżnienia na jedną lub drugą kategorię (opcje B, C, D niesłusznie zawężają to prawo)."
+        },
+        {
+          "question": "Question 26",
+          "correct_answer": "A",
+          "explanation": "Ustawa o rachunkowości (art. 44b) stanowi, że przy metodzie nabycia, kapitał własny spółki przejętej ustalony na dzień połączenia jako aktywa netto według wartości godziwej podlega wyłączeniu przy sporządzaniu łącznego bilansu. Jest to fundamentalna zasada metody nabycia – eliminacja kapitału jednostki przejętej w zamian za wykazanie przejętych aktywów i zobowiązań według wartości godziwej oraz ewentualnej wartości firmy."
+        },
+        {
+          "question": "Question 27",
+          "correct_answer": "D",
+          "explanation": "Ustawa o nadzorze nad rynkiem kapitałowym określa zadania KNF: podejmowanie działań dla prawidłowego funkcjonowania rynku (A), sprawowanie nadzoru nad podmiotami nadzorowanymi (B) i działania edukacyjne/informacyjne (C). KNF jest niezależnym organem administracji publicznej – wykonywanie wyłącznie zadań określonych przez Ministra Finansów (D) jest całkowicie sprzeczne z jej statusem i ustawowymi kompetencjami."
+        },
+        {
+          "question": "Question 28",
+          "correct_answer": "B",
+          "explanation": "Kodeks Dobrej Praktyki Domów Maklerskich nakłada na członka IDM obowiązek informowania klientów i podmiotów współpracujących o fakcie podlegania zasadom Kodeksu co najmniej poprzez wywieszenie stosownej informacji w siedzibie (centrali) i Punktach Obsługi Klientów oraz na swojej stronie internetowej. Minimalny standard jest zatem trójkanałowy: siedziba, POK i strona internetowa. Opcja C (tylko strona internetowa) i D (tylko siedziba) są niewystarczające."
+        },
+        {
+          "question": "Question 29",
+          "correct_answer": "C",
+          "explanation": "Art. 6 ust. 2 ustawy o nadzorze nad rynkiem finansowym stanowi, że w sprawach cywilnych wynikających ze stosunków związanych z uczestnictwem w obrocie na rynku finansowym uprawnienia prokuratora przysługują Komisji Nadzoru Finansowego. Uprawnienia te pozwalają KNF na aktywne uczestnictwo w postępowaniach cywilnych dotyczących rynku finansowego, np. wnoszenie pozwów czy zaskarżanie uchwał."
+        },
+        {
+          "question": "Question 30",
+          "correct_answer": "D",
+          "explanation": "Ustawa o giełdach towarowych (art. 16 ust. 1) określa cele spółki prowadzącej giełdę towarową: koncentrację podaży i popytu na towary giełdowe (A), zapewnienie bezpiecznego i sprawnego przebiegu transakcji (B) oraz upowszechnianie jednolitych informacji umożliwiających ocenę wartości towarów giełdowych (C). Obsługa klientów detalicznych (D) nie jest ustawowym celem giełdy towarowej – giełdy są platformami hurtowymi dla profesjonalnych uczestników rynku."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "description": "Answer key with explanations for KNF Sprawdzian Umiejetnosci exams 2023-2025",
+    "disclaimer": "KNF does not publish official answer keys. Answers based on Polish law (KSH, KC, Prawo bankowe, ustawa o obrocie instrumentami finansowymi, ustawa o funduszach inwestycyjnych, ustawa o ofercie publicznej, ustawa o rachunkowosci, MSR/MSSF). Cross-check with official legal sources for exam preparation.",
+    "corrections": [
+      {
+        "exam_id": "SU_2025_03_23",
+        "question": "Question 16",
+        "original_answer": "D",
+        "corrected_answer": "B",
+        "source": "Art. 44c ust. 5 ustawy o rachunkowości"
+      },
+      {
+        "exam_id": "SU_2025_03_23",
+        "question": "Question 17",
+        "original_answer": "B",
+        "corrected_answer": "C",
+        "source": "Art. 3 pkt 7 lit. b ustawy o obrocie instrumentami finansowymi"
+      }
+    ]
+  }
+}
